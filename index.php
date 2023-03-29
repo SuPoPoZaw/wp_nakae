@@ -12,49 +12,31 @@ get_header();
 <section class="info-section">
     <div class="container">
         <div class="information">
-            <h2 class="h2-ttl h2-mb">診療科目のご案内</h2>
+            <h2 class="h2-ttl h2-mb">診療科目</h2>
             <div class="info-block">
                 <ul>
                     <li>
                         <a href="<?php echo home_url() . '/gairai#gairai01'; ?>">
                             <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img1.png" alt="内科" />
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img1.png" alt="精神科" />
                             </div>
-                            <p class="in-sty">内科</p>
+                            <p class="in-sty">精神科</p>
                         </a>
                     </li>
                     <li>
                         <a href="<?php echo home_url() . '/gairai#gairai02'; ?>">
                             <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img2.png" alt="消化器内科" />
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img2.png" alt="心療内科" />
                             </div>
-                            <p class="in-sty">消化器内科</p>
+                            <p class="in-sty">心療内科</p>
                         </a>
                     </li>
                     <li>
                         <a href="<?php echo home_url() . '/gairai#gairai05'; ?>">
                             <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img5.png" alt="リハビリ テーション科" />
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img3.png" alt="内科" />
                             </div>
-                            <p class="in-sty">リハビリ</p>
-                            <br />
-                            <p class="in-sty">テーション科</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo home_url() . '/gairai#gairai03'; ?>">
-                            <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img3.png" alt="血液内科" />
-                            </div>
-                            <p class="in-sty">血液内科</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo home_url() . '/gairai#gairai04'; ?>">
-                            <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img6.png" alt="感染症内科" />
-                            </div>
-                            <p class="in-sty">感染症内科</p>
+                            <p class="in-sty">内科</p>
                         </a>
                     </li>
                 </ul>
