@@ -251,7 +251,7 @@ News Section (Section-2)
     content: "";
     transform: translateX(-50%);
     border-radius: 1px;
-    background: #88acff;
+    background: #32855e;
 }
 
 /* Top Page Common Button */
@@ -406,7 +406,7 @@ News Section (Section-2)
 }
 
 /* .staff-txt p:hover {
-  text-decoration: underline 2px solid #88acff;
+  text-decoration: underline 2px solid #32855e;
 } */
 
 .staff-img img {
@@ -461,7 +461,7 @@ i.circle {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #88acff;
+    background: #32855e;
 }
 
 @media (max-width: 768px) {
@@ -1526,7 +1526,7 @@ td {
     width: 100px;
     content: "";
     transform: translate(-50%, -50%);
-    border-bottom: 4px solid #88acff;
+    border-bottom: 4px solid #32855e;
 }
 
 .hospital-content {
@@ -3797,11 +3797,11 @@ i.chevron-right {
 }
 
 .sitemap-section .left-bdr-1::before {
-    background-color: #88acff;
+    background-color: #32855e;
 }
 
 .sitemap-section .left-bdr-2::before {
-    background-color: #6482c8;
+    background-color: #32855e;
 }
 
 
