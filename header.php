@@ -271,25 +271,25 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="text-left pl0 pr0">9:00-12:00</td>
+                                <td class="text-left pl0 pr0">9:00-11:30</td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <!-- <td class="pd1"><span class="icon-triangle"></span></td> -->
-                                <td class="pl0 pr0">-</td>
+                                <td><i class="circle m-auto"></i></td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
                             <tr>
-                                <td class="text-left pl0 pr0">13:30-17:00</td>
+                                <td class="text-left pl0 pr0">13:30-16:00</td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
-                                <td><i class="circle m-auto"></i></td>
-                                <td class="pl0 pr0">-</td>
+                                <td class="pl0 pr0">▲</td>
+                                <td class="pl0 pr0">▲</td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
@@ -297,8 +297,11 @@
                                 <!-- <td class="text-left pl0 pr0"><span class="icon-triangle"></span>13:30-17:00</td> -->
                                 <td colspan="10" class="text-left pl0 pr0">
                                     <p class="addr">
+                                        <span>▲ 第2・第4・第5土曜日は休診</span>
+                                    </p>
+                                    <p class="addr">
                                         <i class="location"></i>
-                                        <span class="addr-text">〒 070-0038 北海道旭川市8条通8丁目43番地</span>
+                                        <span class="addr-text">〒001-0022 札幌市北区北22条西7丁目2番1号</span>
                                     </p>
                                     <div class="mv-service-btn">
                                         <a class="pc open-map-btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=中江病院"><span>マップを開く</span></a>
@@ -307,7 +310,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p class="phone-number">お電話でのお問い合わせ<span class="ph-no font-blue">0166-23-2090</span></p>
+                    <p class="phone-number">お電話でのお問い合わせ<span class="ph-no font-blue">011-716-7181</span></p>
                 </div>
             </div>
         </div>
