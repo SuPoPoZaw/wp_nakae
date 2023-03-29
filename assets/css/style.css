@@ -1019,7 +1019,7 @@ td {
 .sub-mv-txt {
     font-size: 2.6rem;
     line-height: 1.5;
-    color: #9e9fa1;
+    color: #fff;
 }
 
 .sub-mv-txt-po {
@@ -2118,7 +2118,8 @@ i.chevron-right {
     position: relative;
     padding: 20px;
     font-size: 2rem;
-    border: 4px solid #c0e0c7;
+
+    border: 4px solid #32855e !important;
     border-radius: 10px;
     background: #f9f9f9;
 }

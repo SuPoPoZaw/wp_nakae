@@ -945,7 +945,7 @@ breadcrumb
     font-size: 1.4rem;
     content: "＞";
     transform: translateY(-50%);
-    color: #a1a1a1;
+    color: #000;
 }
 
 #breadcrumb .crumb-in li .current {
@@ -957,7 +957,7 @@ breadcrumb
     display: inline-block;
     padding-right: 30px;
     transition: all .3s;
-    color: #a1a1a1;
+    color: #fff;
 }
 
 #breadcrumb .crumb-in li:last-child:after {
