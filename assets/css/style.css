@@ -2313,7 +2313,7 @@ i.chevron-right {
 
     font-size: 2rem;
 
-    border: 4px solid #d9e4fe;
+    border: 4px solid #32855e !important;
     border-radius: 10px;
     background: #f9f9f9;
 }
