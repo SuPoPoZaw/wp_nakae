@@ -44,7 +44,6 @@ Top Page
     width: 33.33%;
     padding: 0 25px;
     margin-bottom: 10px;
-
     text-align: center;
 }
 
@@ -59,9 +58,7 @@ Top Page
 
 .info-block ul li a span {
     display: inline-block;
-
     font-size: 2rem;
-
     letter-spacing: 1px;
 }
 
@@ -71,7 +68,6 @@ Top Page
 
 .info-block ul li .hover-eff {
     padding: 0 0 3px 0;
-
     color: #000;
 }
 
@@ -128,7 +124,6 @@ Top Page
 
     .info-block ul li a {
         display: inline-block;
-
         font-size: 2rem;
     }
 }
@@ -139,7 +134,6 @@ News Section (Section-2)
 
 .news-section {
     padding: 70px 0 80px 0;
-
     background-color: #f9f9f9;
 }
 
@@ -180,17 +174,14 @@ News Section (Section-2)
 
 .news-li-date p {
     padding-right: 20px;
-
     font-size: 2rem;
     line-height: 1.75;
-
     letter-spacing: .1rem;
     word-break: break-all;
 }
 
 .news-li-info {
     position: relative;
-
     width: calc(100% - 160px);
     padding: 0 60px 0 0;
 }
@@ -199,13 +190,10 @@ News Section (Section-2)
     position: absolute;
     top: 50%;
     right: 15px;
-
     width: 17px;
     height: 17px;
-
     content: "";
     transform: translateY(-50%) rotate(45deg);
-
     border-top: 2px solid #a9bff1;
     border-right: 2px solid #a9bff1;
 }
@@ -213,7 +201,6 @@ News Section (Section-2)
 .news-li-post {
     font-size: 2rem;
     line-height: 1.75;
-
     text-align: justify;
     letter-spacing: .1rem;
     word-break: break-all;
@@ -223,16 +210,12 @@ News Section (Section-2)
 
 .news-li-info-sp {
     position: relative;
-
     padding-right: 20px;
     margin: 10px 0 0 0;
-
     font-size: 1.6rem;
     line-height: 1.75;
-
     text-align: right;
     letter-spacing: .1rem;
-
     color: #2465fc;
 }
 
@@ -240,10 +223,8 @@ News Section (Section-2)
     position: absolute;
     top: 50%;
     right: 2px;
-
     width: 10px;
     height: 10px;
-
     content: "";
     transform: translateY(-40%) rotate(45deg);
 
@@ -253,13 +234,10 @@ News Section (Section-2)
 
 .h2-ttl {
     position: relative;
-
     padding-bottom: 33px;
     margin: 0 auto;
-
     font-size: 2.6rem;
     font-weight: 500;
-
     text-align: center;
     letter-spacing: 1.3px;
 }
@@ -268,13 +246,10 @@ News Section (Section-2)
     position: absolute;
     bottom: 0;
     left: 50%;
-
     width: 40px;
     height: 4px;
-
     content: "";
     transform: translateX(-50%);
-
     border-radius: 1px;
     background: #88acff;
 }
@@ -285,7 +260,6 @@ News Section (Section-2)
     width: 168px;
     padding: 15px 0;
     margin: 0 auto;
-
     border: 1px solid #2465fc;
     border-radius: 10px;
     background: #2465fc;
@@ -301,10 +275,8 @@ News Section (Section-2)
 
 .top-com-btn .btn-txt {
     font-size: 2rem;
-
     text-align: center;
     letter-spacing: .1rem;
-
     color: #fff;
 }
 
@@ -320,7 +292,6 @@ News Section (Section-2)
 
     .h2-ttl {
         padding-bottom: 15px;
-
         font-size: 3rem;
     }
 
@@ -355,7 +326,6 @@ News Section (Section-2)
     .news-li-post,
     .news-li-info-sp {
         font-size: 1.6rem;
-
         letter-spacing: .08rem;
     }
 
@@ -371,7 +341,6 @@ News Section (Section-2)
     .news-li-info::after {
         top: 5px;
         right: 0;
-
         width: 13px;
         height: 13px;
     }
@@ -381,7 +350,6 @@ News Section (Section-2)
         width: 200px;
         padding: 5px 0;
         margin-top: 20px;
-
         border-radius: 5px;
     }
 
@@ -392,8 +360,7 @@ News Section (Section-2)
 
 .staff-section {
     padding: 70px 0 80px;
-
-    background: #d9e4fe;
+    background: #c0e0c7;
 }
 
 .staff-margin {
@@ -420,12 +387,9 @@ News Section (Section-2)
 
 .staff-txt {
     padding: 8px 0 0 0;
-
     font-size: 2rem;
     line-height: 1.5;
-
     letter-spacing: 1px;
-
     color: #000;
 }
 
@@ -475,7 +439,6 @@ News Section (Section-2)
     .staff-txt {
         width: calc(100% - 100px);
         padding: 0 0 0 10px;
-
         font-size: 1.6rem;
         line-height: 1.4;
     }
@@ -497,7 +460,6 @@ i.circle {
     display: inline-block;
     width: 20px;
     height: 20px;
-
     border-radius: 50%;
     background: #88acff;
 }
@@ -513,7 +475,6 @@ i.up-arrow {
     display: inline-block;
     width: 16px;
     height: 16px;
-
     background: url("../img/top/up_arrow.png") no-repeat center;
 }
 
@@ -523,7 +484,6 @@ i.location {
     height: 20px;
     /*  */
     margin-top: 4px;
-
     background: url("../img/top/location.png") no-repeat center;
 }
 
@@ -531,7 +491,6 @@ i.i {
     display: inline-block;
     width: 20px;
     height: 20px;
-
     background: url("../img/top/info.png") no-repeat center;
     background-size: contain;
 }
@@ -565,7 +524,6 @@ i.i {
 
 .googleMap {
     position: relative;
-
     width: 43%;
     margin-left: 20px;
 }
@@ -614,7 +572,6 @@ i.i {
 
 table {
     width: 100%;
-
     font-size: 2rem;
     font-weight: 400;
     line-height: 1.2;
@@ -626,7 +583,6 @@ tr {
 
 td {
     padding: 17px 5px;
-
     text-align: center;
 }
 
@@ -641,11 +597,8 @@ td {
 .open-map-btn {
     width: 130px;
     padding: 5px 0 7px 0;
-
     line-height: 1;
-
     text-align: center;
-
     color: #0346e0;
     border: 2px solid #0346e0;
     border-radius: 15px;
@@ -666,16 +619,13 @@ td {
 .to-the-top {
     position: fixed;
     bottom: -50px;
-
     display: inline-block;
     display: flex;
     width: 240px;
     height: 40px;
-
     transition: bottom ease .3s;
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
-
     color: white;
     background-color: #2465fc;
 
@@ -720,7 +670,6 @@ td {
 
     td {
         padding: 2px 5px;
-
         text-align: center;
     }
 
@@ -762,9 +711,7 @@ td {
         display: flex;
         height: 60px;
         margin: 15px 0;
-
         text-align: center;
-
         color: #fff;
         border-radius: 5px;
         background-color: #2465fc;
@@ -779,14 +726,12 @@ td {
     i.telephone {
         display: block;
         width: 32px;
-
         background: url(../img/top/telephone.png) no-repeat center;
         background-size: contain;
     }
 
     .timeTable .ph-no-outer {
         padding-top: 7px;
-
         text-align: left;
     }
 
@@ -797,7 +742,6 @@ td {
 
     .timeTable .ph-no {
         font-size: 3rem;
-
         color: #fff;
     }
 
@@ -825,7 +769,6 @@ td {
     .to-the-top {
         position: fixed;
         bottom: -40px;
-
         width: 100%;
         height: 35px;
     }
@@ -833,15 +776,12 @@ td {
     .info {
         position: fixed;
         bottom: -75px;
-
         display: flex;
         width: 100%;
         height: 40px;
-
         -webkit-transform: translateZ(0);
                 transform: bottom ease .3s;
                 transform: translateZ(0);
-
         border: 2px solid #2465fc;
         background: #fff;
 
@@ -874,19 +814,15 @@ td {
         top: 0;
         left: 0;
         z-index: 32;
-
         visibility: hidden;
         width: 100%;
         height: 100%;
-
         transition: .6s;
-
         opacity: 0;
     }
 
     .timetable.on .timepopup.is-show {
         visibility: visible;
-
         opacity: 1;
     }
 
@@ -895,13 +831,11 @@ td {
         top: 50%;
         left: 50%;
         z-index: 32;
-
         width: 100%;
         height: 90%;
         max-width: 800px;
         padding: 0 20px;
         overflow-y: auto;
-
         transform: translate(-50%, -50%);
     }
 
@@ -910,37 +844,31 @@ td {
         top: 0;
         left: 0;
         z-index: 31;
-
         display: none;
         width: 100%;
         height: 100%;
         overflow: hidden;
         overflow-x: auto;
-
         transition: .5s;
         text-align: center;
-
         opacity: 0;
         background-color: rgba(0, 0, 0, 1);
     }
 
     .overlay.view {
         display: block;
-
         opacity: .5;
     }
 
     .time-block {
         padding: 20px 10px;
         margin-bottom: 20px;
-
         border-radius: 12px;
         background: #fff;
     }
 
     .time-block td {
         padding: 2px 5px;
-
         text-align: center;
     }
 
@@ -954,12 +882,10 @@ td {
 
     .time-close {
         position: relative;
-
         display: flex;
         max-width: 50px;
         padding-top: 20px;
         margin: 0 auto;
-
         cursor: pointer;
 
         justify-content: center;
@@ -973,16 +899,13 @@ td {
         position: absolute;
         top: 7px;
         left: 13px;
-
         display: block;
         width: 20px;
         height: 2px;
-
         content: "";
         transition: all .3s ease-out;
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
-
         background: #000;
     }
 
@@ -990,16 +913,13 @@ td {
         position: absolute;
         top: 7px;
         left: 13px;
-
         display: block;
         width: 20px;
         height: 2px;
-
         content: "";
         transition: all .3s ease-out;
         -webkit-transform: rotate(-45deg);
                 transform: rotate(-45deg);
-
         background: #000;
     }
 }
@@ -1032,7 +952,6 @@ td {
     .header-m .phone-btn a::after {
         top: 2px;
         left: -16px;
-
         width: 12px;
         height: 16px;
     }
@@ -1081,30 +1000,25 @@ td {
 
 .news-sec {
     padding: 75px 0 110px 0;
-
     background-color: #f9f9f9;
 }
 
 .sub-mv {
     position: relative;
     z-index: 2;
-
     padding: 20px 0 50px;
 }
 
 .sub-mv-ttl {
     z-index: 2;
-
     font-size: 4rem;
     line-height: 1;
-
     letter-spacing: 2px;
 }
 
 .sub-mv-txt {
     font-size: 2.6rem;
     line-height: 1.5;
-
     color: #9e9fa1;
 }
 
@@ -1113,10 +1027,8 @@ td {
     top: -10px;
     left: -10px;
     z-index: -1;
-
     font-size: 20rem;
     line-height: .5;
-
     opacity: .5;
     color: #f4f4f4;
 }
@@ -1143,7 +1055,6 @@ td {
 .archive-bl,
 .recent-post {
     padding-bottom: 20px;
-
     border-bottom: 1px solid #d8d3c7;
 }
 
@@ -1167,9 +1078,7 @@ td {
 
 .post-li li a {
     display: inline-block;
-
     letter-spacing: 1.5px;
-
     color: #000;
 }
 
@@ -1201,7 +1110,6 @@ td {
     .sub-mv-txt-po {
         top: 2px;
         left: -10px;
-
         font-size: 10rem;
     }
 
@@ -1285,7 +1193,6 @@ td {
 
 .search-list {
     position: relative;
-
     width: 100%;
 }
 
@@ -1293,18 +1200,14 @@ td {
     width: 100%;
     height: 40px;
     padding: 9px 20px 5px 20px;
-
     font-size: 1.6rem;
-
     outline: none;
 }
 
 .search-list form input::placeholder {
     font-family: "Noto Sans JP";
     font-size: 1.8rem;
-
     letter-spacing: 1px;
-
     color: #000;
 }
 
@@ -1326,9 +1229,7 @@ td {
 
 .result-count {
     padding-bottom: 10px;
-
     font-size: 2rem;
-
     border-bottom: 1px solid #d8d3c7;
 }
 
@@ -1366,13 +1267,11 @@ td {
 .result-li li {
     padding-top: 35px;
     padding-bottom: 35px;
-
     border-bottom: 1px solid #d8d3c7;
 }
 
 .post-ttl {
     padding-bottom: 7px;
-
     font-size: 2rem;
     font-weight: 500;
 }
@@ -1383,7 +1282,6 @@ td {
 
 .result-li a {
     position: relative;
-
     padding-right: 50px;
 }
 
@@ -1391,13 +1289,10 @@ td {
     position: absolute;
     top: 50%;
     right: 0;
-
     width: 17px;
     height: 17px;
-
     content: "";
     transform: translateY(-50%) rotate(45deg);
-
     border-top: 2px solid #a9bff1;
     border-right: 2px solid #a9bff1;
 }
@@ -1425,7 +1320,6 @@ td {
 
     .search-list form input {
         padding: 9px 20px 5px 7px;
-
         font-size: 1.4rem;
     }
 
@@ -1435,7 +1329,6 @@ td {
 
     .search-list form::after {
         top: 28%;
-
         width: 15px;
         height: 15px;
     }
@@ -1472,7 +1365,6 @@ td {
 
     .result-li a {
         padding-right: 0;
-
         text-align: justify;
     }
 
@@ -1513,58 +1405,49 @@ td {
 
 .hospital-block a {
     position: relative;
-
     max-width: 360px;
     padding: 20px 20px 20px 70px;
     margin: 15px 20px;
-
     font-size: 2rem;
     font-weight: 500;
-
     color: #000;
-    border: 4px solid #d9e4fe;
+    border: 4px solid #c0e0c7;
     border-radius: 10px;
 }
 
 .hospital-comm .hospital-block .img-01 a::before {
     width: 28px;
     height: 40px;
-
     background: url(../img/common/hospital-img01.png);
 }
 
 .hospital-comm .hospital-block .img-02 a::before {
     width: 28px;
     height: 40px;
-
     background: url(../img/common/hospital-img02.png);
 }
 
 .hospital-comm .hospital-block .img-03 a::before {
     width: 40px;
     height: 36px;
-
     background: url("../img/common/hospital-img-03.png");
 }
 
 .hospital-comm .hospital-block .img-04 a::before {
     width: 40px;
     height: 27px;
-
     background: url("../img/common/hospital-img-04.png");
 }
 
 .hospital-comm .hospital-block .img-05 a::before {
     width: 40px;
     height: 26px;
-
     background: url("../img/common/hospital-img-05.png");
 }
 
 .hospital-comm .hospital-block .img-06 a::before {
     width: 40px;
     height: 31px;
-
     background: url("../img/common/hospital-img-06.png");
 }
 
@@ -1577,7 +1460,6 @@ td {
     position: absolute;
     top: 50%;
     left: 20px;
-
     content: "";
     transform: translateY(-50%);
 }
@@ -1591,13 +1473,10 @@ td {
     position: absolute;
     top: 50%;
     right: 20px;
-
     width: 10px;
     height: 20px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/common/hospital-right-arr.png");
     background-size: 10px;
 }
@@ -1609,14 +1488,12 @@ td {
 .hospital-comm .hospital-block .img-02 a::before {
     width: 31px;
     height: 40px;
-
     background: url("../img/common/hospital-right-01-before.png");
 }
 
 .hospital-comm .hospital-block .img-02 a::after {
     width: 10px;
     height: 20px;
-
     background: url("../img/common/hospital-right-arr.png");
 }
 
@@ -1635,14 +1512,10 @@ td {
 
 .hospital-ttl h2 {
     position: relative;
-
     margin: 0 auto;
-
     font-size: 2.6rem;
     font-weight: 500;
-
     text-align: center;
-
     color: #000;
 }
 
@@ -1650,12 +1523,9 @@ td {
     position: absolute;
     top: 55px;
     left: 50%;
-
     width: 100px;
-
     content: "";
     transform: translate(-50%, -50%);
-
     border-bottom: 4px solid #88acff;
 }
 
@@ -1681,11 +1551,8 @@ td {
     max-width: 400px;
     padding: 20px 0;
     margin: 0 auto;
-
     font-size: 2rem;
-
     text-align: center;
-
     color: #fff;
     border: 1px solid #2465fc;
     border-radius: 10px;
@@ -1695,10 +1562,8 @@ td {
 .procedure-ttl {
     padding-bottom: 15px;
     margin-bottom: 15px;
-
     font-size: 2rem;
     font-weight: 400;
-
     border-bottom: 1px solid #d8d3c7;
 }
 
@@ -1708,9 +1573,7 @@ td {
 
 .procedure-li h4 {
     position: relative;
-
     padding-left: 30px;
-
     font-size: 1.6rem;
     font-weight: 400;
 }
@@ -1723,29 +1586,23 @@ td {
 
 .procedure-li p {
     padding-left: 20px;
-
     font-size: 1.6rem;
 }
 
 .txt-b {
     font-size: 1.6rem;
-
     color: #2465fc;
 }
 
 .txt-n {
     font-size: 1.6rem;
-
     color: #000;
 }
 
 .p-txt-b {
     position: relative;
-
     padding-left: 22px;
-
     font-size: 1.6rem;
-
     color: #2465fc;
 }
 
@@ -1757,11 +1614,8 @@ td {
 
 .p-txt-n {
     position: relative;
-
     padding-left: 22px;
-
     font-size: 1.6rem;
-
     color: #000;
 }
 
@@ -1779,17 +1633,14 @@ td {
     padding: 7px 20px 7px 20px;
     margin-top: 45px;
     margin-bottom: 15px;
-
     font-size: 2rem;
     font-weight: 400;
-
     border-radius: 10px;
     background: #e9efff;
 }
 
 .pro-sub-block li {
     position: relative;
-
     padding-left: 15px;
 }
 
@@ -1797,7 +1648,6 @@ td {
     position: absolute;
     top: 0;
     left: 0;
-
     content: "・";
 }
 
@@ -1836,9 +1686,7 @@ td {
 
 .time-block h4 {
     padding: 10px 90px;
-
     text-align: center;
-
     border: 2px solid #d8d3c7;
     border-bottom: none;
     border-top-left-radius: 10px;
@@ -1849,10 +1697,8 @@ td {
 .time-block p {
     padding: 10px;
     margin: 20px 0;
-
     text-align: center;
     letter-spacing: 1.2px;
-
     border: 2px solid #d8d3c7;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -1860,7 +1706,6 @@ td {
 
 .common-txt-po {
     position: relative;
-
     padding-left: 20px;
 }
 
@@ -1899,7 +1744,6 @@ td {
     .ques-btn a {
         max-width: 300px;
         padding: 12px 0;
-
         font-size: 1.6rem;
     }
 
@@ -1919,7 +1763,6 @@ td {
     .procedure-ttl {
         padding: 0 25px 10px 0;
         margin-bottom: 25px;
-
         font-size: 1.8rem;
     }
 
@@ -1937,7 +1780,6 @@ td {
 
     .pro-sub-ttl {
         margin-top: 25px;
-
         font-size: 1.8rem;
     }
 
@@ -1947,7 +1789,6 @@ td {
 
     .accor-ttl {
         position: relative;
-
         cursor: pointer;
     }
 
@@ -1955,14 +1796,11 @@ td {
         position: absolute;
         top: 50%;
         right: 0;
-
         display: block;
         width: 20px;
         height: 14px;
-
         content: "";
         transform: translateY(-55%);
-
         background: url(../img/nyuuin/arrow_down_black.png) center no-repeat;
         background-size: contain;
     }
@@ -1973,7 +1811,6 @@ td {
 
     .accor-ttl.active::after {
         transform: translateY(-50%);
-
         background: url(../img/nyuuin/arrow_up_black.png) center no-repeat;
         background-size: contain;
     }
@@ -2008,7 +1845,6 @@ td {
 @media screen and (max-width: 340px) {
     .time-block h4 {
         padding: 12px 5px;
-
         font-size: 1.4rem;
     }
 
@@ -2023,9 +1859,7 @@ td {
 
 .tvset-table-block {
     width: 100%;
-
     font-size: 1.8rem;
-
     background-color: #fff;
 }
 
@@ -2035,7 +1869,6 @@ td {
 
 .tvset-table-block tr td {
     vertical-align: middle;
-
     border: 1px solid #d4d4d4;
 }
 
@@ -2045,7 +1878,6 @@ td {
 
 .tvset-table02 .table-block {
     width: 100%;
-
     font-size: 1.8rem;
 }
 
@@ -2055,21 +1887,15 @@ td {
 
 .tvset-table02 .table-block tr th {
     padding: 20px 10px;
-
     line-height: 2;
-
     vertical-align: middle;
-
     border: 1px solid #d4d4d4;
 }
 
 .tvset-table02 .table-block tr td {
     padding: 20px 20px;
-
     line-height: 2;
-
     text-align: left;
-
     border: 1px solid #d4d4d4;
 }
 
@@ -2095,7 +1921,6 @@ td {
 
 .tvset-table03 .table-block {
     width: 100%;
-
     font-size: 1.8rem;
 }
 
@@ -2105,21 +1930,15 @@ td {
 
 .tvset-table03 .table-block tr th {
     padding: 10px 10px;
-
     line-height: 1.5;
-
     vertical-align: middle;
-
     border: 1px solid #d4d4d4;
 }
 
 .tvset-table03 .table-block tr td {
     padding: 10px 20px;
-
     line-height: 2;
-
     text-align: center;
-
     border: 1px solid #d4d4d4;
 }
 
@@ -2138,7 +1957,6 @@ td {
 
 .tvset-table04 .table-block {
     width: 100%;
-
     font-size: 1.8rem;
 }
 
@@ -2148,21 +1966,15 @@ td {
 
 .tvset-table04 .table-block tr th {
     padding: 20px 10px;
-
     line-height: 2;
-
     vertical-align: middle;
-
     border: 1px solid #d4d4d4;
 }
 
 .tvset-table04 .table-block tr td {
     padding: 20px 20px;
-
     line-height: 2;
-
     text-align: center;
-
     border: 1px solid #d4d4d4;
 }
 
@@ -2202,13 +2014,11 @@ td {
 @media screen and (max-width: 768px) {
     .tvset-table02 .table-block tr th {
         padding: 10px 5px;
-
         font-size: 1.6rem;
     }
 
     .tvset-table02 .table-block tr td {
         padding: 10px 5px;
-
         font-size: 1.6rem;
     }
 
@@ -2263,7 +2073,6 @@ td {
 .bd-line {
     padding-bottom: 10px;
     margin-bottom: 12px;
-
     border-bottom: 2px solid #d8d3c7;
 }
 
@@ -2283,7 +2092,6 @@ i.chevron-right {
     display: block;
     width: 26px;
     height: 26px;
-
     background: url("../img/abouts/chevron-right.png") no-repeat center;
     background-size: contain;
 }
@@ -2308,12 +2116,9 @@ i.chevron-right {
 
 .page-anchor .goto {
     position: relative;
-
     padding: 20px;
-
     font-size: 2rem;
-
-    border: 4px solid #d9e4fe;
+    border: 4px solid #c0e0c7;
     border-radius: 10px;
     background: #f9f9f9;
 }
@@ -2325,7 +2130,6 @@ i.chevron-right {
 .goto-icon {
     position: absolute;
     top: 50%;
-
     transform: translateY(-50%);
 }
 
@@ -2337,14 +2141,11 @@ i.chevron-right {
     position: absolute;
     top: 50%;
     right: 20px;
-
     display: block;
     width: 10px;
     height: 20px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/abouts/chevron-right.png") no-repeat center;
     background-size: cover;
 }
@@ -2356,63 +2157,50 @@ i.chevron-right {
 .greeting-pg {
     padding-top: 12px;
     margin-top: 40px;
-
     font-size: 1.6rem;
     line-height: 25px;
-
     text-align: justify;
     letter-spacing: .8px;
-
     border-top: 1px solid #ccc;
 }
 
 .greeting-name {
     margin-top: 40px;
-
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 25px;
-
     text-align: right;
     letter-spacing: .9px;
 }
 
 .overview-section {
     padding: 75px 0 70px 0;
-
     background-color: #fff;
 }
 
 .overview-text {
     padding-bottom: 15px;
     margin-top: 40px;
-
     font-size: 2rem;
     line-height: 25px;
-
     letter-spacing: 1px;
-
     border-bottom: 1px solid #ccc;
 }
 
 .overview-pg {
     margin-top: 15px;
-
     font-size: 1.6rem;
     line-height: 25px;
-
     letter-spacing: .8px;
 }
 
 .overview-table {
     margin-top: 20px;
-
     letter-spacing: .9px;
 }
 
 .overview-table table {
     width: 100%;
-
     border-collapse: inherit;
 }
 
@@ -2423,30 +2211,23 @@ i.chevron-right {
 
 .overview-table td {
     padding: 8px;
-
     text-align: left;
-
     border: 1px solid #ccc;
 }
 
 .history-text {
     padding-bottom: 15px;
     margin-top: 45px;
-
     font-size: 2rem;
     line-height: 25px;
-
     letter-spacing: 1px;
-
     border-bottom: 1px solid #ccc;
 }
 
 .history-list {
     margin-top: 15px;
-
     font-size: 1.6rem;
     line-height: 25px;
-
     letter-spacing: .8px;
 }
 
@@ -2456,7 +2237,6 @@ i.chevron-right {
 
 .traffic-text {
     margin-top: 35px;
-
     text-align: center;
 }
 
@@ -2468,40 +2248,31 @@ i.chevron-right {
 .block-title {
     padding-bottom: 15px;
     margin-top: 15px;
-
     font-size: 2rem;
     font-weight: 300;
     line-height: 25px;
-
     letter-spacing: 1px;
-
     border-bottom: 1px solid #ccc;
 }
 
 .block-txt {
     margin-top: 15px;
-
     font-size: 1.6rem;
     line-height: 25px;
-
     letter-spacing: .8px;
 }
 
 .floor-section {
     padding: 75px 0 0 0;
-
     background-color: #fff;
 }
 
 .floor-title {
     padding-bottom: 15px;
     margin-top: 40px;
-
     font-size: 2rem;
     line-height: 25px;
-
     letter-spacing: 1px;
-
     border-bottom: 1px solid #ccc;
 }
 
@@ -2519,17 +2290,14 @@ i.chevron-right {
 
 .floor-detail-title {
     margin: 15px 0 15px 0;
-
     font-size: 1.8rem;
     line-height: 25px;
-
     letter-spacing: .9px;
 }
 
 .floor-detail-txt {
     font-size: 1.6rem;
     line-height: 25px;
-
     text-align: justify;
     letter-spacing: .8px;
 }
@@ -2537,12 +2305,9 @@ i.chevron-right {
 .hm-title {
     padding-bottom: 15px;
     margin-top: 45px;
-
     font-size: 2rem;
     line-height: 25px;
-
     letter-spacing: 1px;
-
     border-bottom: 1px solid #ccc;
 }
 
@@ -2588,7 +2353,6 @@ i.chevron-right {
 
     .greeting-pg {
         line-height: 1.5;
-
         letter-spacing: .6px;
     }
 
@@ -2600,21 +2364,18 @@ i.chevron-right {
         font-size: 1.6rem;
         font-weight: 500;
         line-height: 1.5;
-
         letter-spacing: .7px;
     }
 
     .overview-text {
         font-size: 2rem;
         line-height: 1.5;
-
         letter-spacing: .8px;
     }
 
     .overview-pg {
         font-size: 1.6rem;
         line-height: 1.5;
-
         letter-spacing: .6px;
     }
 
@@ -2629,14 +2390,12 @@ i.chevron-right {
     .history-text {
         font-size: 1.8rem;
         line-height: 1.5;
-
         letter-spacing: .8px;
     }
 
     .history-list {
         font-size: 1.6rem;
         line-height: 1.5;
-
         letter-spacing: .6px;
     }
 
@@ -2651,21 +2410,18 @@ i.chevron-right {
     .block-title {
         font-size: 1.8rem;
         line-height: 1.5;
-
         letter-spacing: .8px;
     }
 
     .block-txt {
         font-size: 1.6rem;
         line-height: 1.5;
-
         letter-spacing: .6px;
     }
 
     .floor-title {
         font-size: 1.8rem;
         line-height: 1.5;
-
         letter-spacing: .8px;
     }
 
@@ -2681,23 +2437,19 @@ i.chevron-right {
     .floor-detail-title {
         font-size: 1.6rem;
         line-height: 1.5;
-
         letter-spacing: .6px;
     }
 
     .floor-detail-txt {
         margin-bottom: 20px;
-
         font-size: 1.2rem;
         line-height: 1.5;
-
         letter-spacing: .6px;
     }
 
     .hm-title {
         font-size: 1.8rem;
         line-height: 1.5;
-
         letter-spacing: .8px;
     }
 
@@ -2719,7 +2471,6 @@ i.chevron-right {
 
 .dpt-tabs {
     position: relative;
-
     display: flex;
 }
 
@@ -2746,7 +2497,6 @@ i.chevron-right {
 
 .panels > div.panel.active {
     display: block;
-
     animation: fadeGrow .5s linear;
 }
 
@@ -2766,17 +2516,13 @@ i.chevron-right {
 
 .dpt-tab a {
     position: relative;
-
     padding: 20px;
-
     font-size: 2rem;
-
     background: #f9f9f9;
 }
 
 .dpt-tab.active a {
     position: relative;
-
     background: #2465fc;
 }
 
@@ -2784,12 +2530,9 @@ i.chevron-right {
     position: absolute;
     bottom: -21px;
     left: 50%;
-
     width: 0;
     height: 0;
-
     transform: translateX(-50%);
-
     border-width: 21.7px 12.5px 0 12.5px;
     border-style: solid;
     border-color: #2465fc transparent transparent transparent;
@@ -2811,7 +2554,6 @@ i.chevron-right {
 .dpt-tab-description {
     padding-top: 3px;
     /* padding: 0 30px 0 115px; */
-
     color: #000;
     /* padding:0 30px; */
 }
@@ -2834,15 +2576,12 @@ i.chevron-right {
 
 .dpt-right-tab .goto-description {
     padding-left: 0;
-
     font-weight: 500;
 }
 
 .dpt-right-tab .procedure-detail li {
     position: relative;
-
     padding-left: 12px;
-
     font-weight: 400;
 }
 
@@ -2850,9 +2589,7 @@ i.chevron-right {
     position: absolute;
     top: 0;
     left: -5px;
-
     font-weight: 700;
-
     content: "・";
 }
 
@@ -2914,7 +2651,6 @@ i.chevron-right {
 
     .dpt-right-tab .hospital-content p {
         font-size: 1.6rem;
-
         letter-spacing: 1px;
     }
 
@@ -3009,7 +2745,6 @@ i.chevron-right {
 
     .dpt-tab.active .arrow-dow {
         bottom: -16px;
-
         border-width: 16.7px 7.5px 0 7.5px;
     }
 }
@@ -3056,13 +2791,10 @@ i.chevron-right {
     max-width: 400px;
     padding: 20px 0;
     margin: 0 auto;
-
     font-size: 2rem;
     line-height: 1;
-
     text-align: center;
     letter-spacing: 1px;
-
     color: #fff;
     border-radius: 10px;
     background: #2465fc;
@@ -3098,9 +2830,7 @@ font-blue {
 
 .table-ttl-p {
     position: relative;
-
     padding: 15px 0 15px 60px;
-
     font-size: 2rem;
     line-height: 1;
 }
@@ -3109,13 +2839,10 @@ font-blue {
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 50px;
     height: 50px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/gairai/table_img1.jpg") no-repeat center;
     background-size: cover;
 }
@@ -3124,13 +2851,10 @@ font-blue {
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 50px;
     height: 50px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/gairai/table_img2.jpg") no-repeat center;
     background-size: cover;
 }
@@ -3139,13 +2863,10 @@ font-blue {
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 50px;
     height: 50px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/gairai/table_img3.jpg") no-repeat center;
     background-size: cover;
 }
@@ -3154,13 +2875,10 @@ font-blue {
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 50px;
     height: 50px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/gairai/table_img4.jpg") no-repeat center;
     background-size: cover;
 }
@@ -3169,13 +2887,10 @@ font-blue {
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 50px;
     height: 50px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/gairai/table_img5.jpg") no-repeat center;
     background-size: cover;
 }
@@ -3184,13 +2899,10 @@ font-blue {
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 50px;
     height: 50px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/gairai/table_img6.jpg") no-repeat center;
     background-size: cover;
 }
@@ -3205,11 +2917,9 @@ font-blue {
 .table-dec th,
 .table-dec td {
     width: 20px;
-
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1;
-
     text-align: center;
     vertical-align: middle;
     letter-spacing: .32px;
@@ -3221,7 +2931,6 @@ font-blue {
 
 .table-th {
     padding: 12px 0;
-
     border: 1px solid #efede9;
     background-color: #a7c1fe;
 }
@@ -3232,9 +2941,7 @@ font-blue {
 
 .table-dec .single-td {
     padding: 12px 24px;
-
     text-align: left;
-
     background-color: #efede9;
 }
 
@@ -3245,7 +2952,6 @@ font-blue {
 
 .table-td {
     padding: 12px 0;
-
     border: 1px solid #fbfbf9;
     background-color: #e9efff;
 }
@@ -3256,7 +2962,6 @@ font-blue {
 .list-open-btn,
 .list-close-btn {
     display: none;
-
     cursor: pointer;
 }
 
@@ -3275,11 +2980,8 @@ font-blue {
         width: 90px;
         padding: 7px 20px;
         margin: 0 auto;
-
         font-size: 14px;
-
         text-align: center;
-
         color: #fff;
         border-radius: 20px;
         background: #2465fc;
@@ -3297,26 +2999,22 @@ font-blue {
         bottom: 0;
         left: 0;
         z-index: 10;
-
         display: block;
         height: 100vh;
         padding-top: 50px;
         padding-bottom: 100px;
         overflow: auto;
-
         background: rgba(0, 0, 0, .7);
     }
 
     .modal {
         margin: 45px 20px 0 20px;
-
         background: #fff;
     }
 
     .modal-container .btn-container {
         position: sticky;
         bottom: 0;
-
         height: 60px;
         padding-top: 10px;
         margin: 0 20px;
@@ -3333,7 +3031,6 @@ font-blue {
 .hr-decoration {
     height: 1px;
     margin: 50px 0;
-
     border-width: 0;
     background-color: #d8d3c7;
 }
@@ -3368,22 +3065,19 @@ font-blue {
 
 .outer-flex-li-sty {
     padding: 20px;
-
-    border: 4px solid #d9e4fe;
+    border: 4px solid #c0e0c7;
     border-radius: 10px;
     background: #f9f9f9;
 }
 
 .outer-flex .outer-txt01 {
     font-size: 16px;
-
     color: #2465fc;
 }
 
 .outer-flex .outer-ttl01 {
     font-size: 20px;
     font-weight: 500;
-
     color: #000;
 }
 
@@ -3394,20 +3088,17 @@ font-blue {
 .outer-flex .outer-para01 p {
     font-size: 16px;
     line-height: 1.5;
-
     color: #000;
 }
 
 .outer-flex .outer-para02 p {
     font-size: 16px;
     line-height: 1.5;
-
     color: #000;
 }
 
 .outer-flex .outer-para02-bl p {
     position: relative;
-
     padding-left: 10px;
 }
 
@@ -3436,7 +3127,6 @@ font-blue {
 
 .col-02 {
     position: relative;
-
     padding-left: 64px;
 }
 
@@ -3444,12 +3134,9 @@ font-blue {
     position: absolute;
     top: 16px;
     left: 0;
-
     width: 40px;
     height: 3px;
-
     content: "";
-
     border-radius: 1px;
     background: #d8d3c7;
 }
@@ -3464,19 +3151,15 @@ font-blue {
 .gairai-procedure-ttl {
     padding-bottom: 15px;
     margin-bottom: 20px;
-
     font-size: 2rem;
     font-weight: 400;
-
     letter-spacing: 1px;
-
     border-bottom: 1px solid #d8d3c7;
 }
 
 .exam-flow-flex {
     display: flex;
     margin: -15px 0 -5px 0;
-
     line-height: 1.7;
 
     flex-wrap: wrap;
@@ -3486,7 +3169,6 @@ font-blue {
     /* position: relative; */
     width: 45%;
     margin: 25px 2.5%;
-
     border-radius: 10px;
     background-color: #e9efff;
 }
@@ -3504,18 +3186,14 @@ font-blue {
     position: absolute;
     top: 5px;
     left: 10px;
-
     font-size: 30px;
     line-height: 1;
-
     letter-spacing: 1.5px;
-
     color: #2465fc;
 }
 
 .exam-flow-img-bdr {
     width: 100%;
-
     border: 2px solid #d8d3c7;
     border-radius: 10px 10px 0 0;
 }
@@ -3526,28 +3204,24 @@ font-blue {
 
 .hint-txt {
     padding-left: 2.5%;
-
     line-height: 1;
 }
 
 .hr-sp {
     height: 1px;
     margin: 45px 0 0 0;
-
     border-width: 0;
     background-color: #d8d3c7;
 }
 
 .consult-hr-sp {
     margin: 0 0 45px 0;
-
     border-width: 0;
 }
 
 .doctor-table-hr {
     height: 1px;
     margin: 0 0 40px 0;
-
     border-width: 0;
     background-color: #d8d3c7;
 }
@@ -3564,7 +3238,6 @@ font-blue {
 
     .table-ttl-p {
         padding: 8px 0 8px 45px;
-
         font-size: 1.8rem;
     }
 
@@ -3579,7 +3252,6 @@ font-blue {
     .table-ttl-p-5::before,
     .table-ttl-p-6::before {
         top: 53%;
-
         width: 35px;
         height: 35px;
     }
@@ -3624,7 +3296,6 @@ font-blue {
     .gairai-btn-dec {
         max-width: 100%;
         padding: 10px 0;
-
         border-radius: 7px;
     }
 
@@ -3711,15 +3382,12 @@ font-blue {
 .bd-line {
     padding-bottom: 13px;
     margin-bottom: 12px;
-
     font-weight: 400;
-
     border-bottom: 2px solid #d8d3c7;
 }
 
 .recruitment-content h3 {
     font-weight: 400;
-
     letter-spacing: 1px;
 }
 
@@ -3739,7 +3407,6 @@ i.chevron-right {
     display: block;
     width: 26px;
     height: 26px;
-
     background: url("../img/common/chevron-right.png") no-repeat center;
     background-size: contain;
 }
@@ -3760,12 +3427,9 @@ i.chevron-right {
 
 .page-anchor .goto {
     position: relative;
-
     padding: 20px;
-
     font-size: 2rem;
-
-    border: 4px solid #d9e4fe;
+    border: 4px solid #c0e0c7;
     border-radius: 10px;
 }
 
@@ -3776,13 +3440,11 @@ i.chevron-right {
 .goto-icon {
     position: absolute;
     top: 50%;
-
     transform: translateY(-50%);
 }
 
 .goto-description {
     padding: 0 30px 0 60px;
-
     font-size: 2rem;
 }
 
@@ -3790,14 +3452,11 @@ i.chevron-right {
     position: absolute;
     top: 50%;
     right: 20px;
-
     display: block;
     width: 10px;
     height: 20px;
-
     content: "";
     transform: translateY(-50%);
-
     background: url("../img/common/chevron-right.png") no-repeat center;
     background-size: cover;
 }
@@ -3817,7 +3476,6 @@ i.chevron-right {
 
     .goto-description {
         padding: 0 30px 0 50px;
-
         font-size: 1.8rem;
     }
 
@@ -3848,10 +3506,8 @@ i.chevron-right {
     width: calc(100% / 6);
     padding: 17px 5px;
     margin: 0;
-
     font-weight: 500;
     line-height: 1.5;
-
     vertical-align: middle;
     letter-spacing: .32px;
 }
@@ -3890,7 +3546,6 @@ i.chevron-right {
     max-width: 600px;
     margin-bottom: 40px;
     overflow: hidden;
-
     border-radius: 10px;
 }
 
@@ -3903,7 +3558,6 @@ i.chevron-right {
 
 .card-head h3 {
     padding: 10px 0;
-
     font-size: 2rem;
     font-weight: 400;
 }
@@ -3917,10 +3571,8 @@ i.chevron-right {
 .card-body-wrapper {
     max-width: 420px;
     padding: 40px 5px;
-
     font-size: 1.8rem;
     font-weight: 400;
-
     letter-spacing: 1px;
 }
 
@@ -3931,9 +3583,7 @@ i.chevron-right {
 
     .card-body-wrapper {
         padding: 20px 10px;
-
         font-size: 1.6rem;
-
         text-align: justify;
     }
 }
@@ -3948,24 +3598,19 @@ i.chevron-right {
 .emp-info-text {
     padding-bottom: 15px;
     margin-top: 40px;
-
     font-size: 2rem;
     line-height: 25px;
-
     letter-spacing: 1px;
-
     border-bottom: 1px solid #ccc;
 }
 
 .emp-info-table {
     margin-top: 20px;
-
     letter-spacing: .9px;
 }
 
 .emp-info-table table {
     width: 100%;
-
     border-collapse: inherit;
 }
 
@@ -3976,7 +3621,6 @@ i.chevron-right {
 
 .emp-info-table td:first-child {
     width: 150px;
-
     background: #e9efff;
 }
 
@@ -3986,17 +3630,13 @@ i.chevron-right {
 
 .emp-info-table td {
     padding: 12px 15px;
-
     line-height: 1.9;
-
     text-align: left;
-
     border: 1px solid #ccc;
 }
 
 .employment-information-content h3 {
     font-weight: 400;
-
     letter-spacing: 1px;
 }
 
@@ -4015,12 +3655,9 @@ i.chevron-right {
 
 .recruit-info-gp .recruit-info-li li a {
     padding: 10px;
-
     font-size: 1.6rem;
-
     text-align: center;
-
-    border: 4px solid #d9e4fe;
+    border: 4px solid #c0e0c7;
     background: #fff;
 }
 
@@ -4053,7 +3690,6 @@ i.chevron-right {
 
     .recruit-info-gp .recruit-info-li li a {
         padding: 10px 5px;
-
         font-size: 1.6rem;
     }
 
@@ -4073,7 +3709,6 @@ i.chevron-right {
 
     .recruit-info-gp .recruit-info-li li a {
         padding: 10px 3px;
-
         font-size: 1.3rem;
     }
 }
@@ -4081,7 +3716,6 @@ i.chevron-right {
 /* this is class name */
 .li {
     position: relative;
-
     padding-left: 16px;
 }
 
@@ -4094,7 +3728,6 @@ i.chevron-right {
     position: absolute;
     top: 12px;
     left: 0;
-
     content: "・";
     transform: translateY(-50%);
 }
@@ -4133,8 +3766,7 @@ i.chevron-right {
     max-width: 360px;
     padding: 22px 22px 0 22px;
     margin-bottom: 20px;
-
-    border: 1px solid #d9e4fe;
+    border: 1px solid #c0e0c7;
     border-radius: 10px;
 }
 
@@ -4145,7 +3777,6 @@ i.chevron-right {
 
 .sitemap-section .column-ul li a {
     display: inline-block;
-
     font-size: 1.6rem;
 }
 
@@ -4158,13 +3789,10 @@ i.chevron-right {
     position: absolute;
     top: 50%;
     left: 0;
-
     width: 6px;
     height: 16px;
-
     content: "";
     transform: translateY(-50%);
-
     border-radius: 2px;
 }
 
@@ -4217,7 +3845,6 @@ i.chevron-right {
     position: absolute;
     right: 0;
     bottom: 0;
-
     display: none;
     width: 65px;
     height: 65px;
@@ -4227,7 +3854,6 @@ i.chevron-right {
     position: fixed;
     right: 25px;
     bottom: 100px;
-
     display: block;
 }
 
@@ -4235,14 +3861,12 @@ i.chevron-right {
 /*20221129追加*/
 .procedure-block h4 {
     font-weight: 400;
-
     letter-spacing: 1px;
 }
 
 .procedure-block .procedure-detail-ol {
     padding-left: 0;
     margin-left: 0;
-
     counter-reset: item;
 }
 .procedure-block .procedure-detail-ol li {
@@ -4254,15 +3878,12 @@ i.chevron-right {
     display: inline-block;
     width: 2em;
     margin-left: -2em;
-
     content: counter(item) ") ";
     counter-increment: item;
 }
 .procedure-block .procedure-detail li {
     position: relative;
-
     padding-left: 20px;
-
     font-weight: 400;
 }
 
@@ -4270,36 +3891,30 @@ i.chevron-right {
     position: absolute;
     top: 0;
     left: 0;
-
     font-weight: 700;
-
     content: "・";
 }
 .recruitment-content h4 {
     font-weight: 400;
-
     letter-spacing: 1px;
 }
 
 .card-head .card-head-ttl {
     padding: 10px 0;
-
     font-size: 2rem;
     font-weight: 400;
 }
 .emp-info-text {
     padding-bottom: 15px;
     margin-top: 40px;
-
     font-size: 2rem;
-    line-height: 25px;
-
-    letter-spacing: 1px;
-
-    border-bottom: 1px solid #ccc;
     font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ccc;
 }
-h3,h4{
+h3,
+h4 {
     font-weight: 400;
 }
 @media screen and (max-width: 768px) {
@@ -4307,11 +3922,11 @@ h3,h4{
         font-size: 1.8rem;
     }
 }
-.h3-ttl{
+.h3-ttl {
     font-size: 2rem;
 }
 @media screen and (max-width:768px) {
-    .h3-ttl{
+    .h3-ttl {
         font-size: 1.8rem;
     }
 }
