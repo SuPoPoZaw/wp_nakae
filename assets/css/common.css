@@ -1193,4 +1193,9 @@ i.chevron-right {
 .nyuuin-sec01 .hospital-comm-btn {
     margin-bottom: 40px;
 }
+
+.dep-sec ol.procedure-detail li{
+    margin-top: 20px;
+}
+
 /* Nuin page end */

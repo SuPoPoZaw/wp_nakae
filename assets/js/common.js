@@ -1,3 +1,5 @@
+$(".recruit-info-gp .recruit-info-li li a").matchHeight();
+
 jQuery(function ($) {
   $(function () {
     var scroll_func = function () {

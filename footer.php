@@ -289,6 +289,7 @@
 </div>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery-3.4.1.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/slick.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.matchHeight.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/common.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/accordion.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/gairai.js"></script>
