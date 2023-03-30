@@ -14,9 +14,13 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0;
-    color: #000;
+    color: #333;
 
     text-rendering: optimizeLegibility;
+}
+
+a{
+    color: #333;
 }
 
 .pc {
@@ -161,7 +165,7 @@ body {
 }
 
 .search-box form input::placeholder {
-    color: #000;
+    color: #333;
 }
 
 .header-ttl {
@@ -417,7 +421,13 @@ body {
 
 .icon-triangle:before {
     content: "\25B2";
-    color: #32855e;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .icon-triangle {
+        font-size: 0.8rem;
+    }
 }
 
 .phone-number {
@@ -605,7 +615,7 @@ body {
         font-size: 1.2rem;
         content: "メニュー";
         transform: translate(0%);
-        color: #000;
+        color: #333;
     }
 
     .gmenu-sp.is-active .menu-sp::before {
@@ -749,7 +759,7 @@ body {
     }
 
     .menu-list form input::placeholder {
-        color: #000;
+        color: #333;
     }
 
     /* .menu-list form::after {
@@ -945,7 +955,7 @@ breadcrumb
     font-size: 1.4rem;
     content: "＞";
     transform: translateY(-50%);
-    color: #000;
+    color: #333;
 }
 
 #breadcrumb .crumb-in li .current {
@@ -957,7 +967,7 @@ breadcrumb
     display: inline-block;
     padding-right: 30px;
     transition: all .3s;
-    color: #fff;
+    color: #224936;
 }
 
 #breadcrumb .crumb-in li:last-child:after {

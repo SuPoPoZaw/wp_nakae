@@ -100,7 +100,7 @@ Top Page
 
 .info-block ul li .hover-eff {
     padding: 0 0 3px 0;
-    color: #000;
+    color: #333;
 }
 
 .info-block ul li a:hover p::after {
@@ -422,7 +422,7 @@ News Section (Section-2)
     font-size: 2rem;
     line-height: 1.5;
     letter-spacing: 1px;
-    color: #000;
+    color: #333;
 }
 
 .staff-box {
@@ -1051,7 +1051,7 @@ td {
 .sub-mv-txt {
     font-size: 2.6rem;
     line-height: 1.5;
-    color: #fff;
+    color: #224936;
 }
 
 .sub-mv-txt-po {
@@ -1111,7 +1111,7 @@ td {
 .post-li li a {
     display: inline-block;
     letter-spacing: 1.5px;
-    color: #000;
+    color: #333;
 }
 
 .post-li li a:hover {
@@ -1240,7 +1240,7 @@ td {
     font-family: "Noto Sans JP";
     font-size: 1.8rem;
     letter-spacing: 1px;
-    color: #000;
+    color: #333;
 }
 
 /* .search-list form::after {
@@ -1442,7 +1442,7 @@ td {
     margin: 15px 20px;
     font-size: 2rem;
     font-weight: 500;
-    color: #000;
+    color: #333;
     border: 4px solid #c0e0c7;
     border-radius: 10px;
 }
@@ -1548,7 +1548,7 @@ td {
     font-size: 2.6rem;
     font-weight: 500;
     text-align: center;
-    color: #000;
+    color: #333;
 }
 
 .hospital-ttl h2::after {
@@ -1628,7 +1628,7 @@ td {
 
 .txt-n {
     font-size: 1.6rem;
-    color: #000;
+    color: #333;
 }
 
 .p-txt-b {
@@ -1648,7 +1648,7 @@ td {
     position: relative;
     padding-left: 22px;
     font-size: 1.6rem;
-    color: #000;
+    color: #333;
 }
 
 .p-txt-n span {
@@ -2586,7 +2586,7 @@ i.chevron-right {
 .dpt-tab-description {
     padding-top: 3px;
     /* padding: 0 30px 0 115px; */
-    color: #000;
+    color: #333;
     /* padding:0 30px; */
 }
 
@@ -2795,6 +2795,7 @@ i.chevron-right {
 /* =========================================
  *  Gairai Page
  * ========================================= */
+
 .gairai-body {
     letter-spacing: .8px;
 }
@@ -2836,6 +2837,32 @@ font-blue {
     color: #32855e;
 }
 
+.file-icon-pdf a{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.fst-visitor-img {
+    max-width: 340px;
+    margin: 20px auto 0;
+}
+
+.examination-flow ol{
+    padding-left: 20px;
+}
+
+.examination-flow ol li{
+    padding-bottom: 15px;
+}
+
+.examination-flow ol li span{
+    font-size: 1.4rem;
+}
+
+.optical-inspection{
+    padding: 70px 0 50px 0;
+}
+
 @media screen and (max-width:768px) {
     .gairai-info-section {
         padding: 45px 0 20px;
@@ -2849,7 +2876,7 @@ font-blue {
 /* Doctor List Section */
 
 .doctor-table {
-    padding: 70px 0 80px 0;
+    padding: 70px 0 50px 0;
 }
 
 .doctor-table-txt {
@@ -2946,6 +2973,10 @@ font-blue {
     width: 100%;
 }
 
+.table-dec th{
+    color: #fff;
+}
+
 .table-dec th,
 .table-dec td {
     width: 20px;
@@ -2964,7 +2995,7 @@ font-blue {
 .table-th {
     padding: 12px 0;
     border: 1px solid #efede9;
-    background-color: #a7c1fe;
+    background-color: #32855e;
 }
 
 .table-tr .table-th:first-child {
@@ -2979,7 +3010,7 @@ font-blue {
 
 .single-th {
     border: 1px solid #efede9;
-    background-color: #a7c1fe;
+    background-color: #32855e;
 }
 
 .table-td {
@@ -3057,7 +3088,7 @@ font-blue {
 /* Introduction of outpatient doctor Section */
 
 .intro-outdor-doctor {
-    padding: 70px 0 50px 0;
+    padding: 70px 0 0 0;
 }
 
 .hr-decoration {
@@ -3110,7 +3141,7 @@ font-blue {
 .outer-flex .outer-ttl01 {
     font-size: 20px;
     font-weight: 500;
-    color: #000;
+    color: #333;
 }
 
 .outer-flex .outer-para01 {
@@ -3120,13 +3151,13 @@ font-blue {
 .outer-flex .outer-para01 p {
     font-size: 16px;
     line-height: 1.5;
-    color: #000;
+    color: #333;
 }
 
 .outer-flex .outer-para02 p {
     font-size: 16px;
     line-height: 1.5;
-    color: #000;
+    color: #333;
 }
 
 .outer-flex .outer-para02-bl p {
@@ -3187,6 +3218,59 @@ font-blue {
     font-weight: 400;
     letter-spacing: 1px;
     border-bottom: 1px solid #d8d3c7;
+}
+.optical-inspection .gairai-procedure-ttl{
+    font-weight: 700;
+}
+
+.optical-inspection .gairai-procedure-ttl,
+.optical-inspection .center-txt{
+    text-align: center;
+}
+
+.optical-inspection ol {
+    padding-left: 20px;
+}
+
+.optical-inspection ol li{
+    margin-bottom: 20px;
+}
+
+.optical-inspection .card-body-wrapper{
+    max-width: unset;
+}
+
+.optical-inspection .card-body-wrapper p{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .optical-inspection .card-body-wrapper p{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+}
+/* .optical-inspection ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    counter-reset: num;
+}
+
+.optical-inspection ol li{
+    counter-increment: step-counter;
+}
+
+.optical-inspection ol li::before{
+    content: "（"counter(step-counter)"）";
+    margin-right: 20px;
+} */
+
+.gairai-procedure-ttl span{
+    display: block;
 }
 
 .exam-flow-flex {
@@ -3964,4 +4048,9 @@ h4 {
     .h3-ttl {
         font-size: 1.8rem;
     }
+}
+.h5-ttl{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
