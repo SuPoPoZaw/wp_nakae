@@ -18,14 +18,14 @@
                         <i class="telephone sp mr10"> </i>
                         <div class="ph-no-outer">
                             <p>お電話でのお問い合わせ</p>
-                            <p class="ph-no font-blue">0166-23-2090</p>
+                            <p class="ph-no font-blue">011-716-7181</p>
                         </div>
                     </div>
-                    <a href="tel:0166232090" class="inquiry sp">
+                    <a href="tel:0117167181" class="inquiry sp">
                         <i class="telephone sp mr10"> </i>
                         <div class="ph-no-outer">
                             <p>お電話でのお問い合わせ</p>
-                            <p class="ph-no font-blue">0166-23-2090</p>
+                            <p class="ph-no font-blue">011-716-7181</p>
                         </div>
                     </a>
 
@@ -45,31 +45,31 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="text-left pl0 pr0">9:00-12:00</td>
+                                <td class="text-left pl0 pr0">9:00-11:30</td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
-                                <td class="pl0 pr0">-</td>
+                                <td><i class="circle m-auto"></i></td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
                             <tr>
-                                <td class="text-left pl0 pr0">13:30-17:00</td>
+                                <td class="text-left pl0 pr0">13:30-16:00</td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
-                                <td><i class="circle m-auto"></i></td>
-                                <td class="pl0 pr0">-</td>
+                                <td class="pl0 pr0">▲</td>
+                                <td class="pl0 pr0">▲</td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
                         </tbody>
                     </table>
                     <table class="table-sp">
-                        <thead>
+                    <thead>
                             <tr>
                                 <td class="text-left pl0 pr0">診療時間</td>
                                 <td>月</td>
@@ -78,43 +78,47 @@
                                 <td>木</td>
                                 <td>金</td>
                                 <td>土</td>
-                                <td class="pl0 pr0">日祝</td>
+                                <td>日</td>
+                                <td class="pl0 pr0">祝祭日</td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="text-left pl0 pr0">9:00-12:00</td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td class="pl0 pr0">-</td>
+                                <td class="text-left pl0 pr0">9:00-11:30</td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
-
                             <tr>
-                                <td class="text-left pl0 pr0">13:30-17:00</td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td class="pl0 pr0">-</td>
+                                <td class="text-left pl0 pr0">13:30-16:00</td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td class="pl0 pr0">▲</td>
+                                <td class="pl0 pr0">▲</td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
                         </tbody>
                     </table>
+                    <p class="pc mt20 mb20">
+                        <span>▲ 第2・第4・第5土曜日は休診</span>
+                    </p>
                     <p class="addr mt20 mb20">
                         <i class="location"></i>
-                        <span class="addr-text">〒 070-0038 <br class="sp" />
-                            北海道旭川市8条通8丁目43番地</span>
+                        <span class="addr-text">〒001-0022 札幌市北区北22条西7丁目2番1号</span>
                     </p>
                     <a class="pc open-map-btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=中江病院"><span>マップを開く</span></a>
                 </div>
                 <!-- right side of the map section-->
                 <div class="googleMap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.9776289399283!2d142.35967687004694!3d43.77332321211438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ce6730a4d3b93%3A0xcfb2993d08f915b1!2z5rK85bSO55eF6Zmi!5e0!3m2!1sja!2sjp!4v1655787451568!5m2!1sja!2sjp" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.807489157421!2d141.33788331544105!3d43.08754247914471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b28e253a77c41%3A0x39dad9e6c723e9ca!2z5pel5pys44CB44CSMDAxLTAwMjIg5YyX5rW36YGT5pyt5bmM5biC5YyX5Yy65YyX77yS77yS5p2h6KW_77yX5LiB55uu77yS4oiS77yR!5e0!3m2!1sja!2smm!4v1680078576263!5m2!1sja!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <a class="open-map-btn sp" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=中江病院">マップを開く</a>
                 </div>
             </div>
@@ -129,7 +133,7 @@
             <div class="popup-inner">
                 <div class="time-block sp">
                     <table class="table-sp">
-                        <thead>
+                    <thead>
                             <tr>
                                 <td class="text-left pl0 pr0">診療時間</td>
                                 <td>月</td>
@@ -138,28 +142,30 @@
                                 <td>木</td>
                                 <td>金</td>
                                 <td>土</td>
-                                <td class="pl0 pr0">日祝</td>
+                                <td>日</td>
+                                <td class="pl0 pr0">祝祭日</td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="text-left pl0 pr0">9:00-12:00</td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td class="pl0 pr0">-</td>
+                                <td class="text-left pl0 pr0">9:00-11:30</td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
-
                             <tr>
-                                <td class="text-left pl0 pr0">13:30-17:00</td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td><i class="circle"></i></td>
-                                <td class="pl0 pr0">-</td>
+                                <td class="text-left pl0 pr0">13:30-16:00</td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td class="pl0 pr0">▲</td>
+                                <td class="pl0 pr0">▲</td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
@@ -167,10 +173,10 @@
                     </table>
                     <p class="addr addr-pd">
                         <i class="location"></i>
-                        <span class="addr-text">〒 070-0038 北海道旭川市8条通8丁目43番地</span>
+                        <span class="addr-text">〒001-0022 札幌市北区北22条西7丁目2番1号</span>
                     </p>
                     <div class="googleMap">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.9776289399283!2d142.35967687004694!3d43.77332321211438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ce6730a4d3b93%3A0xcfb2993d08f915b1!2z5rK85bSO55eF6Zmi!5e0!3m2!1sja!2sjp!4v1655787451568!5m2!1sja!2sjp" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.807489157421!2d141.33788331544105!3d43.08754247914471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b28e253a77c41%3A0x39dad9e6c723e9ca!2z5pel5pys44CB44CSMDAxLTAwMjIg5YyX5rW36YGT5pyt5bmM5biC5YyX5Yy65YyX77yS77yS5p2h6KW_77yX5LiB55uu77yS4oiS77yR!5e0!3m2!1sja!2smm!4v1680078576263!5m2!1sja!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <a class="open-map-btn sp" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=中江病院">マップを開く</a>
                     </div>
                     <div class="time-close">

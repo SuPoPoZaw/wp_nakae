@@ -530,7 +530,7 @@ body {
     .header-m .phone-btn {
         padding: 5px 17px 7px 35px;
         border-radius: 20px;
-        background: #2465fc;
+        background: #32855e;
     }
 
     .header-m .phone-btn a {
@@ -842,7 +842,7 @@ body {
 }
 
 .column-ul-li a:hover {
-    color: #2465fc;
+    color: #32855e;
 }
 
 .left-bdr-1,
@@ -1016,20 +1016,20 @@ Pagination
             transition: background-color .3s;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #2465fc;
+    border: 1px solid #32855e;
     border-radius: 10px;
-    background: #2465fc;
+    background: #32855e;
 }
 
 .pagination a:hover,
 .pagination .current {
-    color: #2465fc;
+    color: #32855e;
     background-color: #fff;
 }
 
 .pagination .wp-pagenavi a:hover,
 .wp-pagenavi span.current {
-    border-color: #2465fc;
+    border-color: #32855e;
 }
 
 @media screen and (max-width: 768px) {
@@ -1098,7 +1098,7 @@ Pagination
 }
 
 .text-blue {
-    color: #2465fc;
+    color: #32855e;
 }
 
 .leading-2 {

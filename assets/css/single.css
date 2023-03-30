@@ -15,36 +15,28 @@
 
 .waku {
     padding: 20px;
-
     border: 1px solid #4e4e4e;
 }
 
 .post-date {
     margin-bottom: 7px;
-
     font-size: 1.4rem;
     font-weight: 400;
-
     color: #000;
 }
 
 .post-h h1 {
     margin: 10px 0 24px 0;
-
     font-size: 2.6rem;
     font-weight: 400;
-
     color: #000;
 }
 
 .sin-post h2 {
     position: relative;
-
     padding: 10px 0 10px 25px;
-
     font-size: 2rem;
     line-height: 1.5;
-
     color: #000;
     background: #e7eefe;
 }
@@ -53,23 +45,17 @@
     position: absolute;
     top: 0;
     left: 0;
-
     height: 100%;
-
     content: "";
-
-    border-left: 8px solid #2465fc;
+    border-left: 8px solid #32855e;
 }
 
 .sin-post h3 {
     position: relative;
-
     padding: 10px 0 10px 25px;
-
     font-size: 1.8rem;
     line-height: 1.5;
-
-    color: #2465fc;
+    color: #32855e;
     background: #fff;
 }
 
@@ -77,19 +63,14 @@
     position: absolute;
     top: 0;
     left: 0;
-
     height: 100%;
-
     content: "";
-
-    border-left: 8px solid #2465fc;
+    border-left: 8px solid #32855e;
 }
 
 .sin-post h4 {
     position: relative;
-
     padding-left: 25px;
-
     font-size: 1.6rem;
     line-height: 1.3;
 }
@@ -98,14 +79,11 @@
     position: absolute;
     top: 4px;
     left: 0;
-
     width: 15px;
     height: 15px;
-
     content: "";
-
     border-radius: 4px;
-    background: #2465fc;
+    background: #32855e;
 }
 
 .sin-post h5 {
@@ -118,7 +96,6 @@
 
 .sin-post p {
     margin: 0 0 20px 0;
-
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.5;
@@ -128,19 +105,15 @@
 .sin-post ol {
     padding: 25px 30px;
     margin: 20px 0 20px 0;
-
     line-height: 1.3;
-
     border-radius: 10px;
     background: #f4f4f4;
 }
 
 .sin-post ul li {
     position: relative;
-
     padding-bottom: 23px;
     padding-left: 20px;
-
     font-size: 1.6rem;
     font-weight: 500;
 }
@@ -153,14 +126,11 @@
     position: absolute;
     top: 7px;
     left: 0;
-
     width: 9px;
     height: 9px;
-
     content: "";
-
     border-radius: 50%;
-    background: #2465fc;
+    background: #32855e;
 }
 
 .sin-post ol {
@@ -171,7 +141,6 @@
     padding-bottom: 23px;
     padding-left: 5px;
     margin-left: 18px;
-
     font-size: 1.6rem;
     font-weight: 500;
 }
@@ -191,12 +160,9 @@
 .sin-post a {
     display: inline-block;
     margin: 0 0 20px 0;
-
     font-size: 1.6rem;
-
     text-decoration: underline;
-
-    color: #2465fc;
+    color: #32855e;
 
     text-underline-offset: 2px;
 }
@@ -208,9 +174,7 @@
 
 .sin-post .sec-btn a {
     display: block;
-
     text-decoration: none;
-
     color: #fff;
 }
 
@@ -219,30 +183,25 @@
 }
 .sin-post strong {
     margin: 0 0 20px 0;
-
     font-weight: bold;
-
-    color: #2465fc;
+    color: #32855e;
 }
 
 .post-btn a {
     width: 100%;
     max-width: 215px;
     padding: 12px 25px;
-
     font-size: 1.6rem;
-
     text-align: center;
     text-decoration: none;
-
     color: #fff;
-    border: 1px solid #2465fc;
+    border: 1px solid #32855e;
     border-radius: 5px;
-    background: #2465fc;
+    background: #32855e;
 }
 
 .post-btn a:hover {
-    color: #2465fc;
+    color: #32855e;
     background: #fff;
 }
 
@@ -254,9 +213,7 @@
     padding: 25px 35px;
     margin: 0 0 20px;
     margin-top: 40px;
-
     font-size: 1.4rem;
-
     border-radius: 10px;
     background: #e7eefe;
 }
@@ -289,10 +246,8 @@
 .sin-post table tr td {
     width: 20%;
     height: 80px;
-
     font-size: 1.6rem;
     font-weight: 500;
-
     text-align: center;
     vertical-align: middle;
 }
@@ -394,7 +349,6 @@
     .sin-post blockquote {
         padding: 15px;
         margin: 0 0 20px;
-
         font-size: 1.4rem;
     }
     .google-map {
@@ -409,12 +363,10 @@
     .post-h h1 {
         padding: 0 0 5px 0;
         margin: 0 0 20px 0;
-
         font-size: 2.4rem;
     }
     .sin-post h2 {
         padding: 10px 0 10px 20px;
-
         font-size: 2rem;
     }
     .sin-post h3 {
@@ -425,12 +377,10 @@
     }
     .sin-post p {
         margin: 20px 0;
-
         font-size: 1.4rem;
     }
     .sin-post ul li {
         margin-left: 0;
-
         font-size: 1.4rem;
     }
     .sin-post ul,
@@ -440,12 +390,10 @@
     }
     .sin-post ol li {
         padding-left: 0;
-
         font-size: 1.4rem;
     }
     .sin-post ul li:before {
         top: 6px;
-
         width: 8px;
         height: 8px;
     }
@@ -463,7 +411,6 @@
     .sin-post table tr th,
     .sin-post table tr td {
         height: 70px;
-
         font-size: 1.4rem;
         font-weight: 500;
     }
@@ -511,7 +458,6 @@
     .sin-post table tr th,
     .sin-post table tr td {
         height: 60px;
-
         font-size: 1.2rem;
         font-weight: 500;
     }
@@ -534,15 +480,13 @@
 
 .sin-post .po-date-sns {
     padding-bottom: 75px;
-
-    border-bottom: 2px solid #2465fc;
+    border-bottom: 2px solid #32855e;
 }
 
 .sin-post .po-date-txt {
     font-size: 1.6rem;
     font-weight: 600;
-
-    color: #2465fc;
+    color: #32855e;
 }
 
 .sin-post .fl-lt {
@@ -567,11 +511,9 @@
 
 .sin-post .sns-txt {
     padding-right: 13px;
-
     font-size: 1.4rem;
     font-weight: 600;
-
-    color: #2465fc;
+    color: #32855e;
 }
 
 
@@ -579,24 +521,19 @@
 
 .front-page {
     position: relative;
-
     margin-top: 50px;
     clear: both;
-
     text-align: center;
 }
 
 .front-page .arr-pos {
     padding: 3px 9px 5px 9px;
-
     font-size: 1.8rem;
     font-weight: bold;
-
     -webkit-transition: background-color .3s;
             transition: background-color .3s;
     text-decoration: none;
-
-    border: 2px solid #2465fc;
+    border: 2px solid #32855e;
     border-radius: 10px;
     background: #fff;
 }
@@ -607,9 +544,7 @@
 
 .front-page ul li {
     position: relative;
-
     margin-bottom: 0;
-
     font-size: 1.6rem;
     font-weight: 600;
 }
@@ -637,19 +572,16 @@
 
 .detail-sec {
     padding: 75px 0 80px 0;
-
     background-color: #f9f9f9;
 }
 
 .post-bl {
     padding: 45px 70px 50px;
-
     background: #fff;
 }
 
 .post-info {
     padding: 0 25px;
-
     border-bottom: 1px solid #d8d3c7;
 }
 
@@ -674,14 +606,12 @@
 
 .front-arr {
     font-size: 1.6rem;
-
     color: #6190fd;
 }
 
 .m-color {
     font-size: 1.8rem;
-
-    color: #2465fc;
+    color: #32855e;
 }
 
 @media screen and (max-width: 768px) {
