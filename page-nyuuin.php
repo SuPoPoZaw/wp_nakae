@@ -74,7 +74,7 @@ get_header();
                 </p>
             </div>
             <div class="file-icon-pdf">
-                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/img/common/nyuuin_img_01.pdf">物忘れ問診票</a>
+                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/nyuuin_img_01.pdf" target="_blank">物忘れ問診票</a>
                 (677.4KB)
             </div>
 <!--
@@ -280,7 +280,7 @@ get_header();
                 </div>
             </div>
             <div class="file-icon-pdf">
-                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/img/common/nyuuin_img_02.pdf">入院パンフレット</a>
+                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/nyuuin_img_02.pdf" target="_blank">入院パンフレット</a>
                 (1.4MB)
             </div>
             <?php $nyuuin_pamphlet_link = scf::get('nyuuin_pamphlet_link'); ?>
