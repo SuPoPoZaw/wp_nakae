@@ -61,8 +61,8 @@
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
-                                <td class="pl0 pr0">▲</td>
-                                <td class="pl0 pr0">▲</td>
+                                <td class="pd1"><span class="icon-triangle"></span></td>
+                                <td class="pd1"><span class="icon-triangle"></span></td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
@@ -100,8 +100,8 @@
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
-                                <td class="pl0 pr0">▲</td>
-                                <td class="pl0 pr0">▲</td>
+                                <td class="pd1"><span class="icon-triangle"></span></td>
+                                <td class="pd1"><span class="icon-triangle"></span></td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
@@ -164,8 +164,8 @@
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
                                 <td><i class="circle m-auto"></i></td>
-                                <td class="pl0 pr0">▲</td>
-                                <td class="pl0 pr0">▲</td>
+                                <td class="pd1"><span class="icon-triangle"></span></td>
+                                <td class="pd1"><span class="icon-triangle"></span></td>
                                 <td class="pl0 pr0">-</td>
                                 <td class="pl0 pr0">-</td>
                             </tr>
