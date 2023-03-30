@@ -2842,6 +2842,27 @@ font-blue {
     text-decoration: underline;
 }
 
+.fst-visitor-img {
+    max-width: 340px;
+    margin: 20px auto 0;
+}
+
+.examination-flow ol{
+    padding-left: 20px;
+}
+
+.examination-flow ol li{
+    padding-bottom: 15px;
+}
+
+.examination-flow ol li span{
+    font-size: 1.4rem;
+}
+
+.optical-inspection{
+    padding: 70px 0 50px 0;
+}
+
 @media screen and (max-width:768px) {
     .gairai-info-section {
         padding: 45px 0 20px;
@@ -3197,6 +3218,59 @@ font-blue {
     font-weight: 400;
     letter-spacing: 1px;
     border-bottom: 1px solid #d8d3c7;
+}
+.optical-inspection .gairai-procedure-ttl{
+    font-weight: 700;
+}
+
+.optical-inspection .gairai-procedure-ttl,
+.optical-inspection .center-txt{
+    text-align: center;
+}
+
+.optical-inspection ol {
+    padding-left: 20px;
+}
+
+.optical-inspection ol li{
+    margin-bottom: 20px;
+}
+
+.optical-inspection .card-body-wrapper{
+    max-width: unset;
+}
+
+.optical-inspection .card-body-wrapper p{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .optical-inspection .card-body-wrapper p{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+}
+/* .optical-inspection ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    counter-reset: num;
+}
+
+.optical-inspection ol li{
+    counter-increment: step-counter;
+}
+
+.optical-inspection ol li::before{
+    content: "（"counter(step-counter)"）";
+    margin-right: 20px;
+} */
+
+.gairai-procedure-ttl span{
+    display: block;
 }
 
 .exam-flow-flex {
@@ -3971,4 +4045,9 @@ h4 {
     .h3-ttl {
         font-size: 1.8rem;
     }
+}
+.h5-ttl{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
