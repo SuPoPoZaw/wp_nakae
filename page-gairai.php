@@ -49,7 +49,7 @@ get_header();
                 <a class="goto" href="#gairai-sec04">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/item04.png" alt="外来担当医ご紹介" /></div>
-                        <p class="goto-description">外来担当医ご紹介</p>
+                        <p class="goto-description">初めて受診される方</p>
                     </div>
                 </a>
             </li>
@@ -57,7 +57,7 @@ get_header();
                 <a class="goto" href="#gairai-sec05">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/item05.png" alt="外来について" /></div>
-                        <p class="goto-description">外来について</p>
+                        <p class="goto-description">光トポグラフィー検査</p>
                     </div>
                 </a>
             </li>
@@ -69,51 +69,15 @@ get_header();
     <div class="container">
         <div class="information">
             <h2 class="h2-ttl h2-mb">診療科目</h2>
-            <div class="info-block">
+            <div class="medical-department">
                 <ul>
-                    <li>
-                        <a href="#gairai01">
-                            <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img1.png" alt="内科" />
-                            </div>
-                            <p class="in-sty">内科</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#gairai02">
-                            <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img2.png" alt="消化器内科" />
-                            </div>
-                            <p class="in-sty">消化器内科</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#gairai05">
-                            <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img5.png" alt="リハビリ テーション科" />
-                            </div>
-                            <p class="in-sty">リハビリ</p>
-                            <br />
-                            <p class="in-sty">テーション科</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#gairai03">
-                            <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img3.png" alt="血液内科" />
-                            </div>
-                            <p class="in-sty">血液内科</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#gairai04">
-                            <div class="info-img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img6.png" alt="感染症内科" />
-                            </div>
-                            <p class="in-sty">感染症内科</p>
-                        </a>
-                    </li>
+                    <li>精神科</li>
+                    <li>心療内科</li>
+                    <li>内科</li>
                 </ul>
+                <div class="medical-dep-img">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/diagnosis_img_02.jpg" alt="診断の画像">
+                </div>
             </div>
         </div>
     </div>
@@ -166,7 +130,7 @@ get_header();
                         </tbody>
                     </table>
                     <div class="consult-time-txt">
-                        <p class="common-txt-po"><span>※</span>土曜日、日曜日、祝日、1月1日、1月2日、1月3日、7月21日、8月15日、12月30日、12月31日は休診日となっております。最新の情報につきましては、お知らせページをご確認ください。</p>
+                        <p class="common-txt-po"><span>※</span>土曜外来日については、病院HPの「お知らせ」をご覧ください。</p>
                     </div>
                 </div>
                 <div class="gairai-com-btn">
@@ -180,12 +144,17 @@ get_header();
     <div class="container">
         <div class="m-w800">
             <h2 class="h2-ttl h2-mb">外来担当医表</h2>
-            <p class="doctor-table-txt mb50">
-                担当医表が変更になっている場合もありますので、担当医のご指定がある際には <br />
-                事前に <span class="font-blue">外来直通 0166-23-2090（電話受付時間 9:00～12:00, 13:30～17:00）</span>までご確認してください。
-            </p>
-
-            <div id="open-btn" class="gairai-btn-dec list-open-btn">外来担当医表を開く</div>
+            <p class="fz-20 fz-18-sp mb40 mb30-sp">このページでは次の情報をご案内しています。</p>
+            <div class="recruit-info-gp">
+                <ul class="recruit-info-li">
+                    <li>
+                        <a href="#recruit-info03">外来担当医勤務表</a>
+                    </li>
+                    <li>
+                        <a href="#recruit-info12">外来担当医のご紹介</a>
+                    </li>
+                </ul>
+            </div>
 
             <div class="modal-container">
                 <?php
