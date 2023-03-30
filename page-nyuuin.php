@@ -24,7 +24,7 @@ get_header();
             <li>
                 <a class="goto" href="#item01-sec">
                     <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item03.png" alt="入院されるとき"></div>
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item01.png" alt="入院されるとき"></div>
                         <p class="goto-description">入院されるとき</p>
                     </div>
                 </a>
@@ -40,7 +40,7 @@ get_header();
             <li>
                 <a class="goto" href="#item04-sec">
                     <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item01.png" alt="面談・面会について"></div>
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item03.png" alt="面談・面会について"></div>
                         <p class="goto-description">面談・面会について</p>
                     </div>
                 </a>
@@ -64,7 +64,7 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="item01-sec bg-gray">
+<section class="nyuuin-sec01 item01-sec bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn hospital-comm-btn">
             <h2 class="h2-ttl h2-mb h2-mb-sp" id="item01-sec">入院されるとき</h2>
@@ -74,8 +74,8 @@ get_header();
                 </p>
             </div>
             <div class="file-icon-pdf">
-                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/img/common/nuin_img_01.pdf">物忘れ問診票</a>
-                "(677.4KB)"
+                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/img/common/nyuuin_img_01.pdf">物忘れ問診票</a>
+                (677.4KB)
             </div>
 <!--
             <?php /*
@@ -94,7 +94,9 @@ get_header();
             <div class="procedure-block">
                 <h3 class="procedure-ttl accor-ttl" key="0">入院手続き</h3>
                 <div class="procedure-detail accor" key="0">
-                    <p>入院時の手続きには健康保険証、介護保険証、印鑑などが必要です。老人医療受給者証・重度心身障害者受給者証・母子家庭等医療費受給者証をお持ちの方は、保険証とともにお出しください。事前に日程調整をし、入院時の説明を行います。入院日に1階の受付窓口にて手続きをお済ませください。受付時間は下記の通りとなります。<br><br>平日午前：9時00分～12時00分<br>平日午後：13時30分～17時00分</p>
+                    <p>
+                    入院時の手続きには印鑑が必要です。老人医療受給者証・重度心身障害者受給者証・母子家庭等医療費受給者証をお持ちの方は、保険証とともにお出しください。
+                    </p>
                 </div>
             </div>
             <div class="procedure-block">
@@ -107,11 +109,13 @@ get_header();
                 <h3 class="procedure-ttl accor-ttl" key="2">日用生活品</h3>
                 <div class="procedure-detail accor" key="2">
                     <p>
-                        入院中の日用生活品はすべてご自身・ご家族様にてご用意いただいております。<br />必要物品の買い出しやお持込みのご足労、洗濯等のお手間をおかけしますが、ご理解の程お願い致します。<br />詳細につきましては、入院時に相談員よりご説明いたします。
+                    一日定額料金にて、入院中の日用生活品はすべて当院でご用意させていただいております。<br />
+                    これまでご家族様にお願いしておりました必要物品の買い出しやお持込みのご足労、洗濯等のお手間が軽減されます。また、病衣・タオル類の衛生管理を徹底することで、院外から持ち込まれる感染症から患者様をお守りする目的もございます。ご理解の程お願い致します。
+                    紙おむつをご使用の患者様につきましても、定額利用サービスをご利用いただいております。詳細につきましては、入院時に相談員よりご説明いたします。
                     </p>
                 </div>
             </div>
-            <!--
+            
             <div class="procedure-block">
                 <h3 class="procedure-ttl accor-ttl" key="3">保証金及びお小遣い</h3>
                 <div class="procedure-detail accor" key="3">
@@ -133,18 +137,20 @@ get_header();
                     </div>
                 </div>
             </div>
-        -->
+       
 
             <div class="procedure-block">
                 <h3 class="procedure-ttl accor-ttl" key="4">入院のときにご用意していただくもの</h3>
                 <div class="procedure-detail accor" key="4">
-                    <p><strong>介護</strong>シューズまたは<strong>運動靴等</strong>のかかとのある<strong>履物</strong> ※スリッパは不可</p>
+                    <p><strong>内服薬</strong>（他科薬も含む）</p>
+                    <p class="pt10"><strong>お薬手帳</strong>（薬剤情報提供<strong>書</strong>）</p>
+                    <p class="pt10"><strong>介護シューズ</strong>または<strong>運動靴等のかかとのある履物</strong> ※スリッパは不可</p>
                     <p class="pt10"><strong>電気</strong>シェーバー（T字カミソリ等の刃のついたものは持ち込めません）</p>
                     <div class="pt30">
-                        <!-- <p class="p-txt-b"><span>※</span>着替え、洗面用具等につきましては、日用生活品セット（別紙）に含まれますので必要ありません</p>
-                        <p class="p-txt-b"><span>※</span>オムツは、感染予防や管理棟の問題から持込みできません（定額利用サービスをご利用下さい）</p> -->
+                        <p class="p-txt-b"><span>※</span>着替え、洗面用具等につきましては、日用生活品セット（別紙）に含まれますので必要ありません</p>
+                        <p class="p-txt-b"><span>※</span>オムツは、感染予防や管理棟の問題から持込みできません（定額利用サービスをご利用下さい）</p>
                         <p class="p-txt-b"><span>※</span>紛失防止のため、持ち物には全てにお名前をお書きください。</p>
-                        <!-- <p class="p-txt-b"><span>※</span>スウェットやパーカー等、紐のついているものは避けるか、予め外して持参してください。</p> -->
+                        <p class="p-txt-b"><span>※</span>スウェットやパーカー等、紐のついているものは避けるか、予め外して持参してください。</p>
                         <p class="p-txt-b"><span>※</span>持ち物の紛失や破損等、自己管理されているものに関しては、当院では一切の責任を負えませんので、ご了承ください。</p>
                     </div>
                 </div>
@@ -200,7 +206,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="item03-sec">
+<section class="nyuuin-sec02 item03-sec">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
             <h2 class="h2-ttl h2-mb h2-mb-sp" id="item03-sec">入院中の生活</h2>
@@ -273,6 +279,10 @@ get_header();
                     <p class="pt25 pt15-sp">その他、入院中は医師、看護師等職員の指示に従ってください。入院患者さんの財産や生命を脅かす行為を再三繰り返す場合は退院していただきます。</p>
                 </div>
             </div>
+            <div class="file-icon-pdf">
+                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/img/common/nyuuin_img_02.pdf">入院パンフレット</a>
+                (1.4MB)
+            </div>
             <?php $nyuuin_pamphlet_link = scf::get('nyuuin_pamphlet_link'); ?>
             <?php if (!empty($nyuuin_pamphlet_link)) { ?>
                 <div class="ques-btn">
@@ -299,8 +309,8 @@ get_header();
                 <div class="procedure-detail accor" key="20">
                     <p>面会は原則自由ですが、病状が不安定な場合、医師が面会を制限することもございますので、あらかじめ主治医または病棟看護師にお尋ねください。</p>
                     <p class="pt25 pt15-sp">面会時間は下記の通りとなります。</p>
-                    <p class="pt25 pt15-sp">9時00分～20時30分（平日・土日祝共通）※コロナ以前</p>
-                    <p class="pt25 pt15-sp">現在は都度状況に合わせての対応となります。詳しくは<a class="txt-b dis-in" href="<?php echo home_url() . '/news'; ?>">お知らせページ</a>をご確認ください。</p>
+                    <p class="pt25 pt15-sp"><span>午前　10：30～11：30　/　午後　13：30～17：00</span>（平日・土日祝共通）</p>
+                    <!-- <p class="pt25 pt15-sp">現在は都度状況に合わせての対応となります。詳しくは<a class="txt-b dis-in" href="<?php echo home_url() . '/news'; ?>">お知らせページ</a>をご確認ください。</p> -->
                     <p class="pt25 pt15-sp">ご面会につきましては、検査や作業療法など治療に関するものを優先させていただく場合もございますので、あらかじめ病棟にご確認くださるようお願いいたします。</p>
                     <p class="pt25 pt15-sp">各病棟ごとの作業療法の時間は下記の通りとなります。作業療法の時間帯のご面会は、極力避けていただきますようお願い致します。</p>
                     <div class="interview-time">
@@ -334,8 +344,6 @@ get_header();
                         入院費（医療費）は1ヵ月を取りまとめ翌月15日に請求書を発送しておりますので月内に受付でお支払いください。なお医療費についてご質問等ございましたら、病院受付へお申し出ください。<br />
                         ※ 郵便書留での支払いも可能ですが、お釣りの返送はできません
                     </p>
-                    <p class="pt25 pt15-sp">入院費の支払い時間は下記の通りとなります。</p>
-                    <p class="pt25 pt15-sp">平日：9時00分～17時00分<br>土曜日：9時00分～12時00分</p>
                 </div>
             </div>
             <div class="procedure-block">
@@ -365,7 +373,7 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="procedure-block">
+            <!-- <div class="procedure-block">
                 <h3 class="procedure-ttl accor-ttl" id="table-accor" key="24">その他利用料など</h3>
                 <div class="scroll-bl">
                     <div class="procedure-detail accor scroll-wd" key="24">
@@ -448,7 +456,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="tb-scrollbtn js-fix01" style="">
                 <img class="inline-block sp" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin/sp-swipe.png" alt="Scroll" />
             </div>
