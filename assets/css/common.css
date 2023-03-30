@@ -1181,3 +1181,12 @@ i.chevron-right {
         font-size: 18px;
     }
 }
+
+/* Nuin page start */
+    .item01-sec .file-icon-pdf a{
+        text-decoration: 1px solid underline;
+        text-decoration-color: #32855e;
+        display: inline-block;
+    }
+/* Nuin page end */
+

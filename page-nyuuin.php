@@ -24,15 +24,15 @@ get_header();
             <li>
                 <a class="goto" href="#item01-sec">
                     <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin//item01.png" alt="入院の準備・手続き" /></div>
-                        <p class="goto-description">入院の準備・手続き</p>
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item03.png" alt="入院されるとき"></div>
+                        <p class="goto-description">入院されるとき</p>
                     </div>
                 </a>
             </li>
             <li>
                 <a class="goto" href="#item03-sec">
                     <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin//item03.png" alt="入院中の生活" /></div>
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item02.png" alt="入院中の生活"></div>
                         <p class="goto-description">入院中の生活</p>
                     </div>
                 </a>
@@ -40,7 +40,7 @@ get_header();
             <li>
                 <a class="goto" href="#item04-sec">
                     <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin//item04.png" alt="面談・面会について" /></div>
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item01.png" alt="面談・面会について"></div>
                         <p class="goto-description">面談・面会について</p>
                     </div>
                 </a>
@@ -48,7 +48,7 @@ get_header();
             <li>
                 <a class="goto" href="#item05-sec">
                     <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin//item05.png" alt="入院の費用" /></div>
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item04.png" alt="入院の費用"></div>
                         <p class="goto-description">入院の費用</p>
                     </div>
                 </a>
@@ -56,7 +56,7 @@ get_header();
             <li>
                 <a class="goto" href="#item06-sec">
                     <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin//item06.png" alt="その他事項" /></div>
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item05.png" alt="その他事項"></div>
                         <p class="goto-description">その他事項</p>
                     </div>
                 </a>
@@ -67,9 +67,15 @@ get_header();
 <section class="item01-sec bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn hospital-comm-btn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item01-sec">入院の準備・手続き</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item01-sec">入院されるとき</h2>
             <div class="hospital-content">
-                <p>当院に入院される方は、入院誓約書にご署名していただきます。</p>
+                <p>初めて受診される方は、来院時に問診票にご記入していただきます。<br>
+                    事前に問診票をダウンロードし、ご記入したものをご持参いただくと入院までの流れをスムーズに行うことができます。<br>
+                </p>
+            </div>
+            <div class="file-icon-pdf">
+                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/img/common/nuin_img_01.pdf">物忘れ問診票</a>
+                "(677.4KB)"
             </div>
 <!--
             <?php /*
