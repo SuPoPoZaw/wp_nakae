@@ -69,7 +69,7 @@ get_header();
     <div class="container">
         <div class="information">
             <h2 class="h2-ttl h2-mb">診療科目</h2>
-            <div class="medical-department">
+            <div class="medical-department nakae">
                 <ul>
                     <li>精神科</li>
                     <li>心療内科</li>

@@ -34,17 +34,17 @@ Top Page
     margin: 0 auto;
 }
 
-.medical-department ul{
+.nakae ul{
     margin-bottom: 20px;
 }
 
-.medical-department ul li {
+.nakae ul li {
     position: relative;
     padding-left: 15px;
     font-weight: 400;
 }
 
-.medical-department ul li::before {
+.nakae ul li::before {
     position: absolute;
     top: 50%;
     left: 0;
@@ -2205,9 +2205,13 @@ i.chevron-right {
     letter-spacing: .9px;
 }
 
-.overview-section {
+.mission-section {
     padding: 75px 0 70px 0;
     background-color: #fff;
+}
+
+.overview-section {
+    padding: 75px 0 70px 0;
 }
 
 .overview-text {
@@ -2353,12 +2357,25 @@ i.chevron-right {
     margin: 0 !important;
 }
 
+.overview-block ol {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.overview-block ol li{
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 768px) {
     .greeting-section {
         padding: 45px 0 50px 0;
     }
 
     .overview-section {
+        padding: 45px 0 50px 0;
+    }
+
+    .mission-section {
         padding: 45px 0 50px 0;
     }
 
