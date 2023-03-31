@@ -1192,7 +1192,7 @@ i.chevron-right {
     }
 }
 
-/* Nuin page start */
+/* nyuuin page start */
 .nyuuin-sec01 .file-icon-pdf a,.nyuuin-sec02 .file-icon-pdf a {
     display: inline-block;
     text-decoration: 1px solid underline;
@@ -1204,8 +1204,31 @@ i.chevron-right {
     margin-bottom: 40px;
 }
 
+/* nyuuin page end */
+
+/* dep page start */
+
 .dep-sec ol.procedure-detail li{
     margin-top: 20px;
 }
 
-/* Nuin page end */
+.dep-sec .file-icon-pdf a{
+    display: inline-block;
+    text-decoration: 1px solid underline;
+    text-decoration-color: #32855e;
+    margin-top: 10px;
+}
+
+.dep-sec .dep-card .card-body-wrapper {
+    max-width: 800px;
+    padding: 20px 10px;
+    text-align: justify;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* dep page end */
+
+
+
