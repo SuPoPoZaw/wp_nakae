@@ -1228,6 +1228,25 @@ i.chevron-right {
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 768px){
+    .dep-sec .accor {
+        display: block !important;
+    }
+
+    .dep-sec .recruit-info-gp .recruit-info-li{
+        flex-direction: column;
+    }
+
+    .dep-sec .recruit-info-gp .recruit-info-li li{
+        width: 100%;
+    }
+
+    .dep-sec .recruit-info-gp .recruit-info-li li a{
+        justify-content: start;
+        padding-left: 20px;
+    }
+}
+
 /* dep page end */
 
 
