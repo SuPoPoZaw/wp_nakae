@@ -97,7 +97,7 @@ get_header();
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">看護部</h2>
             <div class="recruit-info-gp" id="page_navi ">
-                <p class="mb20 procedure-ttl">このページでは次の情報をご案内しています。</p>
+                <p class="mb20 ">このページでは次の情報をご案内しています。</p>
                 <ul class="recruit-info-li">
                     <li>
                         <a href="#page-ttl-a01">精神科看護の特色</a>
@@ -264,7 +264,7 @@ get_header();
     <section id="item02-sec" class="item02-sec item-sec-border-sp">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">訪問看護</h2>
-            <div class="dep-card">
+            <div class="dep-card mb50 mb30-sp">
                 <div class="card-head">
                     <div class="card-head-ttl text-center">
                         <span>地域生活がより充実していくように</span>
@@ -279,9 +279,26 @@ get_header();
             </div>
             <div class="mb50 mb30-sp">
                 <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">訪問看護は何をしてくれるの？</h4>
-                <p>　
-                    かかりつけの医師と連絡をとり、心身の状態に応じて以下のようなケアを行います。体調・気分面に関するご相談や必要に応じた様々なサービスをご紹介したり、関係機関と綿密な連携をとり利用される方が安心して地域での生活を送れるための支援や調整をいたします。
+                <p>　かかりつけの医師と連絡をとり、心身の状態に応じて以下のようなケアを行います。体調・気分面に関するご相談や必要に応じた様々なサービスをご紹介したり、関係機関と綿密な連携をとり利用される方が安心して地域での生活を送れるための支援や調整をいたします。
                 </p>
+                <ul class="pl10">
+                    <li class="li mt10">心身の健康状態の確認と助言・・・辛いこと、気になること、前よりよくなったこと</li>
+                    <li class="li mt10">お薬についての確認・・・お薬をより効果的に利用できるように</li>
+                    <li class="li mt10">生活の相談・・・身の回りの家事全般に関することや周囲の対人関係等でお困りのこと</li>
+                    <li class="li mt10">各種サービスの相談・・・介護保険、精神関連についての情報提供や関係機関との調整</li>
+                </ul>
+            </div>
+            <div class="mb50 mb30-sp">
+                <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">訪問看護はどんな人が受けられるの？</h4>
+                <p>　当院の外来に通院されている方で疾病・障害を持ち、療養しながらご家庭で生活されている方。ご本人だけでなく、支えているご家族もサポートします。訪問の頻度や時間等についてはご利用される方のペースに応じてご相談させていただきます。</p>
+            </div>
+            <div class="mb50 mb30-sp">
+                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">ご利用に関して</h4>
+                <ul class="pl10">
+                    <li class="li mt10">1回の訪問時間は30～40分位となります。</li>
+                    <li class="li mt10">スタッフは担当制とはしていないためPSW（精神保健福祉士）・看護師が交代しながらお伺いします。</li>
+                    <li class="li mt10">個人情報保護の観点から、訪問車に病院名は入れておりません。また、スタッフの制服着用もないため私服でお伺いします。</li>
+                </ul>
             </div>
         </div>
     </section>
