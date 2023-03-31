@@ -97,28 +97,28 @@ get_header();
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">看護部</h2>
             <div class="recruit-info-gp" id="page_navi ">
-                <p class="mb20 procedure-ttl accor-ttl">このページでは次の情報をご案内しています。</p>
+                <p class="mb20 procedure-ttl">このページでは次の情報をご案内しています。</p>
                 <ul class="recruit-info-li">
                     <li>
-                        <a href="#recruit-info03">精神科看護の特色</a>
+                        <a href="#page-ttl-a01">精神科看護の特色</a>
                     </li>
                     <li>
-                        <a href="#recruit-info04">看護部の理念</a>
+                        <a href="#page-ttl-a02">看護部の理念</a>
                     </li>
                     <li>
-                        <a href="#recruit-info05">基本方針</a>
+                        <a href="#page-ttl-a03">基本方針</a>
                     </li>
                     <li>
-                        <a href="#recruit-info06">看護体制［勤務体制］</a>
+                        <a href="#page-ttl-a04">看護体制［勤務体制］</a>
                     </li>
                     <li>
-                        <a href="#recruit-info12">院内研修制度</a>
+                        <a href="#page-ttl-a05">院内研修制度</a>
                     </li>
                     <li>
-                        <a href="#recruit-info12">老年看護学実習・精神看護学実習受け入れ教育機関</a>
+                        <a href="#page-ttl-a06">老年看護学実習・精神看護学実習受け入れ教育機関</a>
                     </li>
                     <li>
-                        <a href="#recruit-info12">当院の看護職員の負担軽減及び処遇の改善に対する取り組み</a>
+                        <a href="#page-ttl-a07">当院の看護職員の負担軽減及び処遇の改善に対する取り組み</a>
                     </li>
                 </ul>
                 <p class="text-right mb20 mb10-sp">看護部長　日向 明美（認定看護管理者）</p>
@@ -141,20 +141,20 @@ get_header();
                     <!-- <h3 class="procedure-ttl accor-ttl" key="1">精神科看護の特色</h3> -->
                     <div class="accor" key="1" style="display: block;">
                         <div class="mb50 mb30-sp">
-                            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">基本的人権を尊重する</h4>
+                            <h4 id="page-ttl-a01" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">精神科看護の特色</h4>
                             <p>　日本精神科看護協会では「精神科看護とは、精神的健康について援助を必要としている人々に対し、個人の尊厳と権利擁護を基本理念として、専門的知識と技術を用い、自律性の回復を通して、その人らしい生活ができるように支援すること」と示されています。<br>
                                 　近年では、精神科医療分野の治療も進歩してきました。今、最も大切なことは、精神に病を抱えた人に関わる周囲の人たちの理解と支援です。<br>
                                 　中江病院は、一人の人間として患者様の人権を尊重し、意思決定を支え、倫理的配慮を意識し、質の向上に向けた関わりができるように、職員一同が日々精進しております。
                             </p>
                         </div>
                         <div class="mb50 mb30-sp">
-                            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">看護部の理念</h4>
+                            <h4 id="page-ttl-a02" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">看護部の理念</h4>
                             <p>
                                 　患者様が安全で安心してその人らしく過ごせるよう、人としての尊厳を尊重し、思いやりのある優しく誠実な看護・介護を提供し、地域に信頼される組織を目指します。
                             </p>
                         </div>
                         <div class="mb50 mb30-sp">
-                            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">基本方針</h4>
+                            <h4 id="page-ttl-a03" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">基本方針</h4>
                             <ol class="procedure-detail ml30">
                                 <li>
 
@@ -179,21 +179,57 @@ get_header();
                             </p>
                         </div>
                         <div class="mb50 mb30-sp">
-                            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">看護体制［勤務体制］</h4>
+                            <h4 id="page-ttl-a04" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">看護体制［勤務体制］</h4>
                             <p class="">　チームナーシングと受け持ち制・機能別を併用。</p>
                             <p class="mt20">［勤務体制］　※1か月単位の変形労働</p>
+                            <div class="emp-info-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>　　早日勤　　</td>
+                                            <td> 7:45　～　16:15 </td>
+                                        </tr>
+                                        <tr>
+                                            <td>　　中日勤</td>
+                                            <td> 早番8:50　～　17:20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>　　遅日勤</td>
+                                            <td>10:00　～　18:30</td>
+                                        </tr>
+                                        <tr>
+                                            <td>　　夜　勤</td>
+                                            <td>16:30　～　翌9:30</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div class="single-txt-line mb40 mb30-sp">
+                        <div class="mb50 mb30-sp">
+                            <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">院内研修制度</h4>
+                            <p>　新人からベテランまで、一人ひとりの習熟段階に応じてキャリア発達を組織的に支援する研修体系です。
+                                年間の教育プログラムに沿って研修を行っております。</p>
+                        </div>
+                        <div class="mb50 mb30-sp">
+                            <h4 id="page-ttl-a06" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">老年看護学実習・精神看護学実習受け入れ教育機関</h4>
                             <p>
-                                ※患者様が満足を感じられる看護提供を常に意識し、２４時間の質の低下させる事なく継続して行く努力を怠ってはならない。<br>
-                                ※看護が社会情勢や医療の仕組み、進歩に合わせて検証しながら生かされていくこと。<br>
-                                そして、日常の臨床現場で全スタッフが教え、教えられる教育的風土づくりの大切さを知る。
+                                　看護大学 1校・看護専門学校 2校計3校
                             </p>
+                        </div>
+                        <div class="mb50 mb30-sp">
+                            <h4 id="page-ttl-a07" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">当院の看護職員の負担軽減及び処遇の改善に対する取り組み</h4>
+                            <div class="file-icon-pdf ml10">
+                                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20190320111457.pdf" target="_blank">平成29年度　看護職員の負担軽減及び処遇の改善に対する計画書</a>(289.4KB)<br />
+                                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20190320111515.pdf" target="_blank">平成30年度　看護職員の負担軽減及び処遇の改善に対する計画書</a>(307.2KB)<br />
+                                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20190320111530.pdf" target="_blank">平成31年度　看護職員の負担軽減及び処遇の改善に対する計画書</a>(89.6KB)<br />
+                                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200331175223.pdf" target="_blank">令和元年度　看護職員の負担軽減及び処遇の改善に対する計画書</a>(87.5KB)<br />
+                                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200331175145.pdf" target="_blank">令和2年度　看護職員の負担軽減及び処遇の改善に対する計画書</a> (83.1KB)
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
+                <!-- <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl accor-ttl" key="2">活動方針</h3>
                     <div class="mb50 mb30-sp accor" key="2" style="display: block;">
                         <ol class="procedure-detail-ol">
@@ -218,7 +254,7 @@ get_header();
                             <li>看護者は必要な知識能力を高め、自己成長を促し、仕事への意欲を育てて良き社会人として豊かな人間性を促すために、継続学習や看護研究を行っていく。</li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -227,52 +263,25 @@ get_header();
 
     <section id="item02-sec" class="item02-sec item-sec-border-sp">
         <div class="container m-w800">
-            <h2 class="h2-ttl h2-mb">薬剤部</h2>
-            <div class="procedure-con">
-                <div class="single-txt-line mb40 mb30-sp">
-                    <p>
-                        最近では、少なくなりました院内処方を中心に外来患者さんに対応しております。<br>
-                        服用してみての薬剤の効果の有無、希望薬、必要だと思われる薬など患者さまより直接、様々なお話を伺うことが可能です。<br>
-                        これらの情報を直ちに医師へフィードバック出来るという利点を生かしながら業務に当たっています。
-                    </p>
-                </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="4">外来調剤・入院調剤</h3>
-                    <ul class="procedure-detail accor" key="4" style="display: block;">
-                        <li>外来調剤：当院では、院内処方で外来患者さまを対応しております。</li>
-                        <li>入院調剤：誤りのない薬剤の調剤供給を心掛けております。</li>
-                    </ul>
-                </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="5">注射薬業務</h3>
-                    <div class="procedure-detail-box accor" key="5" style="display: block;">
-                        <p>注射薬は、請求分を直接ナースステーションへ供給しております。</p>
+            <h2 class="h2-ttl h2-mb">訪問看護</h2>
+            <div class="dep-card">
+                <div class="card-head">
+                    <div class="card-head-ttl text-center">
+                        <span>地域生活がより充実していくように</span>
                     </div>
                 </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="6">薬剤管理指導業務</h3>
-                    <div class="procedure-detail-box accor" key="6" style="display: block;">
-                        <p>特に医師の目の届かない事柄についても薬剤投与（有無も含め）に反映出来るよう努めています。</p>
+                <div class="card-body">
+                    <div class="card-body-wrapper m-auto">
+                        <p>退院を間近に控えた方がご家庭や地域の中で安心してより豊かな生活を送っていけるようにお手伝いしていくことが訪問看護です。主治医の指示のもと外来・病棟・相談室・デイケア・地域の社会資源と連携しながらPSW（精神保健福祉士）・看護師がご家庭を訪問し、体調や生活について相談・支援を展開しています。お困りになる事がある場合はお気軽に主治医にご相談下さい。
+                        </p>
                     </div>
                 </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="7">医薬品の発注・在庫管理</h3>
-                    <div class="procedure-detail-box accor" key="7" style="display: block;">
-                        <p>需要と供給のバランスをとる様心掛けてしております。</p>
-                    </div>
-                </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="8">医薬品安全使用の収集及び提供</h3>
-                    <div class="procedure-detail-box accor" key="8" style="display: block;">
-                        <p>医薬品の安全性情報や添付文書の改訂内容、その他医薬に関する情報を随時提供しております。</p>
-                    </div>
-                </div>
-
+            </div>
+            <div class="mb50 mb30-sp">
+                <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">訪問看護は何をしてくれるの？</h4>
+                <p>　
+                    かかりつけの医師と連絡をとり、心身の状態に応じて以下のようなケアを行います。体調・気分面に関するご相談や必要に応じた様々なサービスをご紹介したり、関係機関と綿密な連携をとり利用される方が安心して地域での生活を送れるための支援や調整をいたします。
+                </p>
             </div>
         </div>
     </section>
