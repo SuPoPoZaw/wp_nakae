@@ -2214,6 +2214,15 @@ i.chevron-right {
     padding: 75px 0 70px 0;
 }
 
+.facilities-info-section{
+    padding: 75px 0 70px 0;
+    background-color: #fff;
+}
+
+.nursery-school-section{
+    padding: 75px 0 70px 0;
+}
+
 .overview-text {
     padding-bottom: 15px;
     margin-top: 40px;
@@ -2364,6 +2373,25 @@ i.chevron-right {
 
 .overview-block ol li{
     margin-bottom: 15px;
+}
+
+.patient-facilities{
+    display: flex;
+    gap: 2%;
+}
+
+.patient-facilities .left,
+.patient-facilities .right{
+    width: 50%;
+}
+
+.patient-facilities img{
+    width: 100%;
+}
+
+.hiospital-map{
+    max-width: 413px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -3762,6 +3790,15 @@ i.chevron-right {
     line-height: 1.9;
     text-align: left;
     border: 1px solid #ccc;
+}
+
+.overview-section .overview-table td:first-child{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.overview-section .overview-table .nakae ul li::before {
+    top: 13px;
 }
 
 .employment-information-content h3 {

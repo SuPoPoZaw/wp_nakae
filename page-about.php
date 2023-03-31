@@ -22,7 +22,7 @@ get_header();
     <div class="container m-w800">
         <ul class="anchor-list">
             <li>
-                <a class="goto" href="#greeting-section">
+                <a class="goto" href="#hospital-info01">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item01.png" alt="院長挨拶" /></div>
                         <p class="goto-description">院長挨拶</p>
@@ -31,7 +31,7 @@ get_header();
             </li>
 
             <li>
-                <a class="goto" href="#overview-section">
+                <a class="goto" href="#hospital-info02">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item02.png" alt="使命・運営理念" /></div>
                         <p class="goto-description">使命・運営理念</p>
@@ -40,7 +40,7 @@ get_header();
             </li>
 
             <li>
-                <a class="goto" href="#traffic-section">
+                <a class="goto" href="#hospital-info03">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item03.png" alt="病院概要" /></div>
                         <p class="goto-description">病院概要</p>
@@ -49,7 +49,7 @@ get_header();
             </li>
 
             <li>
-                <a class="goto" href="#floor-section">
+                <a class="goto" href="#hospital-info04">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item04.png" alt="施設案内" /></div>
                         <p class="goto-description">施設案内</p>
@@ -58,7 +58,7 @@ get_header();
             </li>
 
             <li>
-                <a class="goto" href="#floor-section">
+                <a class="goto" href="#hospital-info05">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item05.png" alt="院内保育所" /></div>
                         <p class="goto-description">院内保育所</p>
@@ -67,7 +67,7 @@ get_header();
             </li>
 
             <li>
-                <a class="goto" href="#floor-section">
+                <a class="goto" href="#hospital-info06">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item06.png" alt="アクセス" /></div>
                         <p class="goto-description">アクセス</p>
@@ -77,10 +77,10 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="greeting-section bg-gray">
+<section class="greeting-section bg-gray" id="hospital-info01">
     <div class="container">
         <div class="abouts">
-            <h2 class="h2-ttl" id="greeting-section">
+            <h2 class="h2-ttl">
                 <span>院長挨拶</span>
             </h2>
             <div class="greeting-block">
@@ -92,7 +92,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="mission-section">
+<section class="mission-section" id="hospital-info02">
     <div class="container">
         <div class="abouts">
             <h2 class="h2-ttl">
@@ -110,92 +110,239 @@ get_header();
         </div>
     </div>
 </section>
-<section class="overview-section bg-gray">
-    <h2 class="h2-ttl">病院概要</h2>
-</section>
-<section class="traffic-section">
-    <div class="container">
-        <div class="abouts">
-            <h2 class="h2-ttl" id="traffic-section">
-                <span> 交通アクセス </span>
-            </h2>
-            <p class="traffic-text">当院へ来院される方へのアクセス情報です。</p>
-            <div class="traffic-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2880.977639158391!2d142.36635568262145!3d43.773323000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcfb2993d08f915b1!2z5rK85bSO55eF6Zmi!5e0!3m2!1sja!2sjp!4v1656323596709!5m2!1sja!2sjp" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="car-block pb20">
-                <h3 class="block-title h3-ttl">お車の場合</h3>
-                <p class="block-txt">
-                    道央自動車道・旭川鷹栖ICから国道12号方面へ約5km（約11分）。
-                </p>
-            </div>
-            <div class="jr-block">
-                <h3 class="block-title h3-ttl">JR・バスの場合</h3>
-                <p class="block-txt">
-                    JR旭川駅北口より旭川電気軌道・市役所前バス停にて下車。徒歩4分。八条スタルヒン通り沿いにございます。
-                </p>
-            </div>
-            <!--<div class="bus-block">
-                <p class="block-title">バスの場合</p>
-                <p class="block-txt">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-            </div>-->
+<section class="overview-section bg-gray" id="hospital-info03">
+    <div class="container m-w800">
+        <h2 class="h2-ttl"><span>病院概要</span></h2>
+        <div class="overview-table">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>名　称</td>
+                        <td>医療法人社団　心優会　中江病院</td>
+                    </tr>
+                    <tr>
+                        <td>代表者</td>
+                        <td>
+                            <p>	理事長   三輪　英則</p>
+                            <p>院　長   小林　清樹</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>開　設</td>
+                        <td>昭和23年（1948年）5月</td>
+                    </tr>
+                    <tr>
+                        <td>病床数<br>（280床）</td>
+                        <td>
+                            <div class="nakae">
+                                <ul>
+                                    <li>東2病棟［認知症治療病棟］45床（看護師 20:1 看護補助者 25:1）</li>
+                                    <li>西2病棟［精神療養病棟］60床（看護師・看護補助者 15:1）</li>
+                                    <li>西3病棟［精神一般病棟］57床（看護師 15:1）</li>
+                                    <li>西4病棟［精神療養病棟］59床（看護師・看護補助者 15:1）</li>
+                                    <li>西5病棟［精神療養病棟］59床（看護師・看護補助者 15:1）</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>診察科</td>
+                        <td>精神科　心療内科　内科</td>
+                    </tr>
+                    <tr>
+                        <td>住　所</td>
+                        <td>
+                            <p>〒001-0022　札幌市北区北22条西7丁目2番1号</p>
+                            <p>電話（011）716-7181（代表）</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>
-<section class="floor-section bg-gray">
-    <div class="container">
-        <div class="abouts">
-            <h2 class="h2-ttl" id="floor-section">
-                <span> フロアガイド </span>
-            </h2>
-            <div class="hospitalization-facility">
-                <h3 class="floor-title h3-ttl">入院施設</h3>
-                <div class="floor-photo-block">
-                    <div class="floor-list">
-                        <div class="floor-photo">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/floor_guide01.png" alt="病室" />
-                        </div>
-                        <p class="floor-detail-title">病室1</p>
-                        <!-- <p class="floor-detail-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>-->
+<section class="facilities-info-section" id="hospital-info04">
+    <div class="container m-w800">
+        <h2 class="h2-ttl h2-mb">
+                <span>施設案内</span>
+        </h2>
+        <p class="fz-20 fz-18-sp mb20">このページでは次の情報をご案内しています。</p>
+        <div class="recruit-info-gp">
+            <ul class="recruit-info-li">
+                <li>
+                    <a href="#facilities-info01">入院施設</a>
+                </li>
+                <li>
+                    <a href="#facilities-info02">外来施設</a>
+                </li>
+                <li>
+                    <a href="#facilities-info03">院内マップ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mb30">
+            <h3 class="gairai-procedure-ttl" id="facilities-info01">入院施設</h3>
+            <div class="patient-facilities">
+                <div class="left">
+                    <div class="left-img mb15">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/facility_img_01.jpg" alt="心のケアを実践する病院です">
                     </div>
-                    <div class="floor-list">
-                        <div class="floor-photo">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/floor_guide02.png" alt="病室" />
-                        </div>
-                        <p class="floor-detail-title">病室2</p>
-                        <!-- <p class="floor-detail-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p> -->
+                    <div class="left-text">
+                        <p class="font-blue">心のケアを実践する病院です</p>
+                        <p>これからの精神病院に求められるイメージと機能をカタチにしました。</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-img mb15">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/facility_img_02.jpg" alt="やすらぎのアメニティー快適な入院生活を演出します">
+                    </div>
+                    <div class="right-text">
+                        <p class="font-blue">やすらぎのアメニティー快適な入院生活を演出します</p>
+                        <p>280床のきれいで明るい病室、専門の看護スタッフなど、ゆとりと安心の入院環境が整っています。</p>
                     </div>
                 </div>
             </div>
-            <div class="outpatient-facility">
-                <h3 class="floor-title h3-ttl">外来施設</h3>
-                <div class="floor-photo-block">
-                    <div class="floor-list">
-                        <div class="floor-photo">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/floor_guide03.png" alt="病室" />
-                        </div>
-                        <p class="floor-detail-title">病室1</p>
-                        <!-- <p class="floor-detail-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p> -->
+        </div>
+        <div class="mb30">
+            <h3 class="gairai-procedure-ttl" id="facilities-info02">外来施設</h3>
+            <div class="patient-facilities mb15">
+                <div class="left">
+                    <div class="left-img">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/facility_img_03.jpg" alt="外来イメージ1">
                     </div>
-                    <div class="floor-list">
-                        <div class="floor-photo">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/floor_guide03.png" alt="病室" />
-                        </div>
-                        <p class="floor-detail-title">病室2</p>
-                        <!-- <p class="floor-detail-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p> -->
+                </div>
+                <div class="right">
+                    <div class="right-img">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/facility_img_04.jpg" alt="外来施設イメージ2">
                     </div>
                 </div>
             </div>
-            <!--
-            <div class="hospital-map">
-                <p class="hm-title">院内マップ</p>
-                <div class="hm-photo-block">
-                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/floor_guide03.png" alt="院内マップ" />
+            <p><span class="font-blue">一人ひとりの心を癒します</span><br>
+            精神病院へ通うという従来の外来イメージが変わります。身体の不調で他科に受診するのと同じように、心の回復のために気軽に受診できる病院になります。</p>
+        </div>
+        <div class="mb30">
+            <h3 class="gairai-procedure-ttl" id="facilities-info03">院内マップ</h3>
+            <div class="hiospital-map">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/facility_img_05.png" alt="中江病院院内マップ">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="nursery-school-section bg-gray" id="hospital-info04">
+    <div class="container m-w800">
+        <h2 class="h2-ttl h2-mb">
+                <span>院内保育所</span>
+        </h2>
+        <p class="fz-20 fz-18-sp mb20">このページでは次の情報をご案内しています。</p>
+        <div class="recruit-info-gp">
+            <ul class="recruit-info-li">
+                <li>
+                    <a href="#nursery-school01">保育理念</a>
+                </li>
+                <li>
+                    <a href="#nursery-school02">保育所の取り組みについて</a>
+                </li>
+                <li>
+                    <a href="#nursery-school03">１日の過ごし方</a>
+                </li>
+                <li>
+                    <a href="#nursery-school04">給食について</a>
+                </li>
+                <li>
+                    <a href="#nursery-school05">入所概要</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mb30">
+            <h3 class="gairai-procedure-ttl">中江病院 院内保育所</h3>
+            <p class="h5-ttl">ママが安心して働ける環境を、子供がのびのび育つ環境を</p>
+            <p>中江病院では、子育て中の職員が安心して働けるように、院内保育所を設置しています。</p>
+            <div>
+                <h4 class="pro-sub-ttl" id="nursery-school01">保育理念</h4>
+                <div class="nakae">
+                    <ul>
+                        <li>健康・安全など生活に必要な基礎的習慣を養い、生命保持及び情緒の安定を図る</li>
+                        <li>人に対する愛情と信頼感、人権を大切にする心を育てるとともに、自主・協調の態度を養い、道徳性の芽生えを培う</li>
+                        <li>保育生活の中で、様々な体験を通じて豊かな感性を育て、想像力・思考力の芽生えを培う</li>
+                    </ul>
                 </div>
             </div>
-        -->
+            <div>
+                <h4 class="pro-sub-ttl" id="nursery-school02">保育所の取り組みについて</h4>
+                <div class="mb15">
+                    <p class="h5-ttl">＜毎日＞ 連絡帳</p>
+                    <p>保育中のお子様の様子を伝えたり、ご家庭からの相談事を記入していただいたり、ご家庭と保育所の連携を取ります。</p>
+                </div>
+                <div class="mb15">
+                    <p class="h5-ttl">＜毎月＞ 園だより</p>
+                    <p>保育所全体の様子や行事・誕生日などをお伝えします。</p>
+                </div>
+                <div class="mb15">
+                    <p class="h5-ttl">＜年間行事＞</p>
+                    <p>七夕・クリスマス会・節分・ひなまつり会など</p>
+                </div>
+                <div class="mb15">
+                    <p class="h5-ttl">＜その他＞</p>
+                    <p>身体測定・避難訓練・お誕生日会　各１回/月</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="pro-sub-ttl" id="nursery-school03">１日の過ごし方</h4>
+                <div class="overview-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>7時45分～</td>
+                                <td>
+                                    <div class="nakae">
+                                        <ul>
+                                            <li>登園</li>
+                                            <li>視診</li>
+                                            <li>自由遊び</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>代表者</td>
+                                <td>
+                                    <p>	理事長   三輪　英則</p>
+                                    <p>院　長   小林　清樹</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>開　設</td>
+                                <td>昭和23年（1948年）5月</td>
+                            </tr>
+                            <tr>
+                                <td>病床数<br>（280床）</td>
+                                <td>
+                                    <div class="nakae">
+                                        <ul>
+                                            <li>東2病棟［認知症治療病棟］45床（看護師 20:1 看護補助者 25:1）</li>
+                                            <li>西2病棟［精神療養病棟］60床（看護師・看護補助者 15:1）</li>
+                                            <li>西3病棟［精神一般病棟］57床（看護師 15:1）</li>
+                                            <li>西4病棟［精神療養病棟］59床（看護師・看護補助者 15:1）</li>
+                                            <li>西5病棟［精神療養病棟］59床（看護師・看護補助者 15:1）</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>診察科</td>
+                                <td>精神科　心療内科　内科</td>
+                            </tr>
+                            <tr>
+                                <td>住　所</td>
+                                <td>
+                                    <p>〒001-0022　札幌市北区北22条西7丁目2番1号</p>
+                                    <p>電話（011）716-7181（代表）</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </section>
