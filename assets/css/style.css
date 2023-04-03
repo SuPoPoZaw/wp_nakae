@@ -3,6 +3,7 @@
 :root {
   scroll-behavior: smooth;
   scroll-padding: 10px;
+  --primary-color: #32855e;
 }
 
 @media screen and (max-width: 768px) {
@@ -3779,6 +3780,7 @@ i.chevron-right {
   line-height: 1.9;
   text-align: left;
   border: 1px solid #ccc;
+  vertical-align: middle;
 }
 
 .overview-section .overview-table td:first-child {
@@ -4086,4 +4088,119 @@ h4 {
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.nav-desc {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.sec-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.sec-nav a {
+  flex-grow: var(--grow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  font-weight: 500;
+  width: max(146px, 15%);
+  margin: 10px 8px;
+  padding: 8px 16px;
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.sec-nav a:hover {
+  box-shadow: none;
+}
+
+.triangle-ttl {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  position: relative;
+  padding-left: 20px;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.triangle-ttl::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-color);
+  clip-path: polygon(0 0, 50% 50%, 0 100%);
+  left: 4px;
+  top: 8px;
+}
+
+.benefit-table {
+  border-collapse: separate;
+  border-spacing: 02px;
+}
+
+.benefit-table th {
+  text-align: left;
+  background-color: var(--primary-color);
+  padding: 0 10px;
+}
+
+.benefit-table .rowspan {
+  vertical-align: middle;
+}
+
+.benefit-table .colspan {
+  text-align: center;
+}
+
+.q-list li p:first-child {
+  font-weight: bold;
+}
+
+.tag {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0 16px;
+  font-size: 1.4rem;
+}
+
+.link:link {
+  color: var(--primary-color);
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.border-none {
+  border: none;
+}
+
+ul.dot li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+ul.dot li {
+  position: relative;
+  padding-left: 20px;
+}
+
+ul.dot li::before {
+  content: "";
+  background: var(--primary-color);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 6px;
+  top: 10px;
 }

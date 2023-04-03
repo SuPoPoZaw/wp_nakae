@@ -80,14 +80,6 @@ get_header();
 <section id="recruitment-information-list" class="item01-sec recruitment-information-list bg-gray">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">採用情報</h2>
-
-    </div>
-</section>
-
-<section id="about-recruitment" class="about-recruitment mt70 mt50-sp">
-    <div class="container m-w800">
-        <h2 class="h2-ttl h2-mb">職員募集について</h2>
-
         <table class="table-dec">
             <tbody>
                 <tr class="table-tr large-th">
@@ -126,333 +118,291 @@ get_header();
                     <td class="table-td"><a href="#">募集中</a></td>
                 </tr>
 
-
-
-
             </tbody>
         </table>
-
-
     </div>
 </section>
 
-<section id="employment-information-list" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
+<section id="celebration-money-system" class="about-recruitment mt70 mt50-sp">
     <div class="container m-w800">
-        <h2 class="h2-ttl h2-mb">採用情報詳細</h2>
+        <h2 class="h2-ttl h2-mb">就職お祝い金制度</h2>
 
         <div>
-            <h3 class="fz-20 fz-18-sp bd-line fz-18-sp">募集内容</h3>
-            <p>
-                当院では現在一緒に仕事をしてくれる下記職種のスタッフを募集しております。<br />
-                正式応募前の病院（病棟）見学は随時可能です。ご希望の方はお気軽に各問い合わせ先までご連絡ください。 日程調整をさせていただきます。<br />
-                熱意あるあなたをお待ちしております。
+            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">就職お祝い金制度</h4>
+            <p>当院では現在一緒に仕事をしてくれる下記職種のスタッフを募集しております。<br />
+                <a href="#">採用情報｜医療法人社団心優会 中江病院</a>
             </p>
 
-            <p class="text-blue pt25 mb40 mb30-sp">
-                当院ホームページをご覧いただき、直接応募いただいた方、ハローワーク経由で応募いただき、採用となった方には就職祝金制度があります。<br />
-                詳しくは、<?php $recruitment_position = scf::get('recruitment_position');
-                        if (!empty($recruitment_position)) {
-                            echo $recruitment_position;
-                        } ?>　<?php $recruitment_name = scf::get('recruitment_name');
-                                if (!empty($recruitment_name)) {
-                                    echo $recruitment_name;
-                                } ?>までお問い合わせください。
+
+            <p class="pt25">ハローワーク経由または直接応募の方を対象にした<strong>就職お祝い金制度</strong>を新設しました。<br />
+                <a href="#">採用情報｜医療法人社団心優会 中江病院</a>
             </p>
-        </div>
+            <p class="pt25">入職後の資格取得支援の制度もございますので、ご興味のある方は<strong>事務部長 阿部</strong>までご応募・お問い合わせください。</p>
 
-        <div class="employment-information-content">
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">採用条件</h4>
-                <p class="pl20">
-                    採用条件は当社規定によります。<br />
-                    詳細は募集要項内に記載された問合せ先までお問い合わせください。
-                </p>
-            </div>
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">応募方法</h4>
-                <p class="pl20">下記の応募先に履歴書（写真付き）・免許証写しを郵送ください。</p>
-            </div>
-        </div>
+            <p class="pt25">正式応募前の病院（病棟）見学は随時可能です。ご希望の方はお気軽に各問い合わせ先までご連絡ください。日程調整をさせていただきます。<br>
+                熱意あるあなたをお待ちしております。</p>
+            <p class="pt25"><strong>応募方法</strong><br>
+                下記の応募先に履歴書（写真付き）・免許証写しを郵送ください。</p>
 
-        <div class="card m-auto">
-            <div class="card-head">
-                <div class="card-head-ttl text-center">
-                    <span>共通応募先</span>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="card-body-wrapper m-auto">
-                    <p>〒 <span>070-0038</span> 北海道 旭川市8条通8丁目43番地<br>医療法人社団心優会　中江病院<br><span><?php $position01 = scf::get('position01');
-                                                                                            if (!empty($position01)) { ?> <?php echo $position01; ?><?php } ?></span>　<span><?php $name01 = scf::get('name01');
-                                                                                                                                                                            if (!empty($name01)) { ?><?php echo $name01; ?><?php } ?></span><br>電話　<span><?php $ph_num01 = scf::get('ph_num01');
-                                                                                                                                                                                                                                                            if (!empty($ph_num01)) { ?><?php echo $ph_num01; ?><?php } ?></span>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <?php $recruitment_num02 = scf::get('recruitment_num02'); ?>
-        <?php $working_hour02 = scf::get('working_hour02'); ?>
-        <?php $condition02 = scf::get('condition02'); ?>
-        <?php $position02 = scf::get('position02'); ?>
-        <?php $name02 = scf::get('name02'); ?>
-        <?php $ph_num02 = scf::get('ph_num02'); ?>
-        <?php if (!empty($recruitment_num02) || ($working_hour02) || ($condition02) || ($position02) || ($name02) || ($ph_num02)) { ?>
-            <div id="recruit-info12">
-                <h3 class="emp-info-text">看護補助者介護職員　または　介護福祉士（正職員）</h3>
-                <div class="emp-info-table">
-                    <table>
-                        <tr>
-                            <td>募集人数</td>
-                            <td>
-                                <?php if (!empty($recruitment_num02)) { ?>
-                                    <?php echo $recruitment_num02; ?>
-                                <?php } ?>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>勤務時間等</td>
-                            <td>
-                                <?php if (!empty($working_hour02)) { ?>
-                                    <?php echo $working_hour02; ?>
-                                <?php } ?>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>条件</td>
-                            <td>
-                                <?php if (!empty($condition02)) { ?>
-                                    <?php echo $condition02; ?>
-                                <?php } ?>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>お問い合わせ</td>
-                            <td>
-                                医療法人社団心優会　中江病院　<span><?php if (!empty($position02)) { ?><?php echo $position02; ?><?php } ?></span> <span><?php if (!empty($name02)) { ?><?php echo $name02; ?><?php } ?></span><br />電話　<span><?php if (!empty($ph_num02)) { ?><?php echo $ph_num02; ?><?php } ?></span><br />
-                                E-mail<br class="sp"> &lt;<?php $emai = scf::get('emai');
-                                                            if (!empty($emai)) { ?>
-                                <?php echo $emai; ?>
-                                <?php } ?>&gt;
-                            </td>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-        <?php } ?>
-        <div class="pb40" id="recruit-info03">
-            <h3 class="emp-info-text">看護師・准看護師（病棟・正職員）</h3>
-            <div class="emp-info-table">
+            <div class="emp-info-table" style="--text-color: #333;">
                 <table>
-                    <tr>
-                        <td>募集人数</td>
-                        <td>
-                            <?php $recruitment_nums = scf::get('recruitment_nums');
-                            if (!empty($recruitment_nums)) { ?>
-                                <?php echo $recruitment_nums; ?>
-                            <?php } ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>勤務時間等</td>
-                        <td>
-                            <?php $working_hour = scf::get('working_hour');
-                            if (!empty($working_hour)) { ?>
-                                <?php echo $working_hour; ?>
-                            <?php } ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>条件</td>
-                        <td>
-                            <?php $conditions = scf::get('conditions');
-                            if (!empty($conditions)) { ?>
-                                <?php echo $conditions; ?>
-                            <?php } ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>その他</td>
-                        <td>
-                            <?php $sono = scf::get('sono');
-                            if (!empty($sono)) { ?>
-                                <?php echo $sono; ?>
-                            <?php } ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>お問い合わせ</td>
-                        <td>
-                            医療法人社団心優会　中江病院　<span><?php if (!empty($position02)) { ?><?php echo $position02; ?><?php } ?></span> <span><?php if (!empty($name02)) { ?><?php echo $name02; ?><?php } ?></span><br />電話　<span><?php if (!empty($ph_num02)) { ?><?php echo $ph_num02; ?><?php } ?></span><br />
-                            E-mail<br class="sp"> &lt;<?php $emai = scf::get('emai');
-                                                        if (!empty($emai)) { ?>
-                            <?php echo $emai; ?>
-                            <?php } ?>&gt;
-                        </td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align: middle;"><strong>共通応募先</strong></td>
+                            <td>〒001-0022 <br>
+                                札幌市北区北22条西7丁目2-1 <br>
+                                医療法人社団　心優会 中江病院　事務部長 阿部<br>
+                                電話（011）716-7181</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
+
+
     </div>
 </section>
 
-<section id="nursing-scholarship" class="item04-sec nursing-scholarship">
+<section id="about-staff-recruitment" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
     <div class="container m-w800">
-        <h2 class="h2-ttl h2-mb">看護学生 奨学金制度</h2>
+        <h2 class="h2-ttl h2-mb">職員募集について</h2>
 
         <div>
-            <h3 class="fz-20 fz-18-sp bd-line fz-18-sp">看護学生奨学金制度について</h3>
-            <p class="mb50 mb30-sp">中江病院では、質の高い医療を目指し、人材の育成に力を注いでおります。その一環として、将来の看護師・准看護師養成のため、看護学校への進学を目指す方を対象に、奨学金を貸与する制度を設けています。</p>
-        </div>
+            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">募集内容</h4>
+            <p>当院では現在一緒に仕事をしてくれる、スタッフを募集しております。ご希望の方は、お電話にて各問い合わせ先までご連絡ください。熱意あるあなたをお待ちしております。</p>
 
-        <div class="nursing-scholarship-content">
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">対象となる方</h4>
-                <ul class="pl20 requirements">
-                    <li class="li">看護学校への入学が許可された方</li>
-                    <li class="li">看護学校に在学中の方（年度途中の方はお問い合わせください）</li>
-                    <li class="li">卒業後、中江病院にて看護業務に従事しようとする意志が明確な方</li>
-                    <li class="li">心身ともに健康であり、品行方正であって学業成績が良好である方</li>
-                </ul>
-            </div>
+            <h4 class="triangle-ttl">採用条件</h4>
+            <p>採用条件は当社規定によります。<br>
+                詳細は募集要項内に記載された問合せ先までお問い合わせください。</p>
 
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸与金額</h4>
-                <p class="pl20">看護師・准看護師奨学金として、月額 41,000～50,000円（他の奨学金との併用も可）</p>
+            <h4 class="triangle-ttl">就職お祝い金制度</h4>
+            <p>ハローワーク経由または直接応募の方を対象にした就職お祝い金制度を新設しました。<br>
+                入職後の資格取得支援の制度もございますので、ご興味のある方はご応募・お問い合わせください。</p>
+
+            <div class="pt25">
+                <a class="link" href="#">採用情報｜医療法人社団心優会 中江病院</a>
+                <a class="link" href="#"><span class="tag">PDF</span> 就職お祝い金制度 (147.1KB)</a>
             </div>
 
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">必要書類</h4>
-                <ul class="pl20 requirements">
-                    <li class="li">奨学金貸与申請書（指定の用紙）</li>
-                    <li class="li">履歴書（学校指定または市販のもので、写真貼付必須）</li>
-                    <li class="li">看護学校の入学を証明できるもの、または在学証明書</li>
-                    <li class="li">最終学歴の学校または在学中の学校の成績証明書</li>
-                    <li class="li">住民票の写し（本籍の記載のあるもの）</li>
-                </ul>
-            </div>
+            <h4 class="triangle-ttl">応募方法</h4>
+            <p>下記の応募先に履歴書（写真付き）・免許証写しを郵送ください。</p>
 
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸付審査</h4>
-                <p class="pl20">奨学金貸与の可否につきましては、書類選考・面接の上で決定いたします。</p>
-            </div>
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還免除</h4>
-                <p class="pl20">免許取得後、3年間または奨学金貸与期間に1年を足した期間、中江病院にて勤務</p>
-            </div>
-            <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還等について</h4>
-                <p class="pl20">在学中に休学や留年等の理由により、奨学金支給の欠格事由が発生した場合は、奨学金返還猶予制度を設けております。また、在学途中で中江病院以外の医療機関へ就職が決まったなどの事情により、奨学金を辞退される場合は、一括にて奨学金を返済していただきます。</p>
+            <div class="emp-info-table" style="--text-color: #333;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align: middle;"><strong>共通応募先</strong></td>
+                            <td>〒001-0022　札幌市北区北22条西7丁目2-1<br>
+                                医療法人社団　心優会 中江病院　事務部長 阿部<br>
+                                電話（011）716-7181</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
-        <div class="card m-auto">
-            <div class="card-head">
-                <div class="card-head-ttl text-center">
-                    <span>お問い合わせ</span>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="card-body-wrapper m-auto">
-                    <p>
-                        医療法人社団心優会　中江病院 <br />
-                        電話　<?php $ph_num04 = scf::get('ph_num04');
-                            if (!empty($ph_num04)) { ?>
-                        <?php echo $ph_num04; ?>
-                    <?php } ?><br>（担当：<span><?php $position04 = scf::get('position04');
-                                            if (!empty($position04)) { ?>
-                            <?php echo $position04; ?>
-                        <?php } ?></span><span><?php $name04 = scf::get('name04');
-                                                if (!empty($name04)) { ?>
-                            <?php echo $name04; ?>
-                        <?php } ?></span>）
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
-<!--
-<section id="certified-worker-scholarship" class="item05-sec certified-worker-scholarship bg-gray">
+
+<section id="recruitment-information" class="item04-sec nursing-scholarship">
     <div class="container m-w800">
-        <h2 class="h2-ttl h2-mb">介護福祉士 奨学金制度</h2>
+        <h2 class="h2-ttl h2-mb">採用情報</h2>
 
         <div>
-            <h3 class="fz-20 fz-18-sp bd-line fz-18-sp">介護福祉士奨学金制度について</h3>
-            <p class="mb50 mb30-sp">
-                中江病院では、質の高い医療を目指し、人材の育成に力を注いでおります。<br />
-                その一環として、将来の介護福祉士養成のため、専門学校への進学を目指す方を対象に、奨学金を貸与する制度を設けています。
-            </p>
-        </div>
+            <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">採用情報（医師）</h3>
 
-        <div class="certified-worker-scholarship-content">
-            <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">対象となる方</h3>
-                <ul class="pl20 requirements">
-                    <li class="li">介護福祉士養成のための専門学校への入学が許可された方</li>
-                    <li class="li">介護福祉士養成のための専門学校に在学中の方（年度途中の方はお問い合わせください）</li>
-                    <li class="li">卒業後、中江病院の医療・介護施設にて介護福祉士業務に従事しようとする意志が明確な方</li>
-                    <li class="li">心身ともに健康であり、品行方正であって学業成績が良好である方</li>
-                </ul>
-            </div>
-
-            <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸与金額</h3>
-                <p class="pl20">介護福祉士奨学金として、月額 35,000円以内（年間420,000円以内他の奨学金との併用も可）</p>
-            </div>
-
-            <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">必要書類</h3>
-                <ul class="pl20 requirements">
-                    <li class="li">奨学金貸与申請書（指定の用紙）</li>
-                    <li class="li">履歴書（学校指定または市販のもので、写真貼付必須）</li>
-                    <li class="li">介護福祉士養成のための専門学校の入学を証明できるもの、または在学証明書</li>
-                    <li class="li">最終学歴の学校または在学中の学校の成績証明書</li>
-                    <li class="li">住民票の写し（本籍の記載のあるもの）</li>
-                </ul>
-            </div>
-
-            <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸付審査</h3>
-                <p class="pl20">奨学金貸与の可否につきましては、書類選考・面接の上で決定いたします。</p>
-            </div>
-
-            <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還免除</h3>
-                <p class="pl20">免許取得後、奨学金貸与期間に1年を足した期間、中江病院の医療・介護施設にて勤務</p>
-            </div>
-
-            <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還等について</h3>
-                <p class="pl20">在学中に休学や留年等の理由により、奨学金支給の欠格事由が発生した場合は、奨学金返還猶予制度を設けております。また、在学途中で中江病院以外の医療機関へ就職が決まったなどの事情により、 奨学金を辞退される場合は、一括にて奨学金を返済していただきます。</p>
+            <div class="emp-info-table" style="--text-color: #333;">
+                <h4 class="triangle-ttl border-none">常勤医師</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><strong>職種・雇用形態 </strong></td>
+                            <td>医師（常勤）</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">募集内容・人数</td>
+                            <td>精神科（精神保健指定医）　1名</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
-        <div class="card m-auto">
-            <div class="card-head">
-                <h3 class="text-center">お問い合わせ</h3>
-            </div>
-            <div class="card-body">
-                <div class="card-body-wrapper m-auto">
-                    <p>
-                        医療法人社団心優会　中江病院 <br />
-                        電話　<?php $ph_num04 = scf::get('ph_num04');
-                            if (!empty($ph_num04)) { ?>
-                        <?php echo $ph_num04; ?>
-                    <?php } ?><br>（担当：<span><?php $position04 = scf::get('position04');
-                                            if (!empty($position04)) { ?>
-                            <?php echo $position04; ?>
-                        <?php } ?></span><span><?php $name04 = scf::get('name04');
-                                                if (!empty($name04)) { ?>
-                            <?php echo $name04; ?>
-                        <?php } ?></span>）
-                    </p>
-                </div>
+        <div class="mt45">
+            <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">採用情報（医療技術職）</h3>
+
+            <div class="emp-info-table" style="--text-color: #333;">
+                <h4 class="triangle-ttl border-none">作業療法士</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><strong>職種・雇用形態 </strong></td>
+                            <td>医師（常勤）</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">募集内容・人数</td>
+                            <td>精神科（精神保健指定医）　1名</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
+
+        <div class="mt45">
+            <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">採用情報（地域連携室、相談室職員　精神保健福祉士）</h3>
+
+            <div class="emp-info-table" style="--text-color: #333;">
+                <h4 class="triangle-ttl border-none">デイケア職員（精神保健福祉士）</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><strong>職種・雇用形態 </strong></td>
+                            <td>医師（常勤）</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">募集内容・人数</td>
+                            <td>精神科（精神保健指定医）　1名</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="mt45">
+            <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">採用情報（デイケア　看護師(正職員) ）</h3>
+
+            <div class="emp-info-table" style="--text-color: #333;">
+                <h4 class="triangle-ttl border-none">デイケア職員（看護師）</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><strong>職種・雇用形態 </strong></td>
+                            <td>医師（常勤）</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">募集内容・人数</td>
+                            <td>精神科（精神保健指定医）　1名</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="mt45">
+            <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">採用情報（看護師・准看護師（正職員））</h3>
+
+            <div class="emp-info-table" style="--text-color: #333;">
+                <h4 class="triangle-ttl border-none">正看護師（正職員）</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><strong>職種・雇用形態 </strong></td>
+                            <td>医師（常勤）</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">募集内容・人数</td>
+                            <td>精神科（精神保健指定医）　1名</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="emp-info-table" style="--text-color: #333;">
+                <h4 class="triangle-ttl border-none">准看護師（正職員）</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><strong>職種・雇用形態 </strong></td>
+                            <td>医師（常勤）</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">募集内容・人数</td>
+                            <td>精神科（精神保健指定医）　1名</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </div>
 </section>
--->
+
+<section id="nursing-scholarship" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
+    <div class="container m-w800">
+        <h2 class="h2-ttl h2-mb">職員募集について</h2>
+
+        <div class="sec-nav" style="--text-color: #1e803d;">
+            <a href="#item-1">対象となる方</a>
+            <a href="#item-2">貸与金額</a>
+            <a href="#item-3">必要書類</a>
+            <a href="#item-4">貸付審査</a>
+            <a href="#item-5">返還免除</a>
+            <a href="#item-6">返還等について</a>
+        </div>
+
+        <div class="mt35">
+            <h3 class="triangle-ttl">看護学生奨学金制度について</h3>
+            <p>中江病院では、質の高い医療を目指し、人材の育成に力を注いでおります。<br>
+                その一環として、将来の看護師・准看護師養成のため、看護学校への進学を目指す方を対象に、奨学金を貸与する制度を設けています。</p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-1" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">対象となる方</h3>
+
+            <ul class="dot">
+                <li>看護学校への入学が許可された方</li>
+                <li>看護学校に在学中の方（年度途中の方はお問い合わせください）</li>
+                <li>卒業後、中江病院にて看護業務に従事しようとする意志が明確な方</li>
+                <li>心身ともに健康であり、品行方正であって学業成績が良好である方</li>
+            </ul>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-2" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸与金額</h3>
+            <p>看護師・准看護師奨学金として、月額 41,000～50,000円（他の奨学金との併用も可）</p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-3" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">必要書類</h3>
+            <ul class="dot">
+                <li>奨学金貸与申請書（指定の用紙）</li>
+                <li>履歴書（学校指定または市販のもので、写真貼付必須）</li>
+                <li>看護学校の入学を証明できるもの、または在学証明書</li>
+                <li>最終学歴の学校または在学中の学校の成績証明書</li>
+                <li>住民票の写し（本籍の記載のあるもの）</li>
+            </ul>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-4" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸付審査</h3>
+            <p>奨学金貸与の可否につきましては、書類選考・面接の上で決定いたします。</p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-5" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還免除</h3>
+            <p>免許取得後、3年間または奨学金貸与期間に1年を足した期間、中江病院にて勤務</p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-6" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還等について</h3>
+            <p>在学中に休学や留年等の理由により、奨学金支給の欠格事由が発生した場合は、奨学金返還猶予制度を設けております。また、在学途中で中江病院以外の医療機関へ就職が決まったなどの事情により、奨学金を辞退される場合は、一括にて奨学金を返済していただきます。</p>
+        </div>
+
+        <div class="emp-info-table" style="--text-color: #333;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: middle;"><strong>お問い合わせ
+                            </strong></td>
+                        <td>医療法人社団 心優会 中江病院<br>
+                            Tel：011-727-8414（担当：事務部長 阿部）</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>
+
 <?php
 get_footer();

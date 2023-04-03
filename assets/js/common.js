@@ -3,7 +3,11 @@ $(".recruit-info-gp .recruit-info-li li a").matchHeight();
 jQuery(function ($) {
   $(function () {
     var scroll_func = function () {
-      $("html,body").animate({ scrollTop: $($(this).attr("href")).offset().top }, "slow", "swing");
+      $("html,body").animate(
+        { scrollTop: $($(this).attr("href")).offset().top },
+        "slow",
+        "swing"
+      );
       return false;
     };
     $(function () {
@@ -260,17 +264,17 @@ const elemId = hash.slice(1);
 
 // handle for the condition loading page with the second tag open
 if (elemId === "medical-tech-department") {
-  document.getElementById("nursing-department").classList.remove("active");
-  document.getElementById("left-dept").classList.remove("active");
+  document.getElementById("nursing-department")?.classList.remove("active");
+  document.getElementById("left-dept")?.classList.remove("active");
 
-  document.getElementById(elemId).classList.add("active");
-  document.getElementById("right-dept").classList.add("active");
+  document.getElementById(elemId)?.classList.add("active");
+  document.getElementById("right-dept")?.classList.add("active");
 } else if (elemId && !elemId.includes("itemr")) {
-  document.getElementById("nursing-department").classList.remove("active");
-  document.getElementById("left-dept").classList.remove("active");
+  document.getElementById("nursing-department")?.classList.remove("active");
+  document.getElementById("left-dept")?.classList.remove("active");
 
-  document.getElementById("medical-tech-department").classList.add("active");
-  document.getElementById("right-dept").classList.add("active");
+  document.getElementById("medical-tech-department")?.classList.add("active");
+  document.getElementById("right-dept")?.classList.add("active");
 }
 
 $(document).ready(function () {
