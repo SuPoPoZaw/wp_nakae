@@ -404,5 +404,83 @@ get_header();
     </div>
 </section>
 
+<section id="care-worker-scholarship" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
+    <div class="container m-w800">
+        <h2 class="h2-ttl h2-mb">介護福祉士 奨学金制度</h2>
+
+        <div class="sec-nav" style="--text-color: #1e803d;">
+            <a href="#item-1a">対象となる方</a>
+            <a href="#item-2a">貸与金額</a>
+            <a href="#item-3a">必要書類</a>
+            <a href="#item-4a">貸付審査</a>
+            <a href="#item-5a">返還免除</a>
+            <a href="#item-6a">返還等について</a>
+        </div>
+
+        <div class="mt35">
+            <h3 class="triangle-ttl">看護学生奨学金制度について</h3>
+            <p>中江病院では、質の高い医療を目指し、人材の育成に力を注いでおります。<br>
+                その一環として、将来の介護福祉士養成のため、専門学校への進学を目指す方を対象に、奨学金を貸与する制度を設けています</p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-1a" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">対象となる方</h3>
+
+            <ul class="dot">
+                <li>介護福祉士養成のための専門学校への入学が許可された方</li>
+                <li>介護福祉士養成のための専門学校に在学中の方（年度途中の方はお問い合わせください）</li>
+                <li>卒業後、中江病院の医療・介護施設にて介護福祉士業務に従事しようとする意志が明確な方</li>
+                <li>心身ともに健康であり、品行方正であって学業成績が良好である方</li>
+            </ul>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-2a" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸与金額</h3>
+            <p>介護福祉士奨学金として、月額 35,000円以内（年間420,000円以内他の奨学金との併用も可）
+            </p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-3a" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">必要書類</h3>
+            <ul class="dot">
+                <li>奨学金貸与申請書（指定の用紙）</li>
+                <li>履歴書（学校指定または市販のもので、写真貼付必須）</li>
+                <li>介護福祉士養成のための専門学校の入学を証明できるもの、または在学証明書</li>
+                <li>最終学歴の学校または在学中の学校の成績証明書</li>
+                <li>住民票の写し（本籍の記載のあるもの）</li>
+            </ul>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-4a" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">貸付審査</h3>
+            <p>奨学金貸与の可否につきましては、書類選考・面接の上で決定いたします。</p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-5a" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還免除</h3>
+            <p>免許取得後、奨学金貸与期間に1年を足した期間、中江病院の医療・介護施設にて勤務</p>
+        </div>
+
+        <div class="mt35">
+            <h3 id="item-6a" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">返還等について</h3>
+            <p>在学中に休学や留年等の理由により、奨学金支給の欠格事由が発生した場合は、奨学金返還猶予制度を設けております。また、在学途中で中江病院以外の医療機関へ就職が決まったなどの事情により、奨学金を辞退される場合は、一括にて奨学金を返済していただきます。</p>
+        </div>
+
+        <div class="emp-info-table" style="--text-color: #333;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: middle;"><strong>お問い合わせ
+                            </strong></td>
+                        <td>医療法人社団 心優会 中江病院<br>
+                            Tel：011-727-8414（担当：事務部長 阿部）
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>
 <?php
 get_footer();
