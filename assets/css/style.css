@@ -3075,11 +3075,6 @@ font-blue {
 }
 
 @media screen and (max-width: 786px) {
-  /* this is temp  */
-  .intro-outdor-doctor {
-    /* display: none; */
-  }
-
   .list-open-btn,
   .list-close-btn {
     display: block;
