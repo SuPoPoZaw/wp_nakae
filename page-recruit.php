@@ -331,13 +331,15 @@ get_header();
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">職員募集について</h2>
 
-        <div class="sec-nav" style="--text-color: #1e803d;">
-            <a href="#item-1">対象となる方</a>
-            <a href="#item-2">貸与金額</a>
-            <a href="#item-3">必要書類</a>
-            <a href="#item-4">貸付審査</a>
-            <a href="#item-5">返還免除</a>
-            <a href="#item-6">返還等について</a>
+        <div class="recruit-info-gp">
+            <ul class="recruit-info-li" style="--text-color: #1e803d;">
+                <li><a href="#item-1">対象となる方</a></li>
+                <li><a href="#item-2">貸与金額</a></li>
+                <li><a href="#item-3">必要書類</a></li>
+                <li><a href="#item-4">貸付審査</a></li>
+                <li><a href="#item-5">返還免除</a></li>
+                <li><a href="#item-6">返還等について</a></li>
+            </ul>
         </div>
 
         <div class="mt35">
@@ -408,13 +410,15 @@ get_header();
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">介護福祉士 奨学金制度</h2>
 
-        <div class="sec-nav" style="--text-color: #1e803d;">
-            <a href="#item-1a">対象となる方</a>
-            <a href="#item-2a">貸与金額</a>
-            <a href="#item-3a">必要書類</a>
-            <a href="#item-4a">貸付審査</a>
-            <a href="#item-5a">返還免除</a>
-            <a href="#item-6a">返還等について</a>
+        <div class="recruit-info-gp">
+            <ul class="recruit-info-li" style="--text-color: #1e803d;">
+                <li><a href="#item-1a">対象となる方</a></li>
+                <li><a href="#item-2a">貸与金額</a></li>
+                <li><a href="#item-3a">必要書類</a></li>
+                <li><a href="#item-4a">貸付審査</a></li>
+                <li><a href="#item-5a">返還免除</a></li>
+                <li><a href="#item-6a">返還等について</a></li>
+            </ul>
         </div>
 
         <div class="mt35">
