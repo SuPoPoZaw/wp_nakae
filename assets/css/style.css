@@ -2258,6 +2258,7 @@ i.chevron-right {
     padding: 8px;
     text-align: left;
     border: 1px solid #ccc;
+    vertical-align: middle;
 }
 
 .history-text {
