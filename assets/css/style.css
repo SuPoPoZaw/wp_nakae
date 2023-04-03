@@ -2256,16 +2256,10 @@ i.chevron-right {
 }
 
 .overview-table td {
-<<<<<<< HEAD
     padding: 8px;
     text-align: left;
     border: 1px solid #ccc;
     vertical-align: middle;
-=======
-  padding: 8px;
-  text-align: left;
-  border: 1px solid #ccc;
->>>>>>> 30b7d087349025984b09192ab2a56cc9712b20d6
 }
 
 .history-text {
