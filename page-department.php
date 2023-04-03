@@ -125,7 +125,7 @@ get_header();
             </div>
             <div class="procedure-con">
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="0">看護部長挨拶</h3>
+                    <h3 class="procedure-ttl " key="0">看護部長挨拶</h3>
                     <div class="procedure-detail-box accor" key="0" style="display: block;">
                         <p>　当院は昭和23年に開院した、280床を有する精神科単科の病院です。<br>
                             　現在、日本は既に少子超高齢化社会に突入しており、それに伴い、疾病構造も変化しています。<br>
@@ -138,7 +138,7 @@ get_header();
                 </div>
 
                 <div class=" mb40 mb0-sp">
-                    <!-- <h3 class="procedure-ttl accor-ttl" key="1">精神科看護の特色</h3> -->
+                    <!-- <h3 class="procedure-ttl " key="1">精神科看護の特色</h3> -->
                     <div class="accor" key="1" style="display: block;">
                         <div class="mb50 mb30-sp">
                             <h4 id="page-ttl-a01" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">精神科看護の特色</h4>
@@ -230,7 +230,7 @@ get_header();
                 </div>
 
                 <!-- <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="2">活動方針</h3>
+                    <h3 class="procedure-ttl " key="2">活動方針</h3>
                     <div class="mb50 mb30-sp accor" key="2" style="display: block;">
                         <ol class="procedure-detail-ol">
                             <li>挨拶を交わす。</li>
@@ -246,7 +246,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="3">看護師の果たす役割と責任</h3>
+                    <h3 class="procedure-ttl " key="3">看護師の果たす役割と責任</h3>
                     <div class="mb50 mb30-sp accor" key="3" style="display: block;">
                         <ul class="procedure-detail">
                             <li>個々の患者の背景を十分把握し、個別的な対応や指導援助が実践できる。常に自己の看護観を組織の中でのレベルに合わせる。</li>
@@ -300,59 +300,27 @@ get_header();
                     <li class="li mt10">個人情報保護の観点から、訪問車に病院名は入れておりません。また、スタッフの制服着用もないため私服でお伺いします。</li>
                 </ul>
             </div>
+            <div class="mb50 mb30-sp">
+                <p class="pg-btn fz-bold">
+                    予約制となっておりますので、事前にお電話でご予約の上、ご来院下さい。
+                </p>
+            </div>
         </div>
     </section>
 
 
     <section id="item03-sec" class="item03-sec item-sec-border-sp bg-gray">
         <div class="container m-w800">
-            <h2 class="h2-ttl h2-mb">栄養部</h2>
+            <h2 class="h2-ttl h2-mb">相談室</h2>
             <div class="procedure-con">
-                <div class="single-txt-line mb40 mb30-sp">
-                    <p>当院は直営施設であるため、患者様の健康状態を把握し食事に反映しています。</p>
+                <div class="recruit-info-gp" id="">
+                    <p class="mb20 ">このページでは次の情報をご案内しています。</p>
+                    <ul class="recruit-info-li">
+                        <li>
+                            <a href="#" style="height: 52px;">相談室理念</a>
+                        </li>
+                    </ul>
                 </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="9">スタッフ紹介</h3>
-                    <div class="procedure-detail-box accor" key="9" style="display: block;">
-                        <p>管理栄養士2名、栄養士1名、調理師5名、調理員6名体制で構成しています。</p>
-                        <p>20代～70代と様々な世代ですが、時には母となり・娘となり良好な関係を築いています。</p>
-                    </div>
-                </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="10">業務の紹介</h3>
-                    <div class="accor" key="10" style="display: block;">
-                        <div class="mb50 mb30-sp">
-                            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">給食管理</h4>
-                            <ul class="procedure-detail">
-                                <li>医師の指示のもと、治療の一環として患者さまの状態に応じた食事の提供を行っています。</li>
-                                <li>安心・安全な食事を提供するため、厚生労働省が定める「大量調理マニュアル」に基づいて調理・盛り付けを行っています。</li>
-                                <li>地元の業者様より新鮮な食材を仕入れ、手作りの食事提供を行っています。</li>
-                            </ul>
-                        </div>
-                        <div class="mb50 mb30-sp">
-                            <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">栄養管理</h4>
-                            <div class="procedure-detail-box">
-                                <p class="pl20 pb20">
-                                    入院・入所中の栄養状態の悪化を予防できるよう。<br>
-                                    定期的にアセスメントを行い栄養状態の管理を行っています。
-                                </p>
-                                <div class="pl20 single-txt-line mb40 mb30-sp">
-                                    <p>
-                                        <span class="fz-b">☆栄養食事指導・栄養食事相談</span><br>
-                                        医師から治療効果を高めるために食事指導が必要と診断された方には、管理栄養士が個々の患者さんに合わせて、食事のとり方などをアドバイスしたり、日々の食生活への不安や疑問などにお答えしています。
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="single-txt-line mb40 mb30-sp">
-                            <p>障害者雇用・障害者実習受け入れも積極的に行っています</p>
-                        </div>
-                    </div>
-                </div>
-
 
             </div>
         </div>
@@ -367,7 +335,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="11">内視鏡検査（胃カメラ、大腸カメラ）</h3>
+                    <h3 class="procedure-ttl " key="11">内視鏡検査（胃カメラ、大腸カメラ）</h3>
                     <div class="procedure-detail-box accor" key="11" style="display: block;">
                         <p>
                             2022年高出力LEDハイビジョンシステム導入により、高画質での検査を行っています。
@@ -384,7 +352,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="12">Ｘ線検査（レントゲン検査、バリウム検査）</h3>
+                    <h3 class="procedure-ttl " key="12">Ｘ線検査（レントゲン検査、バリウム検査）</h3>
                     <div class="procedure-detail-box accor" key="12" style="display: block;">
                         <p>
                             2021年Ｘ線画像診断システム導入により、高画質と被爆線量軽減に貢献しています。
@@ -401,7 +369,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="13">Ｘ線ＣＴ検査</h3>
+                    <h3 class="procedure-ttl " key="13">Ｘ線ＣＴ検査</h3>
                     <div class="procedure-detail-box accor" key="13" style="display: block;">
                         <p>
                             マルチスライスＣＴにて多様な検査にも対応しています。
@@ -418,7 +386,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="14">ＭＲＩ検査</h3>
+                    <h3 class="procedure-ttl " key="14">ＭＲＩ検査</h3>
                     <div class="procedure-detail-box accor" key="14" style="display: block;">
                         <p>
                             圧迫感が少ないオープンタイプＭＲＩにて検査を行います。
@@ -435,7 +403,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="15">超音波検査</h3>
+                    <h3 class="procedure-ttl " key="15">超音波検査</h3>
                     <div class="procedure-detail-box accor" key="15" style="display: block;">
                         <p>
                             放射線を使わない画像診断なのでMRIやCTでは確認できないものも確認することができます。
@@ -452,7 +420,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="16">心電図</h3>
+                    <h3 class="procedure-ttl " key="16">心電図</h3>
                     <div class="procedure-detail-box accor" key="16" style="display: block;">
                         <p>
                             心臓からの微弱な電流の流れより心臓の検査をします。
@@ -469,7 +437,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="17">骨塩定量測定検査</h3>
+                    <h3 class="procedure-ttl " key="17">骨塩定量測定検査</h3>
                     <div class="procedure-detail-box accor" key="17" style="display: block;">
                         <p>
                             踵からの測定なので車イスのままでも骨粗鬆症の診断や経過観察が行えます。
@@ -486,7 +454,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="18">眼底カメラ検査</h3>
+                    <h3 class="procedure-ttl " key="18">眼底カメラ検査</h3>
                     <div class="procedure-detail-box accor" key="18" style="display: block;">
                         <p>
                             眼の奥の血管や神経などの撮影を行います。
@@ -503,7 +471,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="19">血圧脈波検査</h3>
+                    <h3 class="procedure-ttl " key="19">血圧脈波検査</h3>
                     <div class="procedure-detail-box accor" key="19" style="display: block;">
                         <p>
                             手と足の血圧計測より動脈硬化を検査します。
@@ -520,7 +488,7 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl accor-ttl" key="20">肺年齢計スパイロメーター</h3>
+                    <h3 class="procedure-ttl " key="20">肺年齢計スパイロメーター</h3>
                     <div class="procedure-detail-box accor" key="20" style="display: block;">
                         <p>
                             可能な限りの息の吸い込みと吹き出しから肺機能を検査します。
