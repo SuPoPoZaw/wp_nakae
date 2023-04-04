@@ -77,48 +77,51 @@ get_header();
                 <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20181010120119.pdf" target="_blank">物忘れ問診票</a>
                 (677.4KB)
             </div>
-<!--
+            <!--
             <?php /*
             $monshin_nyuuin_gp = SCF::get('monshin_nyuuin_gp');
             foreach ($monshin_nyuuin_gp as $fields) { */
             ?>
                 <div class="hospital-comm-btn1">
                     <div class="ques-btn">
-                        <a href="<?php //echo $fields['nyuuin_link']; ?>"><?php //echo nl2br($fields['nyuuin_name']); ?></a>
+                        <a href="<?php //echo $fields['nyuuin_link']; 
+                                    ?>"><?php //echo nl2br($fields['nyuuin_name']); 
+                                        ?></a>
                     </div>
                 </div>
-            <?php //} ?>
+            <?php //} 
+            ?>
 -->
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="0">入院手続き</h3>
-                <div class="procedure-detail accor" key="0">
+                <h3 class="procedure-ttl">入院手続き</h3>
+                <div class="">
                     <p>
-                    入院時の手続きには印鑑が必要です。老人医療受給者証・重度心身障害者受給者証・母子家庭等医療費受給者証をお持ちの方は、保険証とともにお出しください。
+                        入院時の手続きには印鑑が必要です。老人医療受給者証・重度心身障害者受給者証・母子家庭等医療費受給者証をお持ちの方は、保険証とともにお出しください。
                     </p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="1">寝具</h3>
-                <div class="procedure-detail accor" key="1">
+                <h3 class="procedure-ttl ">寝具</h3>
+                <div class="">
                     <p>基準寝具を用意しておりますので、持ち込みは必要ありません。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="2">日用生活品</h3>
-                <div class="procedure-detail accor" key="2">
+                <h3 class="procedure-ttl ">日用生活品</h3>
+                <div class="">
                     <p>
-                    一日定額料金にて、入院中の日用生活品はすべて当院でご用意させていただいております。<br />
-                    これまでご家族様にお願いしておりました必要物品の買い出しやお持込みのご足労、洗濯等のお手間が軽減されます。また、病衣・タオル類の衛生管理を徹底することで、院外から持ち込まれる感染症から患者様をお守りする目的もございます。ご理解の程お願い致します。
-                    紙おむつをご使用の患者様につきましても、定額利用サービスをご利用いただいております。詳細につきましては、入院時に相談員よりご説明いたします。
+                        一日定額料金にて、入院中の日用生活品はすべて当院でご用意させていただいております。<br />
+                        これまでご家族様にお願いしておりました必要物品の買い出しやお持込みのご足労、洗濯等のお手間が軽減されます。また、病衣・タオル類の衛生管理を徹底することで、院外から持ち込まれる感染症から患者様をお守りする目的もございます。ご理解の程お願い致します。
+                        紙おむつをご使用の患者様につきましても、定額利用サービスをご利用いただいております。詳細につきましては、入院時に相談員よりご説明いたします。
                     </p>
                 </div>
             </div>
-            
+
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="3">保証金及びお小遣い</h3>
-                <div class="procedure-detail accor" key="3">
+                <h3 class="procedure-ttl ">保証金及びお小遣い</h3>
+                <div class="">
                     <div>
                         <p>入院のときにお預かりし、退院のときにお返ししています。受付にて手続きをお願いします。</p>
                         <div class="procedure-li">
@@ -137,11 +140,11 @@ get_header();
                     </div>
                 </div>
             </div>
-       
+
 
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="4">入院のときにご用意していただくもの</h3>
-                <div class="procedure-detail accor" key="4">
+                <h3 class="procedure-ttl ">入院のときにご用意していただくもの</h3>
+                <div class="">
                     <p><strong>内服薬</strong>（他科薬も含む）</p>
                     <p class="pt10"><strong>お薬手帳</strong>（薬剤情報提供<strong>書</strong>）</p>
                     <p class="pt10"><strong>介護シューズ</strong>または<strong>運動靴等のかかとのある履物</strong> ※スリッパは不可</p>
@@ -157,12 +160,12 @@ get_header();
             </div>
 
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="5">持ち込み禁止の物品について</h3>
-                <div class="procedure-detail accor" key="5">
+                <h3 class="procedure-ttl ">持ち込み禁止の物品について</h3>
+                <div class="nakae">
                     <p>当院では、患者さんが安心して療養生活を送っていただくために、病棟内に持ち込むことを禁止あるいは制限しているものがあります。</p>
                     <div>
                         <h4 class="pro-sub-ttl">持ち込み禁止</h4>
-                        <ul class="pro-sub-block">
+                        <ul class="">
                             <li>刃物類：ナイフ、カミソリ、ハサミ等</li>
                             <li>割れ物：陶器類、ガラス類</li>
                             <li>先の尖っている物：針、爪楊枝、傘、毛抜き、爪切り、フォーク、大スプーン等</li>
@@ -173,7 +176,7 @@ get_header();
                     </div>
                     <div>
                         <h4 class="pro-sub-ttl">主治医の許可が必要なもの</h4>
-                        <ul class="pro-sub-block">
+                        <ul class="">
                             <li>ベルト、スウェットの腰ひも、パンスト、タイツスカートなど特定の衣類</li>
                             <li>ラジオやイヤフォンなどのオーディオ機器</li>
                             <li>筆記用具類</li>
@@ -186,9 +189,9 @@ get_header();
             </div>
 
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="6">注意事項</h3>
-                <div class="procedure-detail accor" key="6">
-                    <div class="pro-sub-gP">
+                <h3 class="procedure-ttl ">注意事項</h3>
+                <div class="">
+                    <div class="pro-sub-gp">
                         <h4 class="pro-sub-ttl">貴重品に関して</h4>
                         <p>貴重品・貴金属は持参しないでください。ナースステーションでは預かることが出来ません。<br>また、破損・紛失・盗難に関して、当院では一切の責任を負うことが出来ません。自己責任となりますのでご了承ください。</p>
                     </div>
@@ -213,64 +216,64 @@ get_header();
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="9">食事</h3>
-                <div class="procedure-detail accor" key="9">
+                <h3 class="procedure-ttl ">食事</h3>
+                <div class="">
                     <p>食事時間は（朝8：00 昼12：00 夕18：00）です。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="10">手紙</h3>
-                <div class="procedure-detail accor" key="10">
+                <h3 class="procedure-ttl ">手紙</h3>
+                <div class="">
                     <p>手紙の発・受信に制限はございません。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="11">電話</h3>
-                <div class="procedure-detail accor" key="11">
+                <h3 class="procedure-ttl ">電話</h3>
+                <div class="">
                     <p>公衆電話は外来ロビーに1台あります。<br />また、院内での携帯電話の使用は禁止されています。ご了承ください。</p>
                     <p class="txt-b">※詰所での小銭の両替や電話のお取り次ぎはしておりません。<br />※夜間（患者さんがお休みになる時間）は緊急時以外ご遠慮ください。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="12">電気器具の使用</h3>
-                <div class="procedure-detail accor" key="12">
+                <h3 class="procedure-ttl ">電気器具の使用</h3>
+                <div class="">
                     <p>電気器具の使用は必ず看護師に申し出て許可を得てください。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="13">消灯</h3>
-                <div class="procedure-detail accor" key="13">
+                <h3 class="procedure-ttl ">消灯</h3>
+                <div class="">
                     <p>消灯時間は（21：00）です。<br />その後電灯をつけることはご遠慮ください。<br />起床時間は（6：00）をしております。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="14">外出・外泊</h3>
-                <div class="procedure-detail accor" key="14">
+                <h3 class="procedure-ttl ">外出・外泊</h3>
+                <div class="">
                     <p>許可制となっておりますので、あらかじめ主治医に申し出て許可を受けてください。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="15">病棟移動とそれに伴う主治医の変更について</h3>
-                <div class="procedure-detail accor" key="15">
+                <h3 class="procedure-ttl ">病棟移動とそれに伴う主治医の変更について</h3>
+                <div class="">
                     <p>入院中、やむを得ない理由（インフルエンザなどの感染対策、ベッド調整等）により、入院病棟を移動させていただくことがございます。その際、病棟の移動に伴って主治医が変更となる場合があり、大変ご迷惑をおかけいたしますがご了承ください。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="16">避難</h3>
-                <div class="procedure-detail accor" key="16">
+                <h3 class="procedure-ttl ">避難</h3>
+                <div class="">
                     <p>避難の際には、看護師又は職員の指示に従ってください。<br />病院全体で年2回消防訓練を行なっております。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="17">作業療法・レクリエーション等</h3>
-                <div class="procedure-detail accor" key="17">
+                <h3 class="procedure-ttl ">作業療法・レクリエーション等</h3>
+                <div class="">
                     <p>医療スタッフが各種プログラムを組んでお手伝いさせていただいております。</p>
                 </div>
             </div>
             <div class="procedure-block mb45">
-                <h3 class="procedure-ttl accor-ttl" key="18">その他</h3>
-                <div class="procedure-detail accor" key="18">
-                    <ul class="pro-sub-block">
+                <h3 class="procedure-ttl ">その他</h3>
+                <div class="nakae">
+                    <ul class="">
                         <li>病院敷地内は全面禁煙となっております。防災上、喫煙は固くお断りいたします。</li>
                         <li>盗難事故を防ぐため、高額な現金（2万円以上）、貴重品を持ち込まないでください。</li>
                         <li>他の病室、詰所、その他病院内の施設にみだりに出入りしないでください。</li>
@@ -299,14 +302,14 @@ get_header();
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="19">主治医にお話をお聞きになりたいときは</h3>
-                <div class="procedure-detail accor" key="19">
+                <h3 class="procedure-ttl ">主治医にお話をお聞きになりたいときは</h3>
+                <div class="">
                     <p>予約制になっておりますので、あらかじめ病棟を通じて日程を確認してください。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="20">面会</h3>
-                <div class="procedure-detail accor" key="20">
+                <h3 class="procedure-ttl ">面会</h3>
+                <div class="">
                     <p>面会は原則自由ですが、病状が不安定な場合、医師が面会を制限することもございますので、あらかじめ主治医または病棟看護師にお尋ねください。</p>
                     <p class="pt25 pt15-sp">面会時間は下記の通りとなります。</p>
                     <p class="pt25 pt15-sp"><span>午前　10：30～11：30　/　午後　13：30～17：00</span>（平日・土日祝共通）</p>
@@ -338,8 +341,8 @@ get_header();
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="21">支払い</h3>
-                <div class="procedure-detail accor" key="21">
+                <h3 class="procedure-ttl ">支払い</h3>
+                <div class="">
                     <p>
                         入院費（医療費）は1ヵ月を取りまとめ翌月15日に請求書を発送しておりますので月内に受付でお支払いください。なお医療費についてご質問等ございましたら、病院受付へお申し出ください。<br />
                         ※ 郵便書留での支払いも可能ですが、お釣りの返送はできません
@@ -347,8 +350,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="22">お小遣い</h3>
-                <div class="procedure-detail accor" key="22">
+                <h3 class="procedure-ttl ">お小遣い</h3>
+                <div class="">
                     <p>主な用途は下記のとおりで1ヵ月約2万円が目安です。</p>
                     <ul>
                         <ol>
@@ -365,8 +368,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="23">保険証の確認</h3>
-                <div class="procedure-detail accor" key="23">
+                <h3 class="procedure-ttl ">保険証の確認</h3>
+                <div class="">
                     <p>
                         健康保険証の資格等による誤請求事故防止のために毎月月初めに確認いたしますので、病院受付にご提出ください。<br />
                         また、保険証に変更があった場合は、速やかにお申し出ください。
@@ -374,9 +377,9 @@ get_header();
                 </div>
             </div>
             <!-- <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" id="table-accor" key="24">その他利用料など</h3>
+                <h3 class="procedure-ttl " id="table-accor" key="24">その他利用料など</h3>
                 <div class="scroll-bl">
-                    <div class="procedure-detail accor scroll-wd" key="24">
+                    <div class=" scroll-wd" key="24">
                         <div class="tvset-table01 pb20">
                             <table class="tvset-table-block">
                                 <tbody>
@@ -470,8 +473,8 @@ get_header();
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="44">医療相談</h3>
-                <div class="procedure-detail accor" key="44">
+                <h3 class="procedure-ttl ">医療相談</h3>
+                <div class="">
                     <p>
                         入・退院時、医療費の助成、年金の申請方法、手続き等ご不明な点がございましたら、1階相談室をご利用ください。（予約制）<br />
                         また、各書類（診断書など）の窓口にもなっておりますので、御用の際は相談室まで直接お申し出ください。
@@ -479,8 +482,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="procedure-ttl accor-ttl" key="25">退院の手続き</h3>
-                <div class="procedure-detail accor" key="25">
+                <h3 class="procedure-ttl ">退院の手続き</h3>
+                <div class="">
                     <p>
                         印鑑をお持ちください。入院費用（医療費）の支払いは退院時に病院受付にて済ませてください。<br />
                         入院時の保証金は領収書と引き換えにお返しします。お小遣いの精算は、退院して１週間ほどかかる場合もありますので、退院時に病棟受付にてご確認ください。
@@ -488,8 +491,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block pb40 pb0-sp">
-                <h3 class="procedure-ttl accor-ttl" key="26">その他</h3>
-                <div class="procedure-detail accor procedure-other-detail" key="26">
+                <h3 class="procedure-ttl ">その他</h3>
+                <div class=" procedure-other-detail">
                     <p>
                         個室や2人部屋などもございます。（差額室料が別途かかります）<br />病院の管理上、暴力団に関係する方の入院、通院及び面会等は固くお断りいたします。<br />
                         医療費・お小遣い等のお支払いが期日中になされない場合は、退院していただくこともありますのでご注意ください。
