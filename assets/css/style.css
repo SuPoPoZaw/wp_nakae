@@ -12,6 +12,11 @@
   }
 }
 
+::selection {
+  color: #fff;
+  background: #c0e0c7;
+}
+
 /* ===============================
 Top Page
 =============================== */
@@ -4218,4 +4223,13 @@ ul.dot li::before {
   position: absolute;
   left: 6px;
   top: 10px;
+}
+
+/* Day Care */
+.daycare-section{
+  padding: 75px 0 40px 0;
+}
+.img-container{
+  max-width: 340px;
+  margin: 0 auto;
 }

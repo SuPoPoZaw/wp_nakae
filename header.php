@@ -98,7 +98,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo home_url() . '/'; ?>">
+                                <a href="<?php echo home_url() . '/daycare'; ?>">
                                     <div class="nav-img3">
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img4.png" alt="デイケア・ショートケア" />
                                     </div>
