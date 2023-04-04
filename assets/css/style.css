@@ -1596,7 +1596,9 @@ td {
   border-radius: 10px;
   background: #32855e;
 }
-
+h3.procedure-ttl{
+  font-weight: 700;
+}
 .procedure-ttl {
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -4234,4 +4236,65 @@ ul.dot li::before {
 .img-container{
   max-width: 340px;
   margin: 0 auto;
+}
+.page-title_a5{
+  color: #2C3E50;
+  font-size: 100%;
+  margin: 10px 0px 3px 0px;
+}
+.p-taxt_a5{
+  font-size: 90%;
+}
+.time-schedule-table{
+  margin-top: 20px;
+}
+.time-schedule-table tr{
+  border-bottom: none;
+}
+.time-schedule-table th,
+.time-schedule-table td{
+  font-size: 1.6rem;
+  vertical-align: middle;
+  border: 2px solid #ccc;
+  padding: 12px 15px;
+  text-align: left;
+}
+.time-schedule-table th{
+  background: #c0e0c7;
+}
+.daycar-img{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.daycar-img-one{
+  max-width: 620px;
+  margin: 0 auto;
+}
+.expense-table table thead th{
+  background: #c0e0c7;
+  width: 25%;
+}
+.expense-table th,
+.expense-table td{
+  font-size: 1.6rem;
+  vertical-align: middle;
+  border: 2px solid #ccc;
+  padding: 12px 15px;
+}
+.daycare-inquiries .pg-btn{
+  text-align: center;
+  font-size: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .time-schedule-table th,
+  .time-schedule-table td{
+    font-size: 1.4rem;
+  }
+  .expense-table th,
+  .expense-table td{
+    font-size: 1.4rem;
+  }
+  .daycare-inquiries .pg-btn{
+    font-size: 1.8rem;
+  }
 }
