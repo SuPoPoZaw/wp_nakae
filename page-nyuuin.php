@@ -22,7 +22,7 @@ get_header();
     <div class="container m-w800">
         <ul class="anchor-list">
             <li>
-                <a class="goto" href="#item01-sec">
+                <a class="goto" href="#nyuuin-sec01">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item01.png" alt="入院されるとき"></div>
                         <p class="goto-description">入院されるとき</p>
@@ -30,7 +30,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item03-sec">
+                <a class="goto" href="#nyuuin-sec02">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item02.png" alt="入院中の生活"></div>
                         <p class="goto-description">入院中の生活</p>
@@ -38,7 +38,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item04-sec">
+                <a class="goto" href="#nyuuin-sec03">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item03.png" alt="面談・面会について"></div>
                         <p class="goto-description">面談・面会について</p>
@@ -46,7 +46,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item05-sec">
+                <a class="goto" href="#nyuuin-sec04">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item04.png" alt="入院の費用"></div>
                         <p class="goto-description">入院の費用</p>
@@ -54,7 +54,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item06-sec">
+                <a class="goto" href="#nyuuin-sec05">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item05.png" alt="その他事項"></div>
                         <p class="goto-description">その他事項</p>
@@ -64,10 +64,10 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="nyuuin-sec01 item01-sec bg-gray">
+<section class="item01-sec bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn hospital-comm-btn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item01-sec">入院されるとき</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec01">入院されるとき</h2>
             <div class="hospital-content">
                 <p>初めて受診される方は、来院時に問診票にご記入していただきます。<br>
                     事前に問診票をダウンロードし、ご記入したものをご持参いただくと入院までの流れをスムーズに行うことができます。<br>
@@ -209,10 +209,10 @@ get_header();
         </div>
     </div>
 </section>
-<section class="nyuuin-sec02 item03-sec">
+<section class="item03-sec">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item03-sec">入院中の生活</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec02">入院中の生活</h2>
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
@@ -298,7 +298,7 @@ get_header();
 <section class="item04-sec bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item04-sec">面談・面会について</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec03">面談・面会について</h2>
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
@@ -341,7 +341,7 @@ get_header();
 <section class="item05-sec">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item05-sec">入院の費用</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec04">入院の費用</h2>
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
@@ -473,7 +473,7 @@ get_header();
 <section class="item06-sec item06-sec-ow bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item06-sec">その他事項</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec05">その他事項</h2>
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
