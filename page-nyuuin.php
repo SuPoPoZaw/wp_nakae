@@ -341,8 +341,8 @@ get_header();
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="">支払い</h3>
-                <div class="">
+                <h3 class="h5-ttl">支払い</h3>
+                <div class="mb30">
                     <p>
                         入院費（医療費）は1ヵ月を取りまとめ翌月15日に請求書を発送しておりますので月内に受付でお支払いください。なお医療費についてご質問等ございましたら、病院受付へお申し出ください。<br />
                         ※ 郵便書留での支払いも可能ですが、お釣りの返送はできません
@@ -350,8 +350,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">お小遣い</h3>
-                <div class="">
+                <h3 class="h5-ttl">お小遣い</h3>
+                <div class="mb50">
                     <p>主な用途は下記のとおりで1ヵ月約2万円が目安です。</p>
                     <ul>
                         <ol>
@@ -361,15 +361,15 @@ get_header();
                             ２．洗濯代（私物：院内・院外クリーニング）、院内美容・理容、新聞代など
                         </ol>
                     </ul>
-                    <p class="p-txt-b mt35"><span>※</span>金銭管理を病院に委託される場合、約定書契約が必要です。</p>
+                    <p class="p-txt-b mt15"><span>※</span>金銭管理を病院に委託される場合、約定書契約が必要です。</p>
                     <p class="p-txt-b"><span>※</span>預り金手数料をお支払いいただきますが、管理の仕方により金額が異なりますので病棟でご確認ください。</p>
                     <p class="p-txt-b"><span>※</span>約定書契約の場合、個人別に毎月明細書をお渡ししています。</p>
                     <p class="p-txt-b"><span>※</span>個人別台帳を作成しており、すべてコンピュータ処理をしております。なお台帳の保管は1年間とさせていただいております。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">保険証の確認</h3>
-                <div class="">
+                <h3 class="h5-ttl">保険証の確認</h3>
+                <div class="mb30">
                     <p>
                         健康保険証の資格等による誤請求事故防止のために毎月月初めに確認いたしますので、病院受付にご提出ください。<br />
                         また、保険証に変更があった場合は、速やかにお申し出ください。
@@ -473,8 +473,8 @@ get_header();
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="">医療相談</h3>
-                <div class="">
+                <h3 class="h5-ttl">医療相談</h3>
+                <div class="mb30">
                     <p>
                         入・退院時、医療費の助成、年金の申請方法、手続き等ご不明な点がございましたら、1階相談室をご利用ください。（予約制）<br />
                         また、各書類（診断書など）の窓口にもなっておりますので、御用の際は相談室まで直接お申し出ください。
@@ -482,8 +482,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">退院の手続き</h3>
-                <div class="">
+                <h3 class="h5-ttl">退院の手続き</h3>
+                <div class="mb30">
                     <p>
                         印鑑をお持ちください。入院費用（医療費）の支払いは退院時に病院受付にて済ませてください。<br />
                         入院時の保証金は領収書と引き換えにお返しします。お小遣いの精算は、退院して１週間ほどかかる場合もありますので、退院時に病棟受付にてご確認ください。
@@ -491,8 +491,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block pb40 pb0-sp">
-                <h3 class="">その他</h3>
-                <div class=" procedure-other-detail">
+                <h3 class="h5-ttl">その他</h3>
+                <div class="procedure-other-detail">
                     <p>
                         個室や2人部屋などもございます。（差額室料が別途かかります）<br />病院の管理上、暴力団に関係する方の入院、通院及び面会等は固くお断りいたします。<br />
                         医療費・お小遣い等のお支払いが期日中になされない場合は、退院していただくこともありますのでご注意ください。
