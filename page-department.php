@@ -272,7 +272,7 @@ get_header();
                 </div>
                 <div class="card-body">
                     <div class="card-body-wrapper m-auto">
-                        <p>退院を間近に控えた方がご家庭や地域の中で安心してより豊かな生活を送っていけるようにお手伝いしていくことが訪問看護です。主治医の指示のもと外来・病棟・相談室・デイケア・地域の社会資源と連携しながらPSW（精神保健福祉士）・看護師がご家庭を訪問し、体調や生活について相談・支援を展開しています。お困りになる事がある場合はお気軽に主治医にご相談下さい。
+                        <p>　退院を間近に控えた方がご家庭や地域の中で安心してより豊かな生活を送っていけるようにお手伝いしていくことが訪問看護です。主治医の指示のもと外来・病棟・相談室・デイケア・地域の社会資源と連携しながらPSW（精神保健福祉士）・看護師がご家庭を訪問し、体調や生活について相談・支援を展開しています。お困りになる事がある場合はお気軽に主治医にご相談下さい。
                         </p>
                     </div>
                 </div>
@@ -313,15 +313,52 @@ get_header();
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">相談室</h2>
             <div class="procedure-con">
-                <div class="recruit-info-gp" id="">
-                    <p class="mb20 ">このページでは次の情報をご案内しています。</p>
+                <!-- <div class="recruit-info-gp mb20" id="">
+                    <p class="mb30 mb20-sp">このページでは次の情報をご案内しています。</p>
                     <ul class="recruit-info-li">
                         <li>
                             <a href="#" style="height: 52px;">相談室理念</a>
                         </li>
                     </ul>
+                </div> -->
+                <div class="mb50 mb30-sp">
+                    <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">相談室理念</h4>
+                    <p>　私たち医療ソーシャルワーカーは地域における精神保健福祉の発展のために貢献することを使命とします。</p>
                 </div>
-
+                <div class="dep-card mb50 mb30-sp">
+                    <div class="card-head">
+                        <div class="card-head-ttl text-center ">
+                            <span>診療・相談・訪問がチームを組んで、社会復帰をサポートします。</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body-wrapper m-auto">
+                            <p><span class="fz-bold">　当院ではチームを組んで患者さんの日常生活に関わるさまざまな心配事の相談に応じています。</span><br />
+                                病気になったり入院するということは、普段の生活とは異なり、わからないことや心配事が次々と出てくるものです。<br />
+                                経済的なこと、仕事のこと、これからの生活のこと・・・。<br />
+                                相談室では、患者様やご家族にいろいろな福祉制度やサービスなどをご紹介しながら、ご相談に乗り、不安を一つ一つ一緒に解消していくお手伝いをしています。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb50 mb30-sp">
+                    <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">たとえばどんな事に相談に乗ってくれるの？</h4>
+                    <p>　相談室では当院に入院・外来通院されている患者様やご家族様に対し、療養上のご心配事や各種制度などについてご相談にのらせていただいております。
+                    </p>
+                    <ul class="pl10">
+                        <li class="li mt20">医療費、生活費などの経済的な問題について</li>
+                        <li class="li mt10">自立支援、介護保険などの制度について</li>
+                        <li class="li mt10">介護施設、福祉施設などについて</li>
+                        <li class="li mt10">生活、仕事、療養上の不安や心配事について</li>
+                        <li class="li mt10">その他、どこに相談したらよいのかわからない事についてなど</li>
+                    </ul>
+                    <p class="mt30">　精神保健福祉士などの専門スタッフが退院後の生活、福祉サービスや年金の利用の仕方など、療養生活の中で起こるさまざまなご相談に応じています（無料）。相談内容についての秘密は厳守しております。ご家族の方にも開かれておりますので、ご利用を希望される方はお気軽にご連絡ください。</p>
+                </div>
+                <div class="mb50 mb30-sp">
+                    <p class="pg-btn fz-bold">
+                        予約制となっておりますので、事前にお電話でご予約の上、ご来院下さい。
+                    </p>
+                </div>
             </div>
         </div>
     </section>
