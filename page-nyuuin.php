@@ -302,14 +302,14 @@ get_header();
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="">主治医にお話をお聞きになりたいときは</h3>
-                <div class="">
+                <h3 class="h5-ttl">主治医にお話をお聞きになりたいときは</h3>
+                <div class="mb30">
                     <p>予約制になっておりますので、あらかじめ病棟を通じて日程を確認してください。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">面会</h3>
-                <div class="">
+                <h3 class="h5-ttl">面会</h3>
+                <div class="mb30">
                     <p>面会は原則自由ですが、病状が不安定な場合、医師が面会を制限することもございますので、あらかじめ主治医または病棟看護師にお尋ねください。</p>
                     <p class="pt25 pt15-sp">面会時間は下記の通りとなります。</p>
                     <p class="pt25 pt15-sp"><span>午前　10：30～11：30　/　午後　13：30～17：00</span>（平日・土日祝共通）</p>
@@ -329,6 +329,10 @@ get_header();
                         </div>
                         <p>※ 作業療法の開始時、終了時の時間帯は、患者様の移動のためエレベーターがご利用できません。</p>
                     </div>
+                </div>
+                <div class="time-block" style="width:100%">
+                    <h4 style="text-align:left; padding-left:10px;">お問い合わせ</h4>
+                    <p class="block-ti" style="text-align:left">中江病院</p>
                 </div>
             </div>
         </div>
