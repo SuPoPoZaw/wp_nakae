@@ -636,7 +636,7 @@ get_header();
             <div class=" mb50 mb30-sp">
                 <h5 class="h5-ttl">ご相談はこちらまで</h5>
                 <p class="mt20 mt10-sp mb10 fz-16-sp">
-                    <span class="fz-bold fz-20">TEL 011-716-8152（相談室直通）<br />
+                    <span class="fz-bold fz-20 fz-16-sp">TEL 011-716-8152（相談室直通）<br />
                         FAX 011-707-5801</span><br />
                     お電話もしくは相談室窓口にて入院相談とお伝え下さい。<br />
                     相談室スタッフにて、ご相談等お受けいたします。
