@@ -95,22 +95,22 @@ get_header();
         </div>
         <div class="">
             <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">入院手続き</h3>
-                <div class="">
+                <h3 class="h5-ttl">入院手続き</h3>
+                <div class="mt20 mt10-sp">
                     <p>
                         入院時の手続きには印鑑が必要です。老人医療受給者証・重度心身障害者受給者証・母子家庭等医療費受給者証をお持ちの方は、保険証とともにお出しください。
                     </p>
                 </div>
             </div>
             <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">寝具</h3>
-                <div class="">
+                <h3 class="h5-ttl">寝具</h3>
+                <div class="mt20 mt10-sp">
                     <p>基準寝具を用意しておりますので、持ち込みは必要ありません。</p>
                 </div>
             </div>
             <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">日用生活品</h3>
-                <div class="">
+                <h3 class="h5-ttl">日用生活品</h3>
+                <div class="mt20 mt10-sp">
                     <p>
                         一日定額料金にて、入院中の日用生活品はすべて当院でご用意させていただいております。<br />
                         これまでご家族様にお願いしておりました必要物品の買い出しやお持込みのご足労、洗濯等のお手間が軽減されます。また、病衣・タオル類の衛生管理を徹底することで、院外から持ち込まれる感染症から患者様をお守りする目的もございます。ご理解の程お願い致します。
@@ -120,8 +120,8 @@ get_header();
             </div>
 
             <div class="mb50 mb30-sp">
-                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">保証金及びお小遣い</h3>
-                <div class="">
+                <h3 class="h5-ttl">保証金及びお小遣い</h3>
+                <div class="mt20 mt10-sp">
                     <div>
                         <p>入院のときにお預かりし、退院のときにお返ししています。受付にて手続きをお願いします。</p>
                         <div class="procedure-li">
@@ -143,7 +143,7 @@ get_header();
 
 
             <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">入院のときにご用意していただくもの</h4>
+                <h4 class="h5-ttl">入院のときにご用意していただくもの</h4>
                 <div class="">
                     <p><strong>内服薬</strong>（他科薬も含む）</p>
                     <p class="pt10"><strong>お薬手帳</strong>（薬剤情報提供<strong>書</strong>）</p>
@@ -160,48 +160,51 @@ get_header();
             </div>
 
             <div class="mb50 mb30-sp">
-                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">持ち込み禁止の物品について</h4>
-                <div class="">
-                    <p>当院では、患者さんが安心して療養生活を送っていただくために、病棟内に持ち込むことを禁止あるいは制限しているものがあります。</p>
-                    <div>
-                        <h4 class="pro-sub-ttl">持ち込み禁止</h4>
-                        <ul class="">
-                            <li>刃物類：ナイフ、カミソリ、ハサミ等</li>
-                            <li>割れ物：陶器類、ガラス類</li>
-                            <li>先の尖っている物：針、爪楊枝、傘、毛抜き、爪切り、フォーク、大スプーン等</li>
-                            <li>火気類、可燃物：マッチ、ライター、除光液、スプレー類等</li>
-                            <li>長いひも類：電気のコード類、紙袋のひも等</li>
-                            <li class="pro-li-bl"><span>その他：</span><span class="pro-li-child">杖、マジックペン、のり、セロテープ、ビニール袋、香水、ヒールの高いサンダル、貴金属等の高価な品、携帯電話、パソコン、タブレット等</span></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="pro-sub-ttl">主治医の許可が必要なもの</h4>
-                        <ul class="">
-                            <li>ベルト、スウェットの腰ひも、パンスト、タイツスカートなど特定の衣類</li>
-                            <li>ラジオやイヤフォンなどのオーディオ機器</li>
-                            <li>筆記用具類</li>
-                            <li>洗剤類</li>
-                            <li>化粧品、コンパクト、手鏡（直径６センチメートルまで）、ムース、アクセサリー等</li>
-                        </ul>
-                        <p class="p-txt-n mt25 mt15-sp"><span>※</span>患者さんの病状によっては、許可が下りるまで時間が掛かることがあります。</p>
-                    </div>
-                </div>
+                <h4 class="h5-ttl">持ち込み禁止の物品について</h4>
+                <p class="mt20 mt10-sp">
+                    当院では、患者さんが安心して療養生活を送っていただくために、病棟内に持ち込むことを禁止あるいは制限しているものがあります。
+                </p>
+            </div>
+
+            <div class="nakae mb50 mb30-sp">
+                <h4 class="pg-btn mb15">持ち込み禁止</h4>
+                <ul>
+                    <li>刃物類：ナイフ、カミソリ、ハサミ等</li>
+                    <li>割れ物：陶器類、ガラス類</li>
+                    <li>先の尖っている物：針、爪楊枝、傘、毛抜き、爪切り、フォーク、大スプーン等</li>
+                    <li>火気類、可燃物：マッチ、ライター、除光液、スプレー類等</li>
+                    <li>長いひも類：電気のコード類、紙袋のひも等</li>
+                    <li>その他：杖、マジックペン、のり、セロテープ、ビニール袋、香水、ヒールの高いサンダル、貴</li>
+                </ul>
+                <p>金属等の高価な品、携帯電話、パソコン、タブレット等</p>
+            </div>
+
+            <div class="nakae mb50 mb30-sp">
+                <h4 class="pg-btn mb15">主治医の許可が必要なもの</h4>
+                <ul>
+                    <li>ベルト、スウェットの腰ひも、パンスト、タイツスカートなど特定の衣類</li>
+                    <li>ラジオやイヤフォンなどのオーディオ機器</li>
+                    <li>筆記用具類</li>
+                    <li>洗剤類</li>
+                    <li>化粧品、コンパクト、手鏡（直径６センチメートルまで）、ムース、アクセサリー等</li>
+                </ul>
+                <p class="p-txt-b mt20"><span>※</span>患者さんの病状によっては、許可が下りるまで時間が掛かることがあります。</p>
             </div>
 
             <div class="">
                 <h4 class="triangle-ttl">注意事項</h4>
                 <div class="mt20 mt10-sp">
-                    <div class="pro-sub-gP">
-                        <h4 class="pro-sub-ttl">貴重品に関して</h4>
-                        <p>貴重品・貴金属は持参しないでください。ナースステーションでは預かることが出来ません。<br>また、破損・紛失・盗難に関して、当院では一切の責任を負うことが出来ません。自己責任となりますのでご了承ください。</p>
+                    <div class="mb50 mb30-sp">
+                        <h4 class="h5-ttl">貴重品に関して</h4>
+                        <p class="mt20 mt10-sp">貴重品・貴金属は持参しないでください。ナースステーションでは預かることが出来ません。<br>また、破損・紛失・盗難に関して、当院では一切の責任を負うことが出来ません。自己責任となりますのでご了承ください。</p>
                     </div>
-                    <div>
-                        <h4 class="pro-sub-ttl">持ち物の記名について</h4>
-                        <p>持ち物には、全て病棟名とお名前をフルネームで記入するようにしてください。衣類には、タグ部分などの見やすい箇所に記入をお願いします。</p>
+                    <div class="mb50 mb30-sp">
+                        <h4 class="h5-ttl">持ち物の記名について</h4>
+                        <p class="mt20 mt10-sp">持ち物には、全て病棟名とお名前をフルネームで記入するようにしてください。衣類には、タグ部分などの見やすい箇所に記入をお願いします。</p>
                     </div>
-                    <div>
-                        <h4 class="pro-sub-ttl">食べ物・飲み物の持ち込みについて</h4>
-                        <p>面会時にお持ちになる食べ物に関して、喉つまり等の危険があるため、必ず事前に病棟詰所にお越し下さい。持ち込み品の確認をさせていただきます。また、食中毒防止のため、生もの（生寿司等）に関しては、お持ち込みを禁止させていただいております。その他、傷みやすいものに関しては、お持ち帰りいただくことがありますので、ご了承ください。飲み物につきましては、お持ち込み可能ですが、病棟でお預かりできる量にも限りがございますので病棟看護師にご相談ください。</p>
+                    <div class="mb50 mb30-sp">
+                        <h4 class="h5-ttl">食べ物・飲み物の持ち込みについて</h4>
+                        <p class="mt20 mt10-sp">面会時にお持ちになる食べ物に関して、喉つまり等の危険があるため、必ず事前に病棟詰所にお越し下さい。持ち込み品の確認をさせていただきます。また、食中毒防止のため、生もの（生寿司等）に関しては、お持ち込みを禁止させていただいております。その他、傷みやすいものに関しては、お持ち帰りいただくことがありますので、ご了承ください。<br />飲み物につきましては、お持ち込み可能ですが、病棟でお預かりできる量にも限りがございますので病棟看護師にご相談ください。</p>
                         <p class="p-txt-b mt35"><span>※</span>通常、持ち込み可能なものにつきましても、患者さんの病状や食中毒などの感染症の流行時期によっては、一時制限される場合があります。ご了承ください。</p>
                     </div>
                 </div>
@@ -209,92 +212,85 @@ get_header();
         </div>
     </div>
 </section>
+
 <section class="nyuuin-sec02 item03-sec">
     <div class="container m-w800">
-        <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item03-sec">入院中の生活</h2>
+        <h2 class="h2-ttl h2-mb">入院中の生活</h2>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">食事</h3>
+            <p class="mt20 mt10-sp">食事時間は（朝8：00 昼12：00 夕18：00）です。</p>
         </div>
-        <div class="procedure-con">
-            <div class="procedure-block">
-                <h3 class="">食事</h3>
-                <div class="">
-                    <p>食事時間は（朝8：00 昼12：00 夕18：00）です。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">手紙</h3>
-                <div class="">
-                    <p>手紙の発・受信に制限はございません。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">電話</h3>
-                <div class="">
-                    <p>公衆電話は外来ロビーに1台あります。<br />また、院内での携帯電話の使用は禁止されています。ご了承ください。</p>
-                    <p class="txt-b">※詰所での小銭の両替や電話のお取り次ぎはしておりません。<br />※夜間（患者さんがお休みになる時間）は緊急時以外ご遠慮ください。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">電気器具の使用</h3>
-                <div class="">
-                    <p>電気器具の使用は必ず看護師に申し出て許可を得てください。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">消灯</h3>
-                <div class="">
-                    <p>消灯時間は（21：00）です。<br />その後電灯をつけることはご遠慮ください。<br />起床時間は（6：00）をしております。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">外出・外泊</h3>
-                <div class="">
-                    <p>許可制となっておりますので、あらかじめ主治医に申し出て許可を受けてください。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">病棟移動とそれに伴う主治医の変更について</h3>
-                <div class="">
-                    <p>入院中、やむを得ない理由（インフルエンザなどの感染対策、ベッド調整等）により、入院病棟を移動させていただくことがございます。その際、病棟の移動に伴って主治医が変更となる場合があり、大変ご迷惑をおかけいたしますがご了承ください。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">避難</h3>
-                <div class="">
-                    <p>避難の際には、看護師又は職員の指示に従ってください。<br />病院全体で年2回消防訓練を行なっております。</p>
-                </div>
-            </div>
-            <div class="procedure-block">
-                <h3 class="">作業療法・レクリエーション等</h3>
-                <div class="">
-                    <p>医療スタッフが各種プログラムを組んでお手伝いさせていただいております。</p>
-                </div>
-            </div>
-            <div class="procedure-block mb45">
-                <h3 class="">その他</h3>
-                <div class="">
-                    <ul class="">
-                        <li>病院敷地内は全面禁煙となっております。防災上、喫煙は固くお断りいたします。</li>
-                        <li>盗難事故を防ぐため、高額な現金（2万円以上）、貴重品を持ち込まないでください。</li>
-                        <li>他の病室、詰所、その他病院内の施設にみだりに出入りしないでください。</li>
-                        <li>院内の備品、器具類は大切にお取り扱いください。なお破損させた場合は実費を弁償していただきます。</li>
-                    </ul>
-                    <p class="pt25 pt15-sp">その他、入院中は医師、看護師等職員の指示に従ってください。入院患者さんの財産や生命を脅かす行為を再三繰り返す場合は退院していただきます。</p>
-                </div>
-            </div>
-            <div class="file-icon-pdf">
-                <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200331174111.pdf" target="_blank">入院パンフレット</a>
-                (1.4MB)
-            </div>
-            <?php $nyuuin_pamphlet_link = scf::get('nyuuin_pamphlet_link'); ?>
-            <?php if (!empty($nyuuin_pamphlet_link)) { ?>
-                <div class="ques-btn">
-                    <a href="<?php echo $nyuuin_pamphlet_link; ?>">入院パンフレットを見る</a>
-                </div>
-            <?php } ?>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">手紙</h3>
+            <p class="mt20 mt10-sp">手紙の発・受信に制限はございません。</p>
         </div>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">電話</h3>
+            <p class="mt20 mt10-sp">公衆電話は外来ロビーと各病棟にそれぞれ1台あります。<br />
+                また、院内での携帯電話の使用は禁止されています。ご了承ください。
+            </p>
+            <p class="p-txt-b mt20"><span>※</span>詰所での小銭の両替や電話のお取り次ぎはしておりません。</p>
+            <p class="p-txt-b"><span>※</span>夜間（患者さんがお休みになる時間）は緊急時以外ご遠慮ください。</p>
+        </div>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">電気器具の使用</h3>
+            <p class="mt20 mt10-sp">電気器具の使用は必ず看護師に申し出て許可を得てください。</p>
+        </div>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">消灯</h3>
+            <p class="mt20 mt10-sp">
+                消灯時間は（21：00）です。<br />
+                その後電灯をつけることはご遠慮ください。<br />
+                起床時間は（6：50）をしております。
+            </p>
+        </div>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">外出・外泊</h3>
+            <p class="mt20 mt10-sp">許可制となっておりますので、あらかじめ主治医に申し出て許可を受けてください。</p>
+        </div>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">病棟移動とそれに伴う主治医の変更について</h3>
+            <p class="mt20 mt10-sp">入院中、やむを得ない理由（インフルエンザなどの感染対策，ベッド調整等）により、入院病棟を移動させていただくことがございます。その際、病棟の移動に伴って主治医が変更となる場合があり，大変ご迷惑をおかけいたしますがご了承ください。</p>
+        </div>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">避難</h3>
+            <p class="mt20 mt10-sp">避難の際には、看護師又は職員の指示に従ってください。<br />
+                病棟毎で毎月1回、病院全体で年2回消防訓練を行なっております。
+            </p>
+        </div>
+
+        <div class="mb50 mb30-sp">
+            <h3 class="h5-ttl">作業療法・レクリエーション等</h3>
+            <p class="mt20 mt10-sp">医療スタッフが各種プログラムを組んでお手伝いさせていただいております。</p>
+        </div>
+
+        <div class="nakae mb50 mb30-sp">
+            <h3 class="h5-ttl">その他</h3>
+            <ul class="pl10">
+                <li class=" mt20">病院敷地内は全面禁煙となっております。防災上、喫煙は固くお断りいたします。</li>
+                <li class=" mt10">盗難事故を防ぐため、高額な現金（2万円以上）、貴重品を持ち込まないでください。</li>
+                <li class=" mt10">他の病室、詰所、その他病院内の施設にみだりに出入りしないでください。</li>
+                <li class=" mt10">院内の備品、器具類は大切にお取り扱いください。なお破損させた場合は実費を弁償していただきます。</li>
+            </ul>
+            <p class="mt30">その他、入院中は医師、看護師等職員の指示に従ってください。入院患者さんの財産や生命を脅かす行為を再三繰り返す場合は退院していただきます。</p>
+        </div>
+
+        <div class="file-icon-pdf">
+            <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200331174111.pdf" target="_blank">物忘れ問診票</a>
+            (677.4KB)
+        </div>
+
     </div>
 </section>
+
 <section class="item04-sec bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">

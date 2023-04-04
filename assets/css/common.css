@@ -1193,14 +1193,14 @@ i.chevron-right {
 }
 
 /* nyuuin page start */
-.nyuuin-sec01 .file-icon-pdf a,.nyuuin-sec02 .file-icon-pdf a {
+.item01-sec .file-icon-pdf a,.nyuuin-sec02 .file-icon-pdf a {
     display: inline-block;
     text-decoration: 1px solid underline;
 
     text-decoration-color: #32855e;
 }
 
-.nyuuin-sec01 .hospital-comm-btn {
+.item01-sec .hospital-comm-btn {
     margin-bottom: 40px;
 }
 
