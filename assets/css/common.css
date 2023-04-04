@@ -1228,12 +1228,11 @@ i.chevron-right {
     letter-spacing: 1px;
 }
 
-.dep-sec .pg-btn{
+.pg-btn{
     margin: 10px 0;
     padding: 10px;
     border: 2px solid #6dc79c;
     clear: both;
-    text-align: center;
 }
 
 .dep-sec .item03-sec .recruit-info-li li{

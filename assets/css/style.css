@@ -2224,6 +2224,11 @@ i.chevron-right {
   padding: 75px 0 70px 0;
 }
 
+.nakae-location-section {
+  padding: 75px 0 70px 0;
+  background-color: #fff;
+}
+
 .overview-text {
   padding-bottom: 15px;
   margin-top: 40px;
@@ -3791,6 +3796,10 @@ i.chevron-right {
 
 .overview-section .overview-table .nakae ul li::before {
   top: 13px;
+}
+
+.nakae ul li .li-underline{
+  text-decoration: underline;
 }
 
 .employment-information-content h3 {

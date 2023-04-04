@@ -228,7 +228,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="nursery-school-section bg-gray" id="hospital-info04">
+<section class="nursery-school-section bg-gray" id="hospital-info05">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">
                 <span>院内保育所</span>
@@ -330,9 +330,67 @@ get_header();
                     </ul>
                 </div>
             </div>
+            <div>
+                <h4 class="pro-sub-ttl" id="nursery-school05">入所概要</h4>
+                <div>
+                    <h5 class="h5-ttl">１．入所対象</h5>
+                    <div class="nakae">
+                        <ul>
+                            <li>中江病院職員のお子様で、<span class="li-underline">生後2か月～未就学児まで</span>が対象となります</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="h5-ttl">２．入所定員</h5>
+                    <div class="nakae">
+                        <ul>
+                            <li>概ね15名程度（対象年齢により変更有）</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="h5-ttl">３．保育料</h5>
+                    <div class="nakae">
+                        <ul>
+                            <li>月額 10,000円 /人</li>
+                        </ul>
+                    </div>
+                    <p class="common-txt-po mb10"><span>※</span>同時に2名以上入所の場合、2人目以降は月額 5,000円 /人 にてお預かりします。</p>
+                </div>
+                <div>
+                    <h5 class="h5-ttl">４．その他</h5>
+                </div>
+                <div>
+                    <h5 class="h5-ttl">５．保育時間</h5>
+                    <div class="nakae">
+                        <ul>
+                            <li>7:45～18：45までの時間内（月～金）</li>
+                        </ul>
+                    </div>
+                    <p class="common-txt-po mb10"><span>※</span>お母様の勤務がお休みの場合もお預かりします。その際は、保育所にその旨をご連絡下さい。</p>
+                </div>
+                <div>
+                    <h5 class="h5-ttl">６．休所日</h5>
+                    <div class="nakae">
+                        <ul>
+                            <li>土曜・日曜・年末年始</li>
+                            <li>医療法人社団心優会が定めた休日</li>
+                        </ul>
+                    </div>
+                    <p class="common-txt-po mb30"><span>※</span> ただし、医療法人社団心優会において、休所日の保育が特に必要と認めた場合は開所します。</p>
+                    <p class="pg-btn fz-bold">お問い合わせ</p>
+                    <p>医療法人社団 心優会 中江病院<br>Tel：011-727-8414（担当：事務部長 阿部）</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-
+<section class="nakae-location-section" id="hospital-info06">
+    <div class="container m-w800">
+        <h2 class="h2-ttl h2-mb">
+            <span>アクセス</span>
+        </h2>
+    </div>
+</section>
 <?php
 get_footer();
