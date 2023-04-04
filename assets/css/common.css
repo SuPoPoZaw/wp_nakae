@@ -1223,9 +1223,8 @@ i.chevron-right {
     max-width: 800px;
     padding: 20px 10px;
     text-align: justify;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    letter-spacing: 1px;
 }
 
 .dep-sec .pg-btn{
@@ -1236,9 +1235,9 @@ i.chevron-right {
     text-align: center;
 }
 
-.dep-sec .item03-sec .recruit-info-li li{
+/* .dep-sec .item03-sec .recruit-info-li li{
     width: 100%;
-}
+} */
 
 .dep-sec .item03-sec .recruit-info-li li a{
     justify-content: start;
