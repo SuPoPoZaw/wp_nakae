@@ -93,23 +93,23 @@ get_header();
             ?>
 -->
         </div>
-        <div class="procedure-con">
-            <div class="procedure-block">
-                <h3 class="procedure-ttl">入院手続き</h3>
+        <div class="">
+            <div class="mb50 mb30-sp">
+                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">入院手続き</h3>
                 <div class="">
                     <p>
                         入院時の手続きには印鑑が必要です。老人医療受給者証・重度心身障害者受給者証・母子家庭等医療費受給者証をお持ちの方は、保険証とともにお出しください。
                     </p>
                 </div>
             </div>
-            <div class="procedure-block">
-                <h3 class="">寝具</h3>
+            <div class="mb50 mb30-sp">
+                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">寝具</h3>
                 <div class="">
                     <p>基準寝具を用意しておりますので、持ち込みは必要ありません。</p>
                 </div>
             </div>
-            <div class="procedure-block">
-                <h3 class="">日用生活品</h3>
+            <div class="mb50 mb30-sp">
+                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">日用生活品</h3>
                 <div class="">
                     <p>
                         一日定額料金にて、入院中の日用生活品はすべて当院でご用意させていただいております。<br />
@@ -119,8 +119,8 @@ get_header();
                 </div>
             </div>
 
-            <div class="procedure-block">
-                <h3 class="">保証金及びお小遣い</h3>
+            <div class="mb50 mb30-sp">
+                <h3 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">保証金及びお小遣い</h3>
                 <div class="">
                     <div>
                         <p>入院のときにお預かりし、退院のときにお返ししています。受付にて手続きをお願いします。</p>
@@ -142,8 +142,8 @@ get_header();
             </div>
 
 
-            <div class="procedure-block">
-                <h3 class="">入院のときにご用意していただくもの</h3>
+            <div class="mb50 mb30-sp">
+                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">入院のときにご用意していただくもの</h4>
                 <div class="">
                     <p><strong>内服薬</strong>（他科薬も含む）</p>
                     <p class="pt10"><strong>お薬手帳</strong>（薬剤情報提供<strong>書</strong>）</p>
@@ -159,8 +159,8 @@ get_header();
                 </div>
             </div>
 
-            <div class="procedure-block">
-                <h3 class="">持ち込み禁止の物品について</h3>
+            <div class="mb50 mb30-sp">
+                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">持ち込み禁止の物品について</h4>
                 <div class="">
                     <p>当院では、患者さんが安心して療養生活を送っていただくために、病棟内に持ち込むことを禁止あるいは制限しているものがあります。</p>
                     <div>
@@ -188,9 +188,9 @@ get_header();
                 </div>
             </div>
 
-            <div class="procedure-block">
-                <h3 class="">注意事項</h3>
-                <div class="">
+            <div class="">
+                <h4 class="triangle-ttl">注意事項</h4>
+                <div class="mt20 mt10-sp">
                     <div class="pro-sub-gP">
                         <h4 class="pro-sub-ttl">貴重品に関して</h4>
                         <p>貴重品・貴金属は持参しないでください。ナースステーションでは預かることが出来ません。<br>また、破損・紛失・盗難に関して、当院では一切の責任を負うことが出来ません。自己責任となりますのでご了承ください。</p>
