@@ -22,7 +22,7 @@ get_header();
     <div class="container m-w800">
         <ul class="anchor-list">
             <li>
-                <a class="goto" href="#item01-sec">
+                <a class="goto" href="#nyuuin-sec01">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item01.png" alt="入院されるとき"></div>
                         <p class="goto-description">入院されるとき</p>
@@ -30,7 +30,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item03-sec">
+                <a class="goto" href="#nyuuin-sec02">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item02.png" alt="入院中の生活"></div>
                         <p class="goto-description">入院中の生活</p>
@@ -38,7 +38,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item04-sec">
+                <a class="goto" href="#nyuuin-sec03">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item03.png" alt="面談・面会について"></div>
                         <p class="goto-description">面談・面会について</p>
@@ -46,7 +46,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item05-sec">
+                <a class="goto" href="#nyuuin-sec04">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item04.png" alt="入院の費用"></div>
                         <p class="goto-description">入院の費用</p>
@@ -54,7 +54,7 @@ get_header();
                 </a>
             </li>
             <li>
-                <a class="goto" href="#item06-sec">
+                <a class="goto" href="#nyuuin-sec05">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/common/item05.png" alt="その他事項"></div>
                         <p class="goto-description">その他事項</p>
@@ -64,10 +64,10 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="nyuuin-sec01 item01-sec bg-gray">
+<section class="item01-sec bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn hospital-comm-btn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item01-sec">入院されるとき</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec01">入院されるとき</h2>
             <div class="hospital-content">
                 <p>初めて受診される方は、来院時に問診票にご記入していただきます。<br>
                     事前に問診票をダウンロードし、ご記入したものをご持参いただくと入院までの流れをスムーズに行うことができます。<br>
@@ -212,14 +212,10 @@ get_header();
         </div>
     </div>
 </section>
-
-<section class="nyuuin-sec02 item03-sec">
+<section class="item03-sec">
     <div class="container m-w800">
-        <h2 class="h2-ttl h2-mb">入院中の生活</h2>
-
-        <div class="mb50 mb30-sp">
-            <h3 class="h5-ttl">食事</h3>
-            <p class="mt20 mt10-sp">食事時間は（朝8：00 昼12：00 夕18：00）です。</p>
+        <div class="hosiptal-inn-conn">
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec02">入院中の生活</h2>
         </div>
 
         <div class="mb50 mb30-sp">
@@ -294,18 +290,18 @@ get_header();
 <section class="item04-sec bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item04-sec">面談・面会について</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec03">面談・面会について</h2>
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="">主治医にお話をお聞きになりたいときは</h3>
-                <div class="">
+                <h3 class="h5-ttl">主治医にお話をお聞きになりたいときは</h3>
+                <div class="mb30">
                     <p>予約制になっておりますので、あらかじめ病棟を通じて日程を確認してください。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">面会</h3>
-                <div class="">
+                <h3 class="h5-ttl">面会</h3>
+                <div class="mb30">
                     <p>面会は原則自由ですが、病状が不安定な場合、医師が面会を制限することもございますので、あらかじめ主治医または病棟看護師にお尋ねください。</p>
                     <p class="pt25 pt15-sp">面会時間は下記の通りとなります。</p>
                     <p class="pt25 pt15-sp"><span>午前　10：30～11：30　/　午後　13：30～17：00</span>（平日・土日祝共通）</p>
@@ -326,6 +322,10 @@ get_header();
                         <p>※ 作業療法の開始時、終了時の時間帯は、患者様の移動のためエレベーターがご利用できません。</p>
                     </div>
                 </div>
+                <div class="time-block" style="width:100%">
+                    <h4 style="text-align:left; padding-left:10px;">お問い合わせ</h4>
+                    <p class="block-ti" style="text-align:left">中江病院</p>
+                </div>
             </div>
         </div>
     </div>
@@ -333,12 +333,12 @@ get_header();
 <section class="item05-sec">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item05-sec">入院の費用</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec04">入院の費用</h2>
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="">支払い</h3>
-                <div class="">
+                <h3 class="h5-ttl">支払い</h3>
+                <div class="mb30">
                     <p>
                         入院費（医療費）は1ヵ月を取りまとめ翌月15日に請求書を発送しておりますので月内に受付でお支払いください。なお医療費についてご質問等ございましたら、病院受付へお申し出ください。<br />
                         ※ 郵便書留での支払いも可能ですが、お釣りの返送はできません
@@ -346,8 +346,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">お小遣い</h3>
-                <div class="">
+                <h3 class="h5-ttl">お小遣い</h3>
+                <div class="mb50">
                     <p>主な用途は下記のとおりで1ヵ月約2万円が目安です。</p>
                     <ul>
                         <ol>
@@ -357,15 +357,15 @@ get_header();
                             ２．洗濯代（私物：院内・院外クリーニング）、院内美容・理容、新聞代など
                         </ol>
                     </ul>
-                    <p class="p-txt-b mt35"><span>※</span>金銭管理を病院に委託される場合、約定書契約が必要です。</p>
+                    <p class="p-txt-b mt15"><span>※</span>金銭管理を病院に委託される場合、約定書契約が必要です。</p>
                     <p class="p-txt-b"><span>※</span>預り金手数料をお支払いいただきますが、管理の仕方により金額が異なりますので病棟でご確認ください。</p>
                     <p class="p-txt-b"><span>※</span>約定書契約の場合、個人別に毎月明細書をお渡ししています。</p>
                     <p class="p-txt-b"><span>※</span>個人別台帳を作成しており、すべてコンピュータ処理をしております。なお台帳の保管は1年間とさせていただいております。</p>
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">保険証の確認</h3>
-                <div class="">
+                <h3 class="h5-ttl">保険証の確認</h3>
+                <div class="mb30">
                     <p>
                         健康保険証の資格等による誤請求事故防止のために毎月月初めに確認いたしますので、病院受付にご提出ください。<br />
                         また、保険証に変更があった場合は、速やかにお申し出ください。
@@ -465,12 +465,12 @@ get_header();
 <section class="item06-sec item06-sec-ow bg-gray">
     <div class="container m-w800">
         <div class="hosiptal-inn-conn">
-            <h2 class="h2-ttl h2-mb h2-mb-sp" id="item06-sec">その他事項</h2>
+            <h2 class="h2-ttl h2-mb h2-mb-sp" id="nyuuin-sec05">その他事項</h2>
         </div>
         <div class="procedure-con">
             <div class="procedure-block">
-                <h3 class="">医療相談</h3>
-                <div class="">
+                <h3 class="h5-ttl">医療相談</h3>
+                <div class="mb30">
                     <p>
                         入・退院時、医療費の助成、年金の申請方法、手続き等ご不明な点がございましたら、1階相談室をご利用ください。（予約制）<br />
                         また、各書類（診断書など）の窓口にもなっておりますので、御用の際は相談室まで直接お申し出ください。
@@ -478,8 +478,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block">
-                <h3 class="">退院の手続き</h3>
-                <div class="">
+                <h3 class="h5-ttl">退院の手続き</h3>
+                <div class="mb30">
                     <p>
                         印鑑をお持ちください。入院費用（医療費）の支払いは退院時に病院受付にて済ませてください。<br />
                         入院時の保証金は領収書と引き換えにお返しします。お小遣いの精算は、退院して１週間ほどかかる場合もありますので、退院時に病棟受付にてご確認ください。
@@ -487,8 +487,8 @@ get_header();
                 </div>
             </div>
             <div class="procedure-block pb40 pb0-sp">
-                <h3 class="">その他</h3>
-                <div class=" procedure-other-detail">
+                <h3 class="h5-ttl">その他</h3>
+                <div class="procedure-other-detail">
                     <p>
                         個室や2人部屋などもございます。（差額室料が別途かかります）<br />病院の管理上、暴力団に関係する方の入院、通院及び面会等は固くお断りいたします。<br />
                         医療費・お小遣い等のお支払いが期日中になされない場合は、退院していただくこともありますのでご注意ください。
