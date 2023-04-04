@@ -2229,6 +2229,11 @@ i.chevron-right {
   background-color: #fff;
 }
 
+.nakae-location-img{
+  max-width: 340px;
+  margin: 0 auto;
+}
+
 .overview-text {
   padding-bottom: 15px;
   margin-top: 40px;

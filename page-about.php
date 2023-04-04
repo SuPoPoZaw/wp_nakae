@@ -390,6 +390,21 @@ get_header();
         <h2 class="h2-ttl h2-mb">
             <span>アクセス</span>
         </h2>
+        <div class="mb30">
+            <h3 class="gairai-procedure-ttl"> 所在地</h3>
+            <p>〒001-0022<br>
+            札幌市北区北22条西7丁目2番1号<br>
+            電話（011）716-7181（代表）<br>
+            FAX（011）758-1451
+            </p>
+        </div>
+        <div class="mb30">
+            <h3 class="gairai-procedure-ttl">  交通機関所在地</h3>
+            <p>地下鉄南北線「北24条」駅下車  4番出口左折徒歩6分</p>
+        </div>
+        <div class="nakae-location-img">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/access_img_02.jpg" alt="外観">
+        </div>
     </div>
 </section>
 <?php
