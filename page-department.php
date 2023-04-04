@@ -96,8 +96,8 @@ get_header();
     <section id="item01-sec" class="item01-sec item-sec-border-sp bg-gray">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">看護部</h2>
-            <div class="recruit-info-gp" id="page_navi ">
-                <p class="mb20 ">このページでは次の情報をご案内しています。</p>
+            <div class="recruit-info-gp " id="page_navi ">
+                <p class="mb30 mb20-sp ">このページでは次の情報をご案内しています。</p>
                 <ul class="recruit-info-li">
                     <li>
                         <a href="#page-ttl-a01">精神科看護の特色</a>
@@ -121,36 +121,36 @@ get_header();
                         <a href="#page-ttl-a07">当院の看護職員の負担軽減及び処遇の改善に対する取り組み</a>
                     </li>
                 </ul>
-                <p class="text-right mb20 mb10-sp">看護部長　日向 明美（認定看護管理者）</p>
+                <p class="text-right mb20 mb10-sp">看護部長日向 明美（認定看護管理者）</p>
             </div>
             <div class="procedure-con">
                 <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl " key="0">看護部長挨拶</h3>
-                    <div class="procedure-detail-box accor" key="0" style="display: block;">
-                        <p>　当院は昭和23年に開院した、280床を有する精神科単科の病院です。<br>
-                            　現在、日本は既に少子超高齢化社会に突入しており、それに伴い、疾病構造も変化しています。<br>
+                    <div class="procedure-detail-box " key="0" style="display: block;">
+                        <p>当院は昭和23年に開院した、280床を有する精神科単科の病院です。<br>
+                            現在、日本は既に少子超高齢化社会に突入しており、それに伴い、疾病構造も変化しています。<br>
                             この状況により、今後さらに「こころ」と「からだ」を病む人が増加してくることが推測されます。<br>
                             看護・介護の対象は「人間」です。人間の「こころ」と「からだ」の双方に対して、深い洞察力や共感力、看護・介護の知識・技術を駆使することで、患者様の「その人らしく生きる力」を引き出し、患者様の可能性を広げることができます。<br>
-                            　中江病院のミッションは、「こころ」と「からだ」を病む方々に寄り添い、その人の持てる力を引き出し、社会の中でひとりの人間として尊厳を保って生きていけるように看護・介護を提供することです。<br>
-                            　患者様とそのご家族様が当院を選んで良かったと思っていただけるよう、日々自己研鑽をして参ります。それと同時に、当院で活躍する職員が生き生きと働ける環境を整備して参ります。<br>
+                            中江病院のミッションは、「こころ」と「からだ」を病む方々に寄り添い、その人の持てる力を引き出し、社会の中でひとりの人間として尊厳を保って生きていけるように看護・介護を提供することです。<br>
+                            患者様とそのご家族様が当院を選んで良かったと思っていただけるよう、日々自己研鑽をして参ります。それと同時に、当院で活躍する職員が生き生きと働ける環境を整備して参ります。<br>
                         </p>
                     </div>
                 </div>
 
                 <div class=" mb40 mb0-sp">
                     <!-- <h3 class="procedure-ttl " key="1">精神科看護の特色</h3> -->
-                    <div class="accor" key="1" style="display: block;">
+                    <div class="" key="1" style="display: block;">
                         <div class="mb50 mb30-sp">
                             <h4 id="page-ttl-a01" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">精神科看護の特色</h4>
-                            <p>　日本精神科看護協会では「精神科看護とは、精神的健康について援助を必要としている人々に対し、個人の尊厳と権利擁護を基本理念として、専門的知識と技術を用い、自律性の回復を通して、その人らしい生活ができるように支援すること」と示されています。<br>
-                                　近年では、精神科医療分野の治療も進歩してきました。今、最も大切なことは、精神に病を抱えた人に関わる周囲の人たちの理解と支援です。<br>
-                                　中江病院は、一人の人間として患者様の人権を尊重し、意思決定を支え、倫理的配慮を意識し、質の向上に向けた関わりができるように、職員一同が日々精進しております。
+                            <p>日本精神科看護協会では「精神科看護とは、精神的健康について援助を必要としている人々に対し、個人の尊厳と権利擁護を基本理念として、専門的知識と技術を用い、自律性の回復を通して、その人らしい生活ができるように支援すること」と示されています。<br>
+                                近年では、精神科医療分野の治療も進歩してきました。今、最も大切なことは、精神に病を抱えた人に関わる周囲の人たちの理解と支援です。<br>
+                                中江病院は、一人の人間として患者様の人権を尊重し、意思決定を支え、倫理的配慮を意識し、質の向上に向けた関わりができるように、職員一同が日々精進しております。
                             </p>
                         </div>
                         <div class="mb50 mb30-sp">
                             <h4 id="page-ttl-a02" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">看護部の理念</h4>
                             <p>
-                                　患者様が安全で安心してその人らしく過ごせるよう、人としての尊厳を尊重し、思いやりのある優しく誠実な看護・介護を提供し、地域に信頼される組織を目指します。
+                                患者様が安全で安心してその人らしく過ごせるよう、人としての尊厳を尊重し、思いやりのある優しく誠実な看護・介護を提供し、地域に信頼される組織を目指します。
                             </p>
                         </div>
                         <div class="mb50 mb30-sp">
@@ -174,14 +174,14 @@ get_header();
                             <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">看護部の取り組み</h4>
                             <p class="fz-b">縛らない看護の実践</p>
                             <p>
-                                　心優会中江病院は、組織として身体拘束をしない方針です。<br />
-                                　「患者様にとって尊厳のあるケアとは何か」を常に考え、患者様の人権擁護に努めるプロセスを大切にしております。
+                                心優会中江病院は、組織として身体拘束をしない方針です。<br />
+                                「患者様にとって尊厳のあるケアとは何か」を常に考え、患者様の人権擁護に努めるプロセスを大切にしております。
                             </p>
                         </div>
                         <div class="mb50 mb30-sp">
                             <h4 id="page-ttl-a04" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">看護体制［勤務体制］</h4>
-                            <p class="">　チームナーシングと受け持ち制・機能別を併用。</p>
-                            <p class="mt20">［勤務体制］　※1か月単位の変形労働</p>
+                            <p class="">チームナーシングと受け持ち制・機能別を併用。</p>
+                            <p class="mt20">［勤務体制］※1か月単位の変形労働</p>
                             <div class="emp-info-table">
                                 <table>
                                     <tbody>
@@ -207,7 +207,7 @@ get_header();
                         </div>
                         <div class="mb50 mb30-sp">
                             <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">院内研修制度</h4>
-                            <p>　新人からベテランまで、一人ひとりの習熟段階に応じてキャリア発達を組織的に支援する研修体系です。
+                            <p>新人からベテランまで、一人ひとりの習熟段階に応じてキャリア発達を組織的に支援する研修体系です。
                                 年間の教育プログラムに沿って研修を行っております。</p>
                         </div>
                         <div class="mb50 mb30-sp">
@@ -231,7 +231,7 @@ get_header();
 
                 <!-- <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl " key="2">活動方針</h3>
-                    <div class="mb50 mb30-sp accor" key="2" style="display: block;">
+                    <div class="mb50 mb30-sp " key="2" style="display: block;">
                         <ol class="procedure-detail-ol">
                             <li>挨拶を交わす。</li>
                             <li>遅刻欠勤をしない。</li>
@@ -247,7 +247,7 @@ get_header();
 
                 <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl " key="3">看護師の果たす役割と責任</h3>
-                    <div class="mb50 mb30-sp accor" key="3" style="display: block;">
+                    <div class="mb50 mb30-sp " key="3" style="display: block;">
                         <ul class="procedure-detail">
                             <li>個々の患者の背景を十分把握し、個別的な対応や指導援助が実践できる。常に自己の看護観を組織の中でのレベルに合わせる。</li>
                             <li>利用的な関わりを通し、良い人間関係をつくり、病む人の心を開き、他の医療チームとの連携を密にして、患者及び家族に治療経過また、入院生活が不安なく生活できる様、医師に全体像を報告し、患者及び家族が納得できる様、病状・検査結果等、医師の説明の場を作る様速やかに考慮し対応していく。</li>
@@ -272,32 +272,32 @@ get_header();
                 </div>
                 <div class="card-body">
                     <div class="card-body-wrapper m-auto">
-                        <p>　退院を間近に控えた方がご家庭や地域の中で安心してより豊かな生活を送っていけるようにお手伝いしていくことが訪問看護です。主治医の指示のもと外来・病棟・相談室・デイケア・地域の社会資源と連携しながらPSW（精神保健福祉士）・看護師がご家庭を訪問し、体調や生活について相談・支援を展開しています。お困りになる事がある場合はお気軽に主治医にご相談下さい。
+                        <p>退院を間近に控えた方がご家庭や地域の中で安心してより豊かな生活を送っていけるようにお手伝いしていくことが訪問看護です。主治医の指示のもと外来・病棟・相談室・デイケア・地域の社会資源と連携しながらPSW（精神保健福祉士）・看護師がご家庭を訪問し、体調や生活について相談・支援を展開しています。お困りになる事がある場合はお気軽に主治医にご相談下さい。
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="mb50 mb30-sp">
+            <div class="nakae mb50 mb30-sp">
                 <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">訪問看護は何をしてくれるの？</h4>
-                <p>　かかりつけの医師と連絡をとり、心身の状態に応じて以下のようなケアを行います。体調・気分面に関するご相談や必要に応じた様々なサービスをご紹介したり、関係機関と綿密な連携をとり利用される方が安心して地域での生活を送れるための支援や調整をいたします。
+                <p>かかりつけの医師と連絡をとり、心身の状態に応じて以下のようなケアを行います。体調・気分面に関するご相談や必要に応じた様々なサービスをご紹介したり、関係機関と綿密な連携をとり利用される方が安心して地域での生活を送れるための支援や調整をいたします。
                 </p>
                 <ul class="pl10">
-                    <li class="li mt10">心身の健康状態の確認と助言・・・辛いこと、気になること、前よりよくなったこと</li>
-                    <li class="li mt10">お薬についての確認・・・お薬をより効果的に利用できるように</li>
-                    <li class="li mt10">生活の相談・・・身の回りの家事全般に関することや周囲の対人関係等でお困りのこと</li>
-                    <li class="li mt10">各種サービスの相談・・・介護保険、精神関連についての情報提供や関係機関との調整</li>
+                    <li class="mt10">心身の健康状態の確認と助言・・・辛いこと、気になること、前よりよくなったこと</li>
+                    <li class="mt10">お薬についての確認・・・お薬をより効果的に利用できるように</li>
+                    <li class="mt10">生活の相談・・・身の回りの家事全般に関することや周囲の対人関係等でお困りのこと</li>
+                    <li class="mt10">各種サービスの相談・・・介護保険、精神関連についての情報提供や関係機関との調整</li>
                 </ul>
             </div>
             <div class="mb50 mb30-sp">
                 <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">訪問看護はどんな人が受けられるの？</h4>
-                <p>　当院の外来に通院されている方で疾病・障害を持ち、療養しながらご家庭で生活されている方。ご本人だけでなく、支えているご家族もサポートします。訪問の頻度や時間等についてはご利用される方のペースに応じてご相談させていただきます。</p>
+                <p>当院の外来に通院されている方で疾病・障害を持ち、療養しながらご家庭で生活されている方。ご本人だけでなく、支えているご家族もサポートします。訪問の頻度や時間等についてはご利用される方のペースに応じてご相談させていただきます。</p>
             </div>
             <div class="mb50 mb30-sp">
                 <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">ご利用に関して</h4>
                 <ul class="pl10">
-                    <li class="li mt10">1回の訪問時間は30～40分位となります。</li>
-                    <li class="li mt10">スタッフは担当制とはしていないためPSW（精神保健福祉士）・看護師が交代しながらお伺いします。</li>
-                    <li class="li mt10">個人情報保護の観点から、訪問車に病院名は入れておりません。また、スタッフの制服着用もないため私服でお伺いします。</li>
+                    <li class="mt10">1回の訪問時間は30～40分位となります。</li>
+                    <li class="mt10">スタッフは担当制とはしていないためPSW（精神保健福祉士）・看護師が交代しながらお伺いします。</li>
+                    <li class="mt10">個人情報保護の観点から、訪問車に病院名は入れておりません。また、スタッフの制服着用もないため私服でお伺いします。</li>
                 </ul>
             </div>
             <div class="mb50 mb30-sp">
@@ -323,7 +323,7 @@ get_header();
                 </div> -->
                 <div class="mb50 mb30-sp">
                     <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">相談室理念</h4>
-                    <p>　私たち医療ソーシャルワーカーは地域における精神保健福祉の発展のために貢献することを使命とします。</p>
+                    <p>私たち医療ソーシャルワーカーは地域における精神保健福祉の発展のために貢献することを使命とします。</p>
                 </div>
                 <div class="dep-card mb50 mb30-sp">
                     <div class="card-head">
@@ -333,26 +333,23 @@ get_header();
                     </div>
                     <div class="card-body">
                         <div class="card-body-wrapper m-auto">
-                            <p><span class="fz-bold">　当院ではチームを組んで患者さんの日常生活に関わるさまざまな心配事の相談に応じています。</span><br />
-                                病気になったり入院するということは、普段の生活とは異なり、わからないことや心配事が次々と出てくるものです。<br />
-                                経済的なこと、仕事のこと、これからの生活のこと・・・。<br />
-                                相談室では、患者様やご家族にいろいろな福祉制度やサービスなどをご紹介しながら、ご相談に乗り、不安を一つ一つ一緒に解消していくお手伝いをしています。
+                            <p><span class="fz-bold">当院ではチームを組んで患者さんの日常生活に関わるさまざまな心配事の相談に応じています。</span><br />病気になったり入院するということは、普段の生活とは異なり、わからないことや心配事が次々と出てくるものです。<br />経済的なこと、仕事のこと、これからの生活のこと・・・。<br />相談室では、患者様やご家族にいろいろな福祉制度やサービスなどをご紹介しながら、ご相談に乗り、不安を一つ一つ一緒に解消していくお手伝いをしています。
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="mb50 mb30-sp">
+                <div class="nakae mb50 mb30-sp">
                     <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">たとえばどんな事に相談に乗ってくれるの？</h4>
-                    <p>　相談室では当院に入院・外来通院されている患者様やご家族様に対し、療養上のご心配事や各種制度などについてご相談にのらせていただいております。
+                    <p>相談室では当院に入院・外来通院されている患者様やご家族様に対し、療養上のご心配事や各種制度などについてご相談にのらせていただいております。
                     </p>
                     <ul class="pl10">
-                        <li class="li mt20">医療費、生活費などの経済的な問題について</li>
-                        <li class="li mt10">自立支援、介護保険などの制度について</li>
-                        <li class="li mt10">介護施設、福祉施設などについて</li>
-                        <li class="li mt10">生活、仕事、療養上の不安や心配事について</li>
-                        <li class="li mt10">その他、どこに相談したらよいのかわからない事についてなど</li>
+                        <li class=" mt20">医療費、生活費などの経済的な問題について</li>
+                        <li class=" mt10">自立支援、介護保険などの制度について</li>
+                        <li class=" mt10">介護施設、福祉施設などについて</li>
+                        <li class=" mt10">生活、仕事、療養上の不安や心配事について</li>
+                        <li class=" mt10">その他、どこに相談したらよいのかわからない事についてなど</li>
                     </ul>
-                    <p class="mt30">　精神保健福祉士などの専門スタッフが退院後の生活、福祉サービスや年金の利用の仕方など、療養生活の中で起こるさまざまなご相談に応じています（無料）。相談内容についての秘密は厳守しております。ご家族の方にも開かれておりますので、ご利用を希望される方はお気軽にご連絡ください。</p>
+                    <p class="mt30">精神保健福祉士などの専門スタッフが退院後の生活、福祉サービスや年金の利用の仕方など、療養生活の中で起こるさまざまなご相談に応じています（無料）。相談内容についての秘密は厳守しております。ご家族の方にも開かれておりますので、ご利用を希望される方はお気軽にご連絡ください。</p>
                 </div>
                 <div class="mb50 mb30-sp">
                     <p class="pg-btn fz-bold">
@@ -365,32 +362,97 @@ get_header();
 
     <section id="item04-sec" class="item04-sec item-sec-border-sp">
         <div class="container m-w800">
-            <h2 class="h2-ttl h2-mb">画像診断部</h2>
+            <h2 class="h2-ttl h2-mb">心理室</h2>
             <div class="procedure-con">
-                <div class="single-txt-line mb40 mb30-sp">
-                    <p>多種の検査機器にて診断や治療を支援しています。</p>
+                <div class="recruit-info-gp" id="page_navi ">
+                    <p class="mb30 mb20-sp ">このページでは次の情報をご案内しています。</p>
+                    <ul class="recruit-info-li">
+                        <li>
+                            <a href="#" style="height: 52px;">心理検査</a>
+                        </li>
+                        <li>
+                            <a href="#" style="height: 52px;">心理療法（カウンセリング）</a>
+                        </li>
+                        <li>
+                            <a href="#" style="height: 52px;">集団認知行動療法</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mb50 mb30-sp">
+                    <p class="pg-btn mb20 mb10-sp">
+                        心理室の概要、紹介
+                    </p>
+                    <p class="">臨床心理士が入院・外来患者様の心理検査、カウンセリング、集団プログラムなどを行っています。</p>
+                </div>
+
+                <div class="mb50 mb30-sp">
+                    <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">心理検査</h4>
+                    <p>主治医の指示の下、知能検査などの各種心理検査を行い、診断の補助や患者様の理解に役立てます。<br />
+                        検査をご希望の方は、診察時に主治医までご相談ください。
+                    </p>
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="11">内視鏡検査（胃カメラ、大腸カメラ）</h3>
-                    <div class="procedure-detail-box accor" key="11" style="display: block;">
-                        <p>
-                            2022年高出力LEDハイビジョンシステム導入により、高画質での検査を行っています。
+                    <h4 class="procedure-ttl ">内視鏡検査（胃カメラ、大腸カメラ）</h4>
+                    <div class="procedure-detail-box " style="display: block;">
+                        <p class="mt20 mt10-sp">
+                            つらい場面に直面した時に、「ゆううつ感」、「イライラ」、「不安」といった不愉快な気分に圧倒されて身動きがとれなくなってしまうといった経験はありませんか？
                         </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/numazaki_dept_img_01.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/numazaki_dept_img_02.jpg" alt="一般撮影検査画像2">
-                            </div>
+                        <p class="mt20 mt10-sp">
+                            心理的に混乱してしまっている時は、広い視点でその出来事や状況を「見つめ直す」ことが難しくなってしまい、極端な考え方をしてしまいやすくなることが、現在までにさまざまな研究から明らかになっています。
+                        </p>
+                        <p class="mt20 mt10-sp">
+                            認知行動療法（Cognitive Behavioral Therapy：CBT）は、出来事や状況を自分がどう捉えているのか、それによってどのように振る舞ってしまうのか、ということをさまざまな方法を用いて「見つめ直す」ことに取り組み、より現実的な捉え方を検討します。それによってからだに生じるさまざまな反応や振る舞い方を生活しやすいものに変えていく心理療法です。
+                        </p>
+                        <p class="mt20 mt10-sp">
+                            考え方は気分・行動に影響します。気分は身体に影響します。行動は生活に影響します。つらい時に、自分に起きていることを今よりも少し理解してあげると、今ある自分自身や、自分の生活をもう少し良いものに変えていけるかもしれません。
+                        </p>
+                        <div class="mt30 mb15-sp">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/clinical_img_01.png" alt="認知行動療法イメージ">
                         </div>
                     </div>
                 </div>
 
+                <div class=" nakae mb50 mb30-sp">
+                    <h5 class="h5-ttl">このような方におすすめです</h5>
+                    <ul class="pl10 mt20 mt10-sp">
+                        <li class=" mt10">気分が落ち込む（または、イライラする）</li>
+                        <li class=" mt10">興味や関心が薄れた</li>
+                        <li class=" mt10">体重が減った（食欲がなくなった）、もしくは増えた</li>
+                        <li class=" mt10">眠れない、もしくは寝すぎてしまう</li>
+                        <li class=" mt10">落ち着きがなかったり、動作が緩慢になった</li>
+                        <li class=" mt10">疲れやすい、気力がわかない</li>
+                        <li class=" mt10">嫌なことを考えだすと止まらなくなる</li>
+                        <li class=" mt10">ばかばかしいと思うのに、やめられないことがある</li>
+                        <li class=" mt10">他の人に悪く思われてるのではないかとても心配する</li>
+                        <li class=" mt10">大変なことが起きる気がして、外出するのが怖い</li>
+                        <li class=" mt10">人前で注目を集める状況が不安・恐ろしい</li>
+                    </ul>
+                </div>
+
+                <div class=" nakae mb50 mb30-sp">
+                    <h5 class="h5-ttl">認知行動療法の効果</h5>
+                    <p class="mt20 mt10-sp mb10">現在までに・・・</p>
+                    <ul class="pl10 mt20 mt10-sp">
+                        <li class=" mt10">
+                            認知行動療法は、うつ、不安、統合失調症といったさまざまな精神疾患から、心身症に至るまで、幅広い疾患に対して治療効果が認められています。
+                        </li>
+                        <li class=" mt10">
+                            認知行動療法の治療効果は、アメリカ精神医学会（APA）においてさまざまな分野で認められており、我が国においても近年注目を集めてきた心理療法です。
+                        </li>
+                        <li class=" mt10">
+                            認知行動療法はうつ病や不安障害に対して薬物療法と同等もしくはそれ以上の効果を示す場合が多く、欧米では薬物療法と並んで第一選択の治療法として考えられ、積極的に実施されています。
+                        </li>
+                        <li class=" mt10">
+                            また、認知行動療法は、再発防止の観点からも、これまでにその効果が実証されています。特に薬物療法と認知行動療法を併用することが、再発防止の観点からは非常に有効であることが示されています。
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="12">Ｘ線検査（レントゲン検査、バリウム検査）</h3>
-                    <div class="procedure-detail-box accor" key="12" style="display: block;">
+                    <h3 class="procedure-ttl ">Ｘ線検査（レントゲン検査、バリウム検査）</h3>
+                    <div class="procedure-detail-box " style="display: block;">
                         <p>
                             2021年Ｘ線画像診断システム導入により、高画質と被爆線量軽減に貢献しています。
                         </p>
@@ -406,8 +468,8 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="13">Ｘ線ＣＴ検査</h3>
-                    <div class="procedure-detail-box accor" key="13" style="display: block;">
+                    <h3 class="procedure-ttl ">Ｘ線ＣＴ検査</h3>
+                    <div class="procedure-detail-box " style="display: block;">
                         <p>
                             マルチスライスＣＴにて多様な検査にも対応しています。
                         </p>
@@ -423,8 +485,8 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="14">ＭＲＩ検査</h3>
-                    <div class="procedure-detail-box accor" key="14" style="display: block;">
+                    <h3 class="procedure-ttl ">ＭＲＩ検査</h3>
+                    <div class="procedure-detail-box " style="display: block;">
                         <p>
                             圧迫感が少ないオープンタイプＭＲＩにて検査を行います。
                         </p>
@@ -440,8 +502,8 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="15">超音波検査</h3>
-                    <div class="procedure-detail-box accor" key="15" style="display: block;">
+                    <h3 class="procedure-ttl ">超音波検査</h3>
+                    <div class="procedure-detail-box " style="display: block;">
                         <p>
                             放射線を使わない画像診断なのでMRIやCTでは確認できないものも確認することができます。
                         </p>
@@ -457,8 +519,8 @@ get_header();
                 </div>
 
                 <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="16">心電図</h3>
-                    <div class="procedure-detail-box accor" key="16" style="display: block;">
+                    <h3 class="procedure-ttl ">心電図</h3>
+                    <div class="procedure-detail-box " style="display: block;">
                         <p>
                             心臓からの微弱な電流の流れより心臓の検査をします。
                         </p>
@@ -475,7 +537,7 @@ get_header();
 
                 <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl " key="17">骨塩定量測定検査</h3>
-                    <div class="procedure-detail-box accor" key="17" style="display: block;">
+                    <div class="procedure-detail-box " key="17" style="display: block;">
                         <p>
                             踵からの測定なので車イスのままでも骨粗鬆症の診断や経過観察が行えます。
                         </p>
@@ -492,7 +554,7 @@ get_header();
 
                 <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl " key="18">眼底カメラ検査</h3>
-                    <div class="procedure-detail-box accor" key="18" style="display: block;">
+                    <div class="procedure-detail-box " key="18" style="display: block;">
                         <p>
                             眼の奥の血管や神経などの撮影を行います。
                         </p>
@@ -509,7 +571,7 @@ get_header();
 
                 <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl " key="19">血圧脈波検査</h3>
-                    <div class="procedure-detail-box accor" key="19" style="display: block;">
+                    <div class="procedure-detail-box " key="19" style="display: block;">
                         <p>
                             手と足の血圧計測より動脈硬化を検査します。
                         </p>
@@ -526,7 +588,7 @@ get_header();
 
                 <div class="procedure-block mb40 mb0-sp">
                     <h3 class="procedure-ttl " key="20">肺年齢計スパイロメーター</h3>
-                    <div class="procedure-detail-box accor" key="20" style="display: block;">
+                    <div class="procedure-detail-box " key="20" style="display: block;">
                         <p>
                             可能な限りの息の吸い込みと吹き出しから肺機能を検査します。
                         </p>

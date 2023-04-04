@@ -4098,6 +4098,8 @@ h4 {
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 10px;
+  border-left: 4px #6DC79C solid;
+  padding: 4px 8px 4px 15px;
 }
 
 .nav-desc {
