@@ -441,14 +441,14 @@ get_header();
                     </div>
                 </div>
 
-                <div class=" nakae mb50 mb30-sp">
+                <div class=" mb50 mb30-sp">
                     <h5 class="h5-ttl">プログラムの概要</h5>
                     <p class="mt20 mt10-sp mb10">全10回～12回程度のクール制（途中参加可能）<br />
                         （回数はそのクールで扱う症状によって若干の違いがあります）
                     </p>
                 </div>
 
-                <div class=" nakae mb50 mb30-sp">
+                <div class=" mb50 mb30-sp">
                     <h5 class="h5-ttl">実施日</h5>
                     <p class="mt20 mt10-sp mb10">毎週金曜日PMもしくは外来診察日の土曜日AM<br />
                         （変更される場合もあります。具体的な実施日時についてはお問い合わせ下さい）
@@ -513,12 +513,149 @@ get_header();
     </section>
 
     <section id="item05-sec" class="item01-sec item-sec-border-sp bg-gray">
+
         <div class="container m-w800">
-            <h2 class="h2-ttl h2-mb">訪問看護</h2>
+
+            <h2 class="h2-ttl h2-mb">作業療法</h2>
+
+            <div class="mb50 mb30-sp">
+                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">作業療法理念</h4>
+                <p>
+                    「心を病む人」のコミュニケーション能力とADLの改善を通じて生活の質の維持・向上と退院後の社会復帰をサポートします。
+                </p>
+            </div>
+
+            <div class="mb50 mb30-sp">
+                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">作業療法とは？</h4>
+                <p>
+                    <span class="fz-bold">Occupational Therapy</span> の頭文字をとってOTと呼ばれます。
+                </p>
+            </div>
+
+            <div class="nakae mb50 mb30-sp">
+                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">中江病院のOTでは</h4>
+                <ul class="pl10 mt20 mt10-sp">
+                    <li class="mt10">毎日同じ時間に参加することによって生活リズムを整える</li>
+                    <li class="mt10">様々な活動に参加することで新たな趣味・楽しみを見つける</li>
+                    <li class="mt10">多くの人と接することで人付き合いの練習をする</li>
+                    <li class="mt10">運動不足を解消し、体を動かす機会とする</li>
+                    <li class="mt10">長期の入院で忘れてしまった感覚を思い出し、改めて経験・獲得する</li>
+                    <li class="mt10">退院に向けて必要な知識や経験を得ることで不安を解消する</li>
+                </ul>
+                <p>など、参加される方の目的に合わせたプログラムを用意しております。</p>
+            </div>
+
+            <div class="mb50 mb30-sp">
+                <h4 id="page-ttl-a04" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">プログラム紹介</h4>
+                <div class="emp-info-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>手芸</td>
+                                <td>参加者それぞれの希望に合わせ、編み物や縫い物、革細工等を行います。</td>
+                            </tr>
+                            <tr>
+                                <td>鑑賞</td>
+                                <td>懐かしの名作から新作、アニメなど幅広く上映を予定しています。</td>
+                            </tr>
+                            <tr>
+                                <td>カラオケ</td>
+                                <td>好きな歌を歌ったり、歌ってもらったりします。</td>
+                            </tr>
+                            <tr>
+                                <td>スポーツ</td>
+                                <td>日替わりでダンベル体操、ヨガ、ストレッチなど軽スポーツを行います。</td>
+                            </tr>
+                            <tr>
+                                <td>合唱</td>
+                                <td>昭和の名曲を中心に歌のエピソード紹介をしながら合唱をします。</td>
+                            </tr>
+                            <tr>
+                                <td>交遊楽</td>
+                                <td>集団でゲームを行うレクリエーションプログラムです。</td>
+                            </tr>
+                            <tr>
+                                <td>お楽しみくらぶ</td>
+                                <td>参加者でゲームを考え、必要なものを作るところから行います。</td>
+                            </tr>
+                            <tr>
+                                <td>個別活動</td>
+                                <td>読書や塗り絵など一人で行える活動を用意しています。</td>
+                            </tr>
+                            <tr>
+                                <td>クラフト</td>
+                                <td>季節に合わせた作品を共同制作したり、メンバーで同じ種目に挑戦したりします。</td>
+                            </tr>
+                            <tr>
+                                <td>健康づくり</td>
+                                <td>車いすの方を中心に軽い体操やゲームを行います。</td>
+                            </tr>
+                            <tr>
+                                <td>まほろば</td>
+                                <td>閉鎖病棟の方を対象に15名前後の集団で創作活動やゲームを楽しみます。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
         </div>
+
     </section>
 
-</div>
+    <section id="item06-sec" class="item01-sec item-sec-border-sp">
 
-<?php
-get_footer();
+        <div class="container m-w800">
+
+            <h2 class="h2-ttl h2-mb">地域連携室（相談室）</h2>
+
+            <div class="mb50 mb30-sp">
+                <h4 class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">地域連携室の概要</h4>
+                <p>
+                    地域連携室は、地域・他病院と当院を繋ぐ役目を担っています。
+                </p>
+                <p class="mt10">令和4年5月より、一層の業務運営の効率化を図るため、地域連携室と相談室は統合いたしました。<br />
+                    これまで、分業化していた入院と退院までの業務を統合することで、一気通貫でのご対応をさせていただきます。<br />
+                    それに伴い、今後の入院のご相談・ご依頼につきましては、下部の相談室直通番号にてお受けし、相談室スタッフにてご相談・日時の調整させていただきます。
+                </p>
+            </div>
+
+            <div class="procedure-block mb50 mb30-sp">
+                <h4 class="procedure-ttl ">ご依頼から入院決定までの流れ</h4>
+                <div class="procedure-detail-box " style="display: block;">
+                    <div class="mt30 mb15-sp">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dept_img03.jpg" alt="">
+                    </div>
+                </div>
+                <p class="mt30 mt20-sp">病院及び施設からの入院時搬送を積極的に行っております。<br />
+                    車いす・ストレッチャーも可能。（ご家族様の同乗も3名まで可能です）<br />
+                    搬送時は、看護師と介護福祉士が同乗しますので、安心してお任せください。
+                </p>
+            </div>
+
+            <div class=" mb50 mb30-sp">
+                <h5 class="h5-ttl">ご相談はこちらまで</h5>
+                <p class="mt20 mt10-sp mb10 fz-16-sp">
+                    <span class="fz-bold fz-20">TEL 011-716-8152（相談室直通）<br />
+                        FAX 011-707-5801</span><br />
+                    お電話もしくは相談室窓口にて入院相談とお伝え下さい。<br />
+                    相談室スタッフにて、ご相談等お受けいたします。
+                </p>
+            </div>
+
+            <div class=" mb0-sp">
+                <p class="pg-btn mb20 mb10-sp">
+                    問診票・入院パンフレット
+                </p>
+                <div class="file-icon-pdf ml10">
+                    <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200330141220.pdf" target="_blank">もの忘れ外来問診票</a>(677.4KB)<br>
+                    <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200330152952.pdf" target="_blank">入院パンフレット</a>(1.4MB)
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <?php
+    get_footer();
