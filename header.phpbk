@@ -137,6 +137,12 @@
                 <div class="nav-sp">
                     <div class="nav-menu-sp">
                         <ul>
+                            <li>
+                                <a href="<?php echo home_url(); ?>" class="menu-list">
+                                    <p>トップページ</p>
+                                    <span class="arr-icon"></span>
+                                </a>
+                            </li>
                             <li class="sp-menu-toggle menu-on">
                                 <div class="menu-list">
                                     <p>外来のご案内</p>
@@ -144,11 +150,11 @@
                                 </div>
                                 <div class="menu-sub-list">
                                     <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/gairai#gairai-sec01'; ?>">診療科目</a></li>
+                                        <li><a href="<?php echo home_url() . '/gairai'; ?>">外来のご案内</a></li>
                                         <li><a href="<?php echo home_url() . '/gairai#gairai-sec02'; ?>">診療時間</a></li>
                                         <li><a href="<?php echo home_url() . '/gairai#gairai-sec03'; ?>">外来担当医表</a></li>
-                                        <li><a href="<?php echo home_url() . '/gairai#gairai-sec04'; ?>">初めて受診される方</a></li>
-                                        <li><a href="<?php echo home_url() . '/gairai#gairai-sec05'; ?>">光トポグラフィー検査</a></li>
+                                        <li><a href="<?php echo home_url() . '/gairai#gairai-sec04'; ?>">外来担当医のご紹介</a></li>
+                                        <li><a href="<?php echo home_url() . '/gairai#gairai-sec05'; ?>">外来について</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -169,9 +175,21 @@
                                     </ul>
                                 </div>
                             </li>
+                            <li>
+                                <a href="<?php echo home_url() . '/department'; ?>" class="menu-list">
+                                    <p>部門紹介</p>
+                                    <span class="arr-icon"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo home_url() . '/'; ?>" class="menu-list">
+                                    <p>健康診断・在宅医療</p>
+                                    <span class="arr-icon"></span>
+                                </a>
+                            </li>
                             <li class="sp-menu-toggle menu-on">
                                 <div class="menu-list">
-                                    <p>部門紹介</p>
+                                    <p>病院紹介</p>
                                     <span class="arr-icon"></span>
                                 </div>
                                 <div class="menu-sub-list">
@@ -181,38 +199,6 @@
                                         <li><a href="<?php echo home_url() . '/about#overview-section'; ?>">病院概要・沿革</a></li>
                                         <li><a href="<?php echo home_url() . '/about#traffic-section'; ?>">交通アクセス</a></li>
                                         <li><a href="<?php echo home_url() . '/about#floor-section'; ?>">フロアガイド</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="sp-menu-toggle menu-on">
-                                <div class="menu-list">
-                                    <p>デイケア・ショートケア</p>
-                                    <span class="arr-icon"></span>
-                                </div>
-                                <div class="menu-sub-list">
-                                    <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/recruit'; ?>">採用情報</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#recruitment-information-list'; ?>">採用情報一覧</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#about-recruitment'; ?>">職員募集について</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#employment-information-list'; ?>">採用情報詳細</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#nursing-scholarship'; ?>">看護学生 奨学金制度</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#certified-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="sp-menu-toggle menu-on">
-                                <div class="menu-list">
-                                    <p>病院紹介</p>
-                                    <span class="arr-icon"></span>
-                                </div>
-                                <div class="menu-sub-list">
-                                    <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/recruit'; ?>">採用情報</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#recruitment-information-list'; ?>">採用情報一覧</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#about-recruitment'; ?>">職員募集について</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#employment-information-list'; ?>">採用情報詳細</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#nursing-scholarship'; ?>">看護学生 奨学金制度</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#certified-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -231,6 +217,18 @@
                                         <li><a href="<?php echo home_url() . '/recruit#certified-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
                                     </ul>
                                 </div>
+                            </li>
+                            <li>
+                                <a href="http://www.shinyukai-r.or.jp/" target="_blank" class="menu-list">
+                                    <p>医療法人社団 心優会<br />ホームページへ</p>
+                                    <span class="arr-icon"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo home_url() . '/sitemap'; ?>" class="menu-list">
+                                    <p>サイトマップ</p>
+                                    <span class="arr-icon"></span>
+                                </a>
                             </li>
                             <li>
                                 <div class="menu-list search-sp">

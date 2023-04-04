@@ -17,31 +17,6 @@ get_header();
         </div>
     </div>
 </section>
-<!-- <div class="m-w860">
-    <span id="dpt-sec01"></span>
-    <ul class="dpt-tabs mt60 mt25-sp">
-        <li class="dpt-tab active" id="nursing-department">
-            <a class="" href="#left-dept">
-                <span class="arrow-dow"></span>
-                <div class="dpt-tab-txt-block">
-                    <div class="dpt-tab-icon on"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/department/left-tab-img-wh.png" alt="入院されるとき"></div>
-                    <div class="dpt-tab-icon off"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/department/left-tab-img.png" alt="入院されるとき"></div>
-                    <p class="dpt-tab-description">看護部門</p>
-                </div>
-            </a>
-        </li>
-        <li class="dpt-tab" id="medical-tech-department">
-            <a class="" href="#right-dept">
-                <span class="arrow-dow"></span>
-                <div class="dpt-tab-txt-block">
-                    <div class="dpt-tab-icon on"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/department/right-tab-img-wh.png" alt="入院されるとき"></div>
-                    <div class="dpt-tab-icon off"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/department/right-tab-img.png" alt="入院されるとき"></div>
-                    <p class="dpt-tab-description">医療技術部門</p>
-                </div>
-            </a>
-        </li>
-    </ul>
-</div> -->
 
 <div class="dep-sec panels dept-border">
 
@@ -647,7 +622,7 @@ get_header();
                 <p class="pg-btn mb20 mb10-sp">
                     問診票・入院パンフレット
                 </p>
-                <div class="file-icon-pdf ml10">
+                <div class="file-icon-pdf">
                     <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200330141220.pdf" target="_blank">もの忘れ外来問診票</a>(677.4KB)<br>
                     <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20200330152952.pdf" target="_blank">入院パンフレット</a>(1.4MB)
                 </div>

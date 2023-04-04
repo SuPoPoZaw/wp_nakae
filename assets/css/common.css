@@ -650,7 +650,7 @@ a{
         overflow-y: scroll;
         -webkit-transition: all .25s ease-out;
                 transition: all .25s ease-out;
-        background: #d5e0f9;
+        background: #c0e0c7;
     }
 
     .nav-sp.open {
@@ -661,7 +661,7 @@ a{
 
     .nav-sp ul li {
         padding: 14px 10px;
-        border-bottom: 1px solid #bbbfca;
+        border-bottom: 1px solid #32855e;
     }
 
     .nav-sp ul li:last-child {
@@ -689,7 +689,7 @@ a{
     .arr-icon {
         position: relative;
         width: 40px;
-        border-left: 2px solid #c1c7d5;
+        border-left: 2px solid #32855e;
     }
 
     .arr-icon::after {
