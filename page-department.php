@@ -44,6 +44,7 @@ get_header();
 </div> -->
 
 <div class="dep-sec panels dept-border">
+
     <section class="page-anchor mb90 mb50-sp mt60-sp dpt-right-tab pt50-sp">
         <!-- TODO section with many buttons will go here -->
         <div class="container m-w800 pt-80">
@@ -93,6 +94,7 @@ get_header();
             </ul>
         </div>
     </section>
+
     <section id="item01-sec" class="item01-sec item-sec-border-sp bg-gray">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">看護部</h2>
@@ -138,8 +140,7 @@ get_header();
                 </div>
 
                 <div class=" mb40 mb0-sp">
-                    <!-- <h3 class="procedure-ttl " key="1">精神科看護の特色</h3> -->
-                    <div class="" key="1" style="display: block;">
+                    <div class="" style="display: block;">
                         <div class="mb50 mb30-sp">
                             <h4 id="page-ttl-a01" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">精神科看護の特色</h4>
                             <p>日本精神科看護協会では「精神科看護とは、精神的健康について援助を必要としている人々に対し、個人の尊厳と権利擁護を基本理念として、専門的知識と技術を用い、自律性の回復を通して、その人らしい生活ができるように支援すること」と示されています。<br>
@@ -228,33 +229,6 @@ get_header();
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="2">活動方針</h3>
-                    <div class="mb50 mb30-sp " key="2" style="display: block;">
-                        <ol class="procedure-detail-ol">
-                            <li>挨拶を交わす。</li>
-                            <li>遅刻欠勤をしない。</li>
-                            <li>対応は、きちんと親切に行う。</li>
-                            <li>報告・連絡・相談を徹底する。</li>
-                            <li>良い人間関係をつくる努力をする。</li>
-                            <li>自己の活動に責任を持つ。</li>
-                            <li>勉強会等、率先して参加する。</li>
-                        </ol>
-                    </div>
-
-                </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="3">看護師の果たす役割と責任</h3>
-                    <div class="mb50 mb30-sp " key="3" style="display: block;">
-                        <ul class="procedure-detail">
-                            <li>個々の患者の背景を十分把握し、個別的な対応や指導援助が実践できる。常に自己の看護観を組織の中でのレベルに合わせる。</li>
-                            <li>利用的な関わりを通し、良い人間関係をつくり、病む人の心を開き、他の医療チームとの連携を密にして、患者及び家族に治療経過また、入院生活が不安なく生活できる様、医師に全体像を報告し、患者及び家族が納得できる様、病状・検査結果等、医師の説明の場を作る様速やかに考慮し対応していく。</li>
-                            <li>看護者は必要な知識能力を高め、自己成長を促し、仕事への意欲を育てて良き社会人として豊かな人間性を促すために、継続学習や看護研究を行っていく。</li>
-                        </ul>
-                    </div>
-                </div> -->
 
             </div>
         </div>
@@ -368,13 +342,13 @@ get_header();
                     <p class="mb30 mb20-sp ">このページでは次の情報をご案内しています。</p>
                     <ul class="recruit-info-li">
                         <li>
-                            <a href="#" style="height: 52px;">心理検査</a>
+                            <a href="#item04-a01" style="height: 52px;">心理検査</a>
                         </li>
                         <li>
-                            <a href="#" style="height: 52px;">心理療法（カウンセリング）</a>
+                            <a href="#item04-a02" style="height: 52px;">心理療法（カウンセリング）</a>
                         </li>
                         <li>
-                            <a href="#" style="height: 52px;">集団認知行動療法</a>
+                            <a href="#item04-a03" style="height: 52px;">集団認知行動療法</a>
                         </li>
                     </ul>
                 </div>
@@ -387,14 +361,21 @@ get_header();
                 </div>
 
                 <div class="mb50 mb30-sp">
-                    <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">心理検査</h4>
+                    <h4 id="item04-a01" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">心理検査</h4>
                     <p>主治医の指示の下、知能検査などの各種心理検査を行い、診断の補助や患者様の理解に役立てます。<br />
                         検査をご希望の方は、診察時に主治医までご相談ください。
                     </p>
                 </div>
 
+                <div class="mb50 mb30-sp">
+                    <h4 id="item04-a02" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">心理療法（カウンセリング）</h4>
+                    <p>当院では認知行動療法を中心とした個別での心理療法（カウンセリング）も実施しております。
+                        ただし、個別心理療法は担当医が適応の有無を判断した上で実施されますので、当院外来を受診して頂く必要があります。ご希望の場合は受診時に担当医とご相談下さい。
+                    </p>
+                </div>
+
                 <div class="procedure-block mb40 mb0-sp">
-                    <h4 class="procedure-ttl ">内視鏡検査（胃カメラ、大腸カメラ）</h4>
+                    <h4 class="procedure-ttl ">認知行動療法（CBT）</h4>
                     <div class="procedure-detail-box " style="display: block;">
                         <p class="mt20 mt10-sp">
                             つらい場面に直面した時に、「ゆううつ感」、「イライラ」、「不安」といった不愉快な気分に圧倒されて身動きがとれなくなってしまうといった経験はありませんか？
@@ -450,163 +431,93 @@ get_header();
                     </ul>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl ">Ｘ線検査（レントゲン検査、バリウム検査）</h3>
-                    <div class="procedure-detail-box " style="display: block;">
-                        <p>
-                            2021年Ｘ線画像診断システム導入により、高画質と被爆線量軽減に貢献しています。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
+                <div class="mb50 mb30-sp">
+                    <h4 id="item04-a03" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">集団認知行動療法</h4>
+                    <p>
+                        当院では、リワークを目的とした認知行動療法の集団プログラムがあります。
+                    </p>
+                    <div class="img mt30 mb15-sp">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dept_img02.jpg" alt="集団認知行動療法">
                     </div>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl ">Ｘ線ＣＴ検査</h3>
-                    <div class="procedure-detail-box " style="display: block;">
-                        <p>
-                            マルチスライスＣＴにて多様な検査にも対応しています。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
+                <div class=" nakae mb50 mb30-sp">
+                    <h5 class="h5-ttl">プログラムの概要</h5>
+                    <p class="mt20 mt10-sp mb10">全10回～12回程度のクール制（途中参加可能）<br />
+                        （回数はそのクールで扱う症状によって若干の違いがあります）
+                    </p>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl ">ＭＲＩ検査</h3>
-                    <div class="procedure-detail-box " style="display: block;">
-                        <p>
-                            圧迫感が少ないオープンタイプＭＲＩにて検査を行います。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
+                <div class=" nakae mb50 mb30-sp">
+                    <h5 class="h5-ttl">実施日</h5>
+                    <p class="mt20 mt10-sp mb10">毎週金曜日PMもしくは外来診察日の土曜日AM<br />
+                        （変更される場合もあります。具体的な実施日時についてはお問い合わせ下さい）
+                    </p>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl ">超音波検査</h3>
-                    <div class="procedure-detail-box " style="display: block;">
-                        <p>
-                            放射線を使わない画像診断なのでMRIやCTでは確認できないものも確認することができます。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
+                <div class=" mb50 mb30-sp">
+                    <h5 class="h5-ttl">対象</h5>
+                    <p class="mt20 mt10-sp mb10">当院通院中の方で、ゆううつな気分や不安感でお困りの方<br />
+                        （その他のお困りごとも対象となる場合があります。お気軽にお問合せ下さい）
+                    </p>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl ">心電図</h3>
-                    <div class="procedure-detail-box " style="display: block;">
-                        <p>
-                            心臓からの微弱な電流の流れより心臓の検査をします。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
+                <div class="mb50 mb30-sp">
+                    <h5 class="h5-ttl">基本方針</h5>
+                    <ol class="ml30 mt10">
+                        <li class="mb10">認知行動療法の基本的な発想の勉強</li>
+                        <li class="mb10">考えていることに"気づく"練習</li>
+                        <li class="mb10"> 考えすぎることから"抜け出す"練習</li>
+                        <li class="mb10">考えにどっぷりつかってしまうパターンを見つける</li>
+                        <li class="mb10">つい避けてしまうことに対して，"今"できることを探す</li>
+                        <li class="mb10">今後のアクションを予測・計画する</li>
+                    </ol>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="17">骨塩定量測定検査</h3>
-                    <div class="procedure-detail-box " key="17" style="display: block;">
-                        <p>
-                            踵からの測定なので車イスのままでも骨粗鬆症の診断や経過観察が行えます。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
+                <div class=" mb50 mb30-sp">
+                    <h5 class="h5-ttl">費用</h5>
+                    <p class="mt20 mt10-sp mb10">各種健康保険が適用できます。<br />
+                        （集団認知行動療法は｢ショートケア｣の料金となります。詳しくは｢デイケア｣のページをご参照下さい。）
+                    </p>
                 </div>
 
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="18">眼底カメラ検査</h3>
-                    <div class="procedure-detail-box " key="18" style="display: block;">
-                        <p>
-                            眼の奥の血管や神経などの撮影を行います。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="19">血圧脈波検査</h3>
-                    <div class="procedure-detail-box " key="19" style="display: block;">
-                        <p>
-                            手と足の血圧計測より動脈硬化を検査します。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="20">肺年齢計スパイロメーター</h3>
-                    <div class="procedure-detail-box " key="20" style="display: block;">
-                        <p>
-                            可能な限りの息の吸い込みと吹き出しから肺機能を検査します。
-                        </p>
-                        <div class="procedure-detail-img-flex mt30 mt15-sp">
-                            <div class="procedure-detail-img-box mb15-sp">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像1">
-                            </div>
-                            <div class="procedure-detail-img-box">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dummy.jpg" alt="一般撮影検査画像2">
-                            </div>
-                        </div>
-                    </div>
+                <div class="nakae">
+                    <p class="p-txt-b mt35"><span>※</span>お申込みされる際の注意点</p>
+                    <ul class="pl10">
+                        <li class=" mt20">
+                            <p>
+                                プログラムには定員があります。したがって定員に達した場合、次回以降のクールの参加となる可能性がありますので、ご了承下さい。
+                            </p>
+                        </li>
+                        <li class=" mt10">
+                            <p>
+                                途中から参加をされる方には、個別のカウンセリングにて共通部分について説明させていただいてからの参加になります。（2~3回程度）
+                            </p>
+                        </li>
+                        <li class=" mt10">
+                            <p>
+                                当院の集団認知行動療法は、｢デイケア｣のプログラムとして実施されるため、各種健康保険が利用可能となります。そのため、当院通院中の方しか参加頂けなくなっています。参加をご希望される場合は一度受診して頂いた上で、プログラムにご登録頂く必要があります。
+                            </p>
+                        </li>
+                        <li class=" mt10">
+                            <p>
+                                ご不明な点や詳細、お申込みなど、お気軽にお問合せ下さい。
+                            </p>
+                        </li>
+                    </ul>
                 </div>
 
 
             </div>
         </div>
     </section>
+
+    <section id="item05-sec" class="item01-sec item-sec-border-sp bg-gray">
+        <div class="container m-w800">
+            <h2 class="h2-ttl h2-mb">訪問看護</h2>
+        </div>
+    </section>
+
 </div>
 
 <?php
