@@ -25,42 +25,42 @@ get_header();
         <div class="container m-w800 pt-80">
             <ul class="anchor-list">
                 <li>
-                    <a class="goto" href="#item01-sec">
+                    <a class="goto" href="#dept-sec01">
                         <div class="goto-left-side">
                             <p class="goto-description">看護部</p>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a class="goto" href="#item02-sec">
+                    <a class="goto" href="#dept-sec02">
                         <div class="goto-left-side">
                             <p class="goto-description">訪問看護</p>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a class="goto" href="#item03-sec">
+                    <a class="goto" href="#dept-sec03">
                         <div class="goto-left-side">
                             <p class="goto-description">相談室</p>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a class="goto" href="#item04-sec">
+                    <a class="goto" href="#dept-sec04">
                         <div class="goto-left-side">
                             <p class="goto-description">心理室</p>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a class="goto" href="#item05-sec">
+                    <a class="goto" href="#dept-sec05">
                         <div class="goto-left-side">
                             <p class="goto-description">作業療法</p>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a class="goto" href="#item06-sec">
+                    <a class="goto" href="#dept-sec06">
                         <div class="goto-left-side">
                             <p class="goto-description">地域連携室（相談室）</p>
                         </div>
@@ -70,7 +70,7 @@ get_header();
         </div>
     </section>
 
-    <section id="item01-sec" class="item01-sec item-sec-border-sp bg-gray">
+    <section id="dept-sec01" class="item01-sec item-sec-border-sp bg-gray">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">看護部</h2>
             <div class="recruit-info-gp " id="page_navi ">
@@ -210,7 +210,7 @@ get_header();
     </section>
 
 
-    <section id="item02-sec" class="item02-sec item-sec-border-sp">
+    <section id="dept-sec02" class="item02-sec item-sec-border-sp">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">訪問看護</h2>
             <div class="dep-card mb50 mb30-sp">
@@ -258,7 +258,7 @@ get_header();
     </section>
 
 
-    <section id="item03-sec" class="item03-sec item-sec-border-sp bg-gray">
+    <section id="dept-sec03" class="item03-sec item-sec-border-sp bg-gray">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">相談室</h2>
             <div class="procedure-con">
@@ -309,7 +309,7 @@ get_header();
         </div>
     </section>
 
-    <section id="item04-sec" class="item04-sec item-sec-border-sp">
+    <section id="dept-sec04" class="item04-sec item-sec-border-sp">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">心理室</h2>
             <div class="procedure-con">
@@ -487,7 +487,7 @@ get_header();
         </div>
     </section>
 
-    <section id="item05-sec" class="item01-sec item-sec-border-sp bg-gray">
+    <section id="dept-sec05" class="item05-sec item-sec-border-sp bg-gray">
 
         <div class="container m-w800">
 
@@ -578,7 +578,7 @@ get_header();
 
     </section>
 
-    <section id="item06-sec" class="item01-sec item-sec-border-sp">
+    <section id="dept-sec06" class="item06-sec item-sec-border-sp">
 
         <div class="container m-w800">
 

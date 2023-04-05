@@ -160,12 +160,11 @@
                                 <div class="menu-sub-list">
                                     <ul class="subnav-box">
                                         <li><a href="<?php echo home_url() . '/nyuuin'; ?>">入院のご案内</a></li>
-                                        <li><a href="<?php echo home_url() . '/nyuuin#item01-sec'; ?>">入院されるとき</a></li>
-                                        <li><a href="<?php echo home_url() . '/nyuuin#item02-sec'; ?>">注意事項</a></li>
-                                        <li><a href="<?php echo home_url() . '/nyuuin#item03-sec'; ?>">入院中の生活</a></li>
-                                        <li><a href="<?php echo home_url() . '/nyuuin#item04-sec'; ?>">面談・面会について</a></li>
-                                        <li><a href="<?php echo home_url() . '/nyuuin#item05-sec'; ?>">入院の費用</a></li>
-                                        <li><a href="<?php echo home_url() . '/nyuuin#item06-sec'; ?>">その他事項</a></li>
+                                        <li><a href="<?php echo home_url() . '/nyuuin#nyuuin-sec01'; ?>">入院されるとき</a></li>
+                                        <li><a href="<?php echo home_url() . '/nyuuin#nyuuin-sec02'; ?>">入院中の生活</a></li>
+                                        <li><a href="<?php echo home_url() . '/nyuuin#nyuuin-sec03'; ?>">面談・面会について</a></li>
+                                        <li><a href="<?php echo home_url() . '/nyuuin#nyuuin-sec04'; ?>">入院の費用</a></li>
+                                        <li><a href="<?php echo home_url() . '/nyuuin#nyuuin-sec05'; ?>">その他事項</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -176,11 +175,13 @@
                                 </div>
                                 <div class="menu-sub-list">
                                     <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/about'; ?>">病院紹介</a></li>
-                                        <li><a href="<?php echo home_url() . '/about#greeting-section'; ?>">院長挨拶</a></li>
-                                        <li><a href="<?php echo home_url() . '/about#overview-section'; ?>">病院概要・沿革</a></li>
-                                        <li><a href="<?php echo home_url() . '/about#traffic-section'; ?>">交通アクセス</a></li>
-                                        <li><a href="<?php echo home_url() . '/about#floor-section'; ?>">フロアガイド</a></li>
+                                        <li><a href="<?php echo home_url() . '/department'; ?>">病院紹介</a></li>
+                                        <li><a href="<?php echo home_url() . '/department#dept-sec01'; ?>">看護部</a></li>
+                                        <li><a href="<?php echo home_url() . '/department#dept-sec02'; ?>">訪問看護</a></li>
+                                        <li><a href="<?php echo home_url() . '/department#dept-sec03'; ?>">相談室</a></li>
+                                        <li><a href="<?php echo home_url() . '/department#dept-sec04'; ?>">心理室</a></li>
+                                        <li><a href="<?php echo home_url() . '/department#dept-sec05'; ?>">作業療法</a></li>
+                                        <li><a href="<?php echo home_url() . '/department#dept-sec06'; ?>">地域連携室（相談室）</a></li>
                                     </ul>
                                 </div>
                             </li>
