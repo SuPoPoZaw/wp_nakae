@@ -2862,13 +2862,13 @@ i.chevron-right {
   letter-spacing: 0.8px;
 }
 
-.gairai-info-section {
+/* .gairai-info-section {
   padding: 70px 0 50px;
-}
+} */
 
-.consult-time-section {
+/* .consult-time-section {
   padding: 70px 0 80px 0;
-}
+} */
 
 .consult-time-table {
   margin-bottom: 50px;
@@ -2921,9 +2921,9 @@ font-blue {
   font-size: 1.4rem;
 }
 
-.optical-inspection {
+/* .optical-inspection {
   padding: 70px 0 50px 0;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .gairai-info-section {
@@ -2937,9 +2937,9 @@ font-blue {
 
 /* Doctor List Section */
 
-.doctor-table {
+/* .doctor-table {
   padding: 70px 0 50px 0;
-}
+} */
 
 .doctor-table-txt {
   text-align: center;
@@ -3264,9 +3264,9 @@ font-blue {
 
 /* Outpatient Section */
 
-.outpatient {
+/* .outpatient {
   padding: 70px 0 80px 0;
-}
+} */
 
 .gairai-procedure-ttl {
   padding-bottom: 15px;

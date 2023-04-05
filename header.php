@@ -175,7 +175,7 @@
                                 </div>
                                 <div class="menu-sub-list">
                                     <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/department'; ?>">病院紹介</a></li>
+                                        <li><a href="<?php echo home_url() . '/department'; ?>">部門紹介</a></li>
                                         <li><a href="<?php echo home_url() . '/department#dept-sec01'; ?>">看護部</a></li>
                                         <li><a href="<?php echo home_url() . '/department#dept-sec02'; ?>">訪問看護</a></li>
                                         <li><a href="<?php echo home_url() . '/department#dept-sec03'; ?>">相談室</a></li>
@@ -192,12 +192,7 @@
                                 </div>
                                 <div class="menu-sub-list">
                                     <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/recruit'; ?>">採用情報</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#recruitment-information-list'; ?>">採用情報一覧</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#about-recruitment'; ?>">職員募集について</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#employment-information-list'; ?>">採用情報詳細</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#nursing-scholarship'; ?>">看護学生 奨学金制度</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#certified-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
+                                        <li><a href="<?php echo home_url() . '/daycare'; ?>">デイケア・ショートケア</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -208,12 +203,13 @@
                                 </div>
                                 <div class="menu-sub-list">
                                     <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/recruit'; ?>">採用情報</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#recruitment-information-list'; ?>">採用情報一覧</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#about-recruitment'; ?>">職員募集について</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#employment-information-list'; ?>">採用情報詳細</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#nursing-scholarship'; ?>">看護学生 奨学金制度</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#certified-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
+                                        <li><a href="<?php echo home_url() . '/about'; ?>">病院紹介</a></li>
+                                        <li><a href="<?php echo home_url() . '/about#hospital-info01'; ?>">院長挨拶</a></li>
+                                        <li><a href="<?php echo home_url() . '/about#hospital-info02'; ?>">使命・運営理念</a></li>
+                                        <li><a href="<?php echo home_url() . '/about#hospital-info03'; ?>">病院概要</a></li>
+                                        <li><a href="<?php echo home_url() . '/about#hospital-info04'; ?>">施設案内</a></li>
+                                        <li><a href="<?php echo home_url() . '/about#hospital-info05'; ?>">院内保育所</a></li>
+                                        <li><a href="<?php echo home_url() . '/about#hospital-info06'; ?>">アクセス</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -226,10 +222,11 @@
                                     <ul class="subnav-box">
                                         <li><a href="<?php echo home_url() . '/recruit'; ?>">採用情報</a></li>
                                         <li><a href="<?php echo home_url() . '/recruit#recruitment-information-list'; ?>">採用情報一覧</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#about-recruitment'; ?>">職員募集について</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#employment-information-list'; ?>">採用情報詳細</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#nursing-scholarship'; ?>">看護学生 奨学金制度</a></li>
-                                        <li><a href="<?php echo home_url() . '/recruit#certified-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
+                                        <li><a href="<?php echo home_url() . '/recruit#celebration-money-system'; ?>">就職お祝い金制度</a></li>
+                                        <li><a href="<?php echo home_url() . '/recruit#about-staff-recruitment'; ?>">職員募集について</a></li>
+                                        <li><a href="<?php echo home_url() . '/recruit#recruitment-information'; ?>">採用情報</a></li>
+                                        <li><a href="<?php echo home_url() . '/recruit#nursing-scholarship'; ?>">看護学生 奨学金制度 </a></li>
+                                        <li><a href="<?php echo home_url() . '/recruit#care-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
                                     </ul>
                                 </div>
                             </li>

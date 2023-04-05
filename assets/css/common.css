@@ -729,7 +729,7 @@ a{
     }
 
     .subnav-box li:first-child {
-        border-top: 1px solid #bbbfca;
+        border-top: none !important;
     }
 
     .menu-sub-list {
@@ -751,6 +751,7 @@ a{
 
     .menu-list.search-sp {
         width: 100%;
+        padding: 40px 0;
     }
 
     .menu-list form {

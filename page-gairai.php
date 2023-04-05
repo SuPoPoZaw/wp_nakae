@@ -65,7 +65,7 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="gairai-info-section bg-gray" id="gairai-sec01">
+<section class="gairai-info-section bg-gray pt80 pt45-sp pb90 pb35-sp" id="gairai-sec01">
     <div class="container">
         <div class="information">
             <h2 class="h2-ttl h2-mb">診療科目</h2>
@@ -82,7 +82,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="consult-time-section" id="gairai-sec02">
+<section class="consult-time-section pt80 pt45-sp pb90 pb35-sp" id="gairai-sec02">
     <div class="container">
         <hr class="consult-hr-sp sp" />
         <div class="m-w800 margin-sp">
@@ -140,7 +140,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="doctor-table bg-gray" id="gairai-sec03">
+<section class="doctor-table bg-gray pt80 pt45-sp pb70 pb35-sp" id="gairai-sec03">
     <div class="container">
         <div class="m-w800">
             <h2 class="h2-ttl h2-mb">外来担当医表</h2>
@@ -158,174 +158,178 @@ get_header();
 
             <div class="doctor-list-container">
                 <?php
-                    $args = array(
-                        'post_type' => 'numazaki-doctors'
-                    );
-                    $wpqv = new WP_Query( $args );
-                    if ( $wpqv->have_posts() ) :
-                        while ( $wpqv->have_posts() ) : $wpqv->the_post();
+                $args = array(
+                    'post_type' => 'numazaki-doctors'
+                );
+                $wpqv = new WP_Query($args);
+                if ($wpqv->have_posts()) :
+                    while ($wpqv->have_posts()) : $wpqv->the_post();
                 ?>
-                <ul class="doctor-list">
-                    <li class="doctor-list-li" id="gairai01">
-                        <div class="table-ttl">
-                        <h3 class="procedure-ttl">外来担当医勤務表</h3>
-                        </div>
-                        <table class="table-dec">
-                            <tr class="table-tr">
-                                <th class="table-th"></th>
-                                <th class="table-th">月</th>
-                                <th class="table-th">火</th>
-                                <th class="table-th">水</th>
-                                <th class="table-th">木</th>
-                                <th class="table-th">金</th>
-                                <th class="table-th">土</th>
-                            </tr>
-                            <!-- ループ処理 1回目だけthを表示させるためにcounterを使用 -->
-                            <?php $snd_doctors = SCF::get('snd_doctors');?>
-                            <?php if(!empty($snd_doctors[0]['snd_sei'])):?>
-                            <?php
-                                $counter = 0;
-                                foreach ($snd_doctors as $fields ) {
-                                    $counter++;
-                            ?>
-                            <tr class="table-tr">
-                                <!-- ループの1回目のみthを表示 -->
-                                <?php if($counter==1):?>
-                                <th rowspan="10" class="single-th">午前</th>
-                                <?php endif; ?>
-                                <!-- thの件ここまで -->
-                                <!-- 診療科目ごとの表示非表示のif -->
-                                <?php if ($fields['snd_naika'] == '表示') : ?>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    -
-                                </td>
-                                <?php else: ?>
-                                <?php endif; ?>
-                                <!-- 表示非常時のifここまで -->
-                            </tr>
-                            <?php } ?>
-                            <?php else: ?>
-                            <?php endif; ?>
-                            <!-- ループここまで -->
-                        </table>
-                        <table class="table-dec">
-                            <tr class="table-tr">
-                                <th class="table-th"></th>
-                                <th class="table-th">月</th>
-                                <th class="table-th">火</th>
-                                <th class="table-th">水</th>
-                                <th class="table-th">木</th>
-                                <th class="table-th">金</th>
-                                <th class="table-th">土</th>
-                            </tr>
-                            <!-- ループ処理 1回目だけthを表示させるためにcounterを使用 -->
-                            <?php $snd_doctors = SCF::get('snd_doctors');?>
-                            <?php if(!empty($snd_doctors[0]['snd_sei'])):?>
-                            <?php
-                                $counter = 0;
-                                foreach ($snd_doctors as $fields ) {
-                                    $counter++;
-                            ?>
-                            <tr class="table-tr">
-                                <!-- ループの1回目のみthを表示 -->
-                                <?php if($counter==1):?>
-                                <th rowspan="10" class="single-th">午後</th>
-                                <?php endif; ?>
-                                <!-- thの件ここまで -->
-                                <!-- 診療科目ごとの表示非表示のif -->
-                                <?php if ($fields['snd_naika'] == '表示') : ?>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    <?php echo $fields['snd_sei']; ?>
-                                </td>
-                                <td class="table-td">
-                                    -
-                                </td>
-                                <?php else: ?>
-                                <?php endif; ?>
-                                <!-- 表示非常時のifここまで -->
-                            </tr>
-                            <?php } ?>
-                            <?php else: ?>
-                            <?php endif; ?>
-                            <!-- ループここまで -->
-                        </table>
-                    </li>
-                </ul>
-                <?php  endwhile;endif;wp_reset_postdata();?>
+                        <ul class="doctor-list">
+                            <li class="doctor-list-li" id="gairai01">
+                                <div class="table-ttl">
+                                    <h3 class="procedure-ttl">外来担当医勤務表</h3>
+                                </div>
+                                <table class="table-dec">
+                                    <tr class="table-tr">
+                                        <th class="table-th"></th>
+                                        <th class="table-th">月</th>
+                                        <th class="table-th">火</th>
+                                        <th class="table-th">水</th>
+                                        <th class="table-th">木</th>
+                                        <th class="table-th">金</th>
+                                        <th class="table-th">土</th>
+                                    </tr>
+                                    <!-- ループ処理 1回目だけthを表示させるためにcounterを使用 -->
+                                    <?php $snd_doctors = SCF::get('snd_doctors'); ?>
+                                    <?php if (!empty($snd_doctors[0]['snd_sei'])) : ?>
+                                        <?php
+                                        $counter = 0;
+                                        foreach ($snd_doctors as $fields) {
+                                            $counter++;
+                                        ?>
+                                            <tr class="table-tr">
+                                                <!-- ループの1回目のみthを表示 -->
+                                                <?php if ($counter == 1) : ?>
+                                                    <th rowspan="10" class="single-th">午前</th>
+                                                <?php endif; ?>
+                                                <!-- thの件ここまで -->
+                                                <!-- 診療科目ごとの表示非表示のif -->
+                                                <?php if ($fields['snd_naika'] == '表示') : ?>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        -
+                                                    </td>
+                                                <?php else : ?>
+                                                <?php endif; ?>
+                                                <!-- 表示非常時のifここまで -->
+                                            </tr>
+                                        <?php } ?>
+                                    <?php else : ?>
+                                    <?php endif; ?>
+                                    <!-- ループここまで -->
+                                </table>
+                                <table class="table-dec">
+                                    <tr class="table-tr">
+                                        <th class="table-th"></th>
+                                        <th class="table-th">月</th>
+                                        <th class="table-th">火</th>
+                                        <th class="table-th">水</th>
+                                        <th class="table-th">木</th>
+                                        <th class="table-th">金</th>
+                                        <th class="table-th">土</th>
+                                    </tr>
+                                    <!-- ループ処理 1回目だけthを表示させるためにcounterを使用 -->
+                                    <?php $snd_doctors = SCF::get('snd_doctors'); ?>
+                                    <?php if (!empty($snd_doctors[0]['snd_sei'])) : ?>
+                                        <?php
+                                        $counter = 0;
+                                        foreach ($snd_doctors as $fields) {
+                                            $counter++;
+                                        ?>
+                                            <tr class="table-tr">
+                                                <!-- ループの1回目のみthを表示 -->
+                                                <?php if ($counter == 1) : ?>
+                                                    <th rowspan="10" class="single-th">午後</th>
+                                                <?php endif; ?>
+                                                <!-- thの件ここまで -->
+                                                <!-- 診療科目ごとの表示非表示のif -->
+                                                <?php if ($fields['snd_naika'] == '表示') : ?>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        <?php echo $fields['snd_sei']; ?>
+                                                    </td>
+                                                    <td class="table-td">
+                                                        -
+                                                    </td>
+                                                <?php else : ?>
+                                                <?php endif; ?>
+                                                <!-- 表示非常時のifここまで -->
+                                            </tr>
+                                        <?php } ?>
+                                    <?php else : ?>
+                                    <?php endif; ?>
+                                    <!-- ループここまで -->
+                                </table>
+                            </li>
+                        </ul>
+                <?php endwhile;
+                endif;
+                wp_reset_postdata(); ?>
                 <!-- <div class="btn-container">
                     <div id="close-btn" class="gairai-btn-dec list-close-btn">閉じる</div>
                 </div> -->
             </div>
 
             <div class="intro-outdor-doctor">
-            <h3 class="procedure-ttl" id="gairai02">外来担当医のご紹介</h3>
+                <h3 class="procedure-ttl" id="gairai02">外来担当医のご紹介</h3>
                 <ul class="intro-dr-block">
                     <li class="intro-dtr-block-li">
                         <?php
-                            $args = array(
-                                'post_type' => 'numazaki-doctors'
+                        $args = array(
+                            'post_type' => 'numazaki-doctors'
 
-                            );
-                            $wpqv = new WP_Query( $args );
-                            if ( $wpqv->have_posts() ) :
-                                while ( $wpqv->have_posts() ) : $wpqv->the_post();
+                        );
+                        $wpqv = new WP_Query($args);
+                        if ($wpqv->have_posts()) :
+                            while ($wpqv->have_posts()) : $wpqv->the_post();
                         ?>
-                        <ul class="outer-flex">
-                            <!-- ループ処理 -->
-                            <?php $snd_doctors = SCF::get('snd_doctors');?>
-                            <?php foreach ($snd_doctors as $fields ) { ?>
-                            <li class="outer-flex-li-01">
-                                <div class="outer-flex-li-sty">
-                                    <p class="outer-txt01"><?php echo $fields['snd_position']; ?></p>
-                                    <p class="outer-ttl01"><?php echo $fields['snd_sei']; ?>　<?php echo $fields['snd_mei']; ?></p>
-                                    <div class="outer-para01">
-                                        <p class="fz-b">専門分野</p>
-                                        <p><?php echo $fields['snd_senmon']; ?></p>
-                                    </div>
-                                    <div class="outer-para02">
-                                        <p class="fz-b">資格・略歴</p>
-                                        <p><?php echo $fields['snd_shikaku']; ?></p>
-                                    </div>
-                                </div>
-                            </li>
-                            <?php } ?>
-                            <!-- ループここまで -->
-                        </ul>
-                        <?php  endwhile;endif;wp_reset_postdata();?>
+                                <ul class="outer-flex">
+                                    <!-- ループ処理 -->
+                                    <?php $snd_doctors = SCF::get('snd_doctors'); ?>
+                                    <?php foreach ($snd_doctors as $fields) { ?>
+                                        <li class="outer-flex-li-01">
+                                            <div class="outer-flex-li-sty">
+                                                <p class="outer-txt01"><?php echo $fields['snd_position']; ?></p>
+                                                <p class="outer-ttl01"><?php echo $fields['snd_sei']; ?>　<?php echo $fields['snd_mei']; ?></p>
+                                                <div class="outer-para01">
+                                                    <p class="fz-b">専門分野</p>
+                                                    <p><?php echo $fields['snd_senmon']; ?></p>
+                                                </div>
+                                                <div class="outer-para02">
+                                                    <p class="fz-b">資格・略歴</p>
+                                                    <p><?php echo $fields['snd_shikaku']; ?></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    <?php } ?>
+                                    <!-- ループここまで -->
+                                </ul>
+                        <?php endwhile;
+                        endif;
+                        wp_reset_postdata(); ?>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
-<section class="outpatient" id="gairai-sec04">
+<section class="outpatient pt80 pt45-sp pb70 pb35-sp" id="gairai-sec04">
     <div class="container">
         <div class="m-w800 margin-sp">
             <h2 class="h2-ttl h2-mb">初めて受診される方</h2>
@@ -346,7 +350,7 @@ get_header();
                 <p class="pb15">完全予約制となっておりますので、事前に<span class="font-blue">代表電話（011-716-7181）</span>にてご予約ください。</p>
                 <p class="pb15">※問診票を事前にダウンロードしていただき、記入して当日お持ちいただくと、診察までをスムーズに行うことができます。</p>
                 <div class="file-icon-pdf">
-                    <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/20181010100746.pdf" target="_blank">もの忘れ外来問診票  </a>（677.4KB）
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/20181010100746.pdf" target="_blank">もの忘れ外来問診票 </a>（677.4KB）
                 </div>
 
                 <div class="fst-visitor-img">
@@ -385,7 +389,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="optical-inspection bg-gray" id="gairai-sec05">
+<section class="optical-inspection bg-gray pt80 pt45-sp pb70 pb35-sp" id="gairai-sec05">
     <div class="container">
         <div class="m-w800 margin-sp">
             <h2 class="h2-ttl h2-mb">光トポグラフィー検査</h2>
@@ -399,7 +403,7 @@ get_header();
             <div class="mb30">
                 <h5 class="h5-ttl">当院で使用している検査機材</h5>
                 <p>当院では，（株）島津製作所の近赤外光イメージング装置「SPEEDNIRS」を使用しています。
-                一般的な光トポグラフィー検査では7組19チャンネルの装置が使用されることが多いですが，当院では拡張タイプの14組42チャンネルの装置を使用しています。そのため，より広い範囲の計測が可能となっています。</p>
+                    一般的な光トポグラフィー検査では7組19チャンネルの装置が使用されることが多いですが，当院では拡張タイプの14組42チャンネルの装置を使用しています。そのため，より広い範囲の計測が可能となっています。</p>
             </div>
             <div class="mb30">
                 <div class="h5-ttl">１．検査の主たる目的</div>
@@ -408,19 +412,19 @@ get_header();
             <div class="mb30">
                 <div class="h5-ttl">２．安全性について</div>
                 <p>本検査では，装置を頭部に当て，近赤外光を用いて脳を働かせる課題を行う際の脳の血液量変化を測定し，脳機能の状態を検討します。<br>
-                用いられる近赤外光は曇りの日より弱い光であり，安全性は広く認められおり危険性の報告はありません。保険診療で認められている「光トポグラフィー検査」を応用した検査となりますので，ご安心して検査を受けていただけます。
+                    用いられる近赤外光は曇りの日より弱い光であり，安全性は広く認められおり危険性の報告はありません。保険診療で認められている「光トポグラフィー検査」を応用した検査となりますので，ご安心して検査を受けていただけます。
                 </p>
             </div>
             <div class="mb30">
                 <div class="h5-ttl">３．検査を受けるメリットとデメリット</div>
                 <p>数値化された客観的データにもとづいて，問診による診断が確実なものかどうかについての示唆が得られ，診断の正確性を高めることができます。うつ病，躁うつ病，統合失調症では，それぞれ治療方針（特に薬の処方）が異なるため，より正確な診断がとても重要となります。<br>
-                しかしながら，本検査の結果のみで診断がつくことや病気を証明することはできません。あくまで診断補助する一つの手段であり，問診やその他の検査（心理検査等）と同時に実施し，診断の精度を上げることが限界点となります。
+                    しかしながら，本検査の結果のみで診断がつくことや病気を証明することはできません。あくまで診断補助する一つの手段であり，問診やその他の検査（心理検査等）と同時に実施し，診断の精度を上げることが限界点となります。
                 </p>
             </div>
             <div class="mb30">
                 <div class="h5-ttl">４．費用について</div>
                 <p>検査費用は，13,000円（＋消費税）です。当院での光トポグラフィー検査は，保険診療の適応外となりますので，検査費用は自費となります。<br>
-                ※ 検査費用には，問診，心理検査，自律神経機能検査，結果のご報告の一連の費用が含まれます。
+                    ※ 検査費用には，問診，心理検査，自律神経機能検査，結果のご報告の一連の費用が含まれます。
                 </p>
             </div>
             <div class="mb30">
@@ -441,11 +445,11 @@ get_header();
                     <li><span>検査終了後，2週間程度で検査結果のご報告をさせていただきます。検査終了後に，結果報告日のご予約をお願い致します。また，郵送にて文書によるご報告も可能ですので，検査後に担当者にご相談ください。</span></li>
                 </ol>
             </div>
-            <div class="mb50">
+            <div class="mb30">
                 <div class="card m-auto">
                     <div class="card-head">
                         <div class="card-head-ttl text-center">
-                                <span>検査のご予約・お問い合わせ</span>
+                            <span>検査のご予約・お問い合わせ</span>
                         </div>
                     </div>
                     <div class="card-body">

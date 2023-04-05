@@ -17,7 +17,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="page-anchor pt80 pb100 pt60-sp pb60-sp">
+<section class="page-anchor mt80 mt45-sp mb90 mb35-sp">
     <!-- TODO section with many buttons will go here -->
     <div class="container m-w800">
         <ul class="anchor-list">
@@ -372,90 +372,6 @@ get_header();
                     </p>
                 </div>
             </div>
-            <!-- <div class="procedure-block">
-                <h3 class="" id="table-accor" key="24">その他利用料など</h3>
-                <div class="scroll-bl">
-                    <div class=" scroll-wd" key="24">
-                        <div class="tvset-table01 pb20">
-                            <table class="tvset-table-block">
-                                <tbody>
-                                    <tr>
-                                        <td>テレビ</td>
-                                        <td>テレビカード：1枚1,000円（20時間）</td>
-                                    </tr>
-                                    <tr>
-                                        <td>イヤホン販売</td>
-                                        <td>300円（売店にて販売）</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="tvset-table02">
-                            <table class="table-block">
-                                <tbody>
-                                    <tr>
-                                        <th rowspan="3">食事料<br>（一般病棟）</th>
-                                        <th>年齢区分</th>
-                                        <th>所得区分</th>
-                                        <th>負担金額</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="table-block-col">70歳未満</td>
-                                        <td>区分「ア」・「イ」・「ウ」・「エ」区分「オ」</td>
-                                        <td>460円/1食<br>210円/1食</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="table-block-col">70歳以上</td>
-                                        <td>現役並み所得者<br>一般<br>区分Ⅱ<br>区分Ⅱ（長期該当者）<br>区分Ⅰ</td>
-                                        <td>460円/1食<br>460円/1食<br>210円/1食<br>160円/1食<br>100円/1食</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="tvset-table03">
-                            <table class="table-block">
-                                <tbody>
-                                    <tr>
-                                        <th rowspan="3">介護医療院<br>サービス費<br>（基本料）</th>
-                                        <th rowspan="2">要介護度</th>
-                                        <th rowspan="2">基本単位</th>
-                                        <th colspan="3">負担金額</th>
-                                    </tr>
-                                    <tr>
-                                        <th class="table-block-col">基本単位</th>
-                                        <th>基本単位</th>
-                                        <th>基本単位</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="table-block-col">要介護1<br>要介護2<br>要介護3<br>要介護4<br>要介護5</td>
-                                        <td>813単位/日<br>922単位/日<br>1,159単位/日<br>1,259単位/日<br>1,350単位/日</td>
-                                        <td>813円/日<br>922円/日<br>1,159円/日<br>1,259円/日<br>1,350円/日</td>
-                                        <td>1,626円/日<br>1,844円/日<br>2,318円/日<br>2,518円/日<br>2,700円/日</td>
-                                        <td>2,439円/日<br>2,766円/日<br>3,477円/日<br>3,777円/日<br>4,050円/日</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="tvset-table04">
-                            <table class="table-block">
-                                <tbody>
-                                    <tr>
-                                        <th rowspan="2">食費・居住費<br>（介護医療院）</th>
-                                        <th>利用者負担段階</th>
-                                        <th>食費</th>
-                                        <th>居住費</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="table-block-col">第1段階<br>第2段階<br>第3段階①<br>第3段階②<br>第4段階</td>
-                                        <td>300円/日<br>390円/日<br>650円/日<br>1,360円/日<br>1,960円/日</td>
-                                        <td>多床室　0円/日<br>多床室　370円/日<br>多床室　370円/日<br>多床室　370円/日<br>多床室　377円/日</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="tb-scrollbtn js-fix01" style="">
                 <img class="inline-block sp" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin/sp-swipe.png" alt="Scroll" />
             </div>
