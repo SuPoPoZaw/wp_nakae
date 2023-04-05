@@ -4237,6 +4237,18 @@ ul.dot li::before {
   max-width: 340px;
   margin: 0 auto;
 }
+.img700-container{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.img400-container{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.img607-container{
+  max-width: 607px;
+  margin: 0 auto;
+}
 .page-title_a5{
   color: #2C3E50;
   font-size: 100%;

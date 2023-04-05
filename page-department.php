@@ -365,7 +365,9 @@ get_header();
                             考え方は気分・行動に影響します。気分は身体に影響します。行動は生活に影響します。つらい時に、自分に起きていることを今よりも少し理解してあげると、今ある自分自身や、自分の生活をもう少し良いものに変えていけるかもしれません。
                         </p>
                         <div class="mt30 mb15-sp">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/clinical_img_01.png" alt="認知行動療法イメージ">
+                            <div class="img700-container">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/clinical_img_01.png" alt="認知行動療法イメージ">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -411,8 +413,10 @@ get_header();
                     <p>
                         当院では、リワークを目的とした認知行動療法の集団プログラムがあります。
                     </p>
-                    <div class="img mt30 mb15-sp">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dept_img02.jpg" alt="集団認知行動療法">
+                    <div class="mt30 mb15-sp">
+                        <div class="img400-container">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dept_img02.jpg" alt="集団認知行動療法">
+                        </div>
                     </div>
                 </div>
 
@@ -599,7 +603,9 @@ get_header();
                 <h4 class="procedure-ttl ">ご依頼から入院決定までの流れ</h4>
                 <div class="procedure-detail-box " style="display: block;">
                     <div class="mt30 mb15-sp">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dept_img03.jpg" alt="">
+                        <div class="img607-container">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/department/dept_img03.jpg" alt="">
+                        </div>
                     </div>
                 </div>
                 <p class="mt30 mt20-sp">病院及び施設からの入院時搬送を積極的に行っております。<br />
