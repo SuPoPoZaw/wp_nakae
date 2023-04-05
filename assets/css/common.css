@@ -1215,7 +1215,7 @@ i.chevron-right {
 .dep-sec .file-icon-pdf a{
     display: inline-block;
     text-decoration: 1px solid underline;
-    text-decoration-color: #32855e;
+    text-underline-offset: 3px;
     margin-top: 10px;
 }
 
