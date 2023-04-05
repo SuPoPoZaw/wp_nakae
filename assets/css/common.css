@@ -1261,7 +1261,7 @@ i.chevron-right {
         display: block !important;
     }
 
-    .dep-sec .recruit-info-gp .recruit-info-li{
+    /* .dep-sec .recruit-info-gp .recruit-info-li{
         flex-direction: column;
     }
 
@@ -1276,7 +1276,7 @@ i.chevron-right {
     .dep-sec .recruit-info-gp .recruit-info-li li a{
         justify-content: start;
         padding-left: 20px;
-    }
+    } */
 }
 
 /* dep page end */
