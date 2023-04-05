@@ -46,20 +46,24 @@ Top Page
 
 .nakae ul li {
   position: relative;
-  padding-left: 15px;
+  padding-left: 20px;
   font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.nakae ul li:last-child {
+  margin-bottom: 0;
 }
 
 .nakae ul li::before {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 5px;
-  height: 5px;
-  font-weight: 700;
   content: "";
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: #32855e;
+  background: var(--primary-color);
 }
 
 .medical-dep-img {
@@ -232,8 +236,8 @@ News Section (Section-2)
   height: 17px;
   content: "";
   transform: translateY(-50%) rotate(45deg);
-  border-top: 2px solid #a9bff1;
-  border-right: 2px solid #a9bff1;
+  border-top: 2px solid #32855e;
+  border-right: 2px solid #32855e;
 }
 
 .news-li-post {
@@ -3269,8 +3273,8 @@ font-blue {
 } */
 
 .gairai-procedure-ttl {
-  padding-bottom: 15px;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: 1px;

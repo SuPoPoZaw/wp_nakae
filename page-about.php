@@ -353,28 +353,28 @@ get_header();
                 <div>
                     <h5 class="h5-ttl">３．保育料</h5>
                     <div class="nakae">
-                        <ul>
+                        <ul class="mb10">
                             <li>月額 10,000円 /人</li>
                         </ul>
                     </div>
-                    <p class="common-txt-po mb10"><span>※</span>同時に2名以上入所の場合、2人目以降は月額 5,000円 /人 にてお預かりします。</p>
+                    <p class="common-txt-po mb20"><span>※</span>同時に2名以上入所の場合、2人目以降は月額 5,000円 /人 にてお預かりします。</p>
                 </div>
                 <div>
-                    <h5 class="h5-ttl">４．その他</h5>
+                    <h5 class="h5-ttl mb20">４．その他</h5>
                 </div>
                 <div>
                     <h5 class="h5-ttl">５．保育時間</h5>
                     <div class="nakae">
-                        <ul>
+                        <ul class="mb10">
                             <li>7:45～18：45までの時間内（月～金）</li>
                         </ul>
                     </div>
-                    <p class="common-txt-po mb10"><span>※</span>お母様の勤務がお休みの場合もお預かりします。その際は、保育所にその旨をご連絡下さい。</p>
+                    <p class="common-txt-po mb20"><span>※</span>お母様の勤務がお休みの場合もお預かりします。その際は、保育所にその旨をご連絡下さい。</p>
                 </div>
                 <div>
                     <h5 class="h5-ttl">６．休所日</h5>
                     <div class="nakae">
-                        <ul>
+                        <ul class="mb10">
                             <li>土曜・日曜・年末年始</li>
                             <li>医療法人社団心優会が定めた休日</li>
                         </ul>

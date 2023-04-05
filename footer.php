@@ -281,7 +281,7 @@
                 </ul>
             </div>
             <div class="ftr-txt">
-                <p>Copyright Numazaki Hospital.</p>
+                <p>Copyright Nakae Hospital.</p>
             </div>
         </div>
     </div>

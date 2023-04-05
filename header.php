@@ -137,6 +137,12 @@
                 <div class="nav-sp">
                     <div class="nav-menu-sp">
                         <ul>
+                            <li>
+                                <a href="<?php echo home_url(); ?>" class="menu-list">
+                                    <p>トップページ</p>
+                                    <span class="arr-icon"></span>
+                                </a>
+                            </li>
                             <li class="sp-menu-toggle menu-on">
                                 <div class="menu-list">
                                     <p>外来のご案内</p>
@@ -229,6 +235,18 @@
                                         <li><a href="<?php echo home_url() . '/recruit#care-worker-scholarship'; ?>">介護福祉士 奨学金制度</a></li>
                                     </ul>
                                 </div>
+                            </li>
+                            <li>
+                                <a href="http://www.shinyukai-r.or.jp/" target="_blank" class="menu-list">
+                                    <p>医療法人社団 心優会<br>ホームページへ</p>
+                                    <span class="arr-icon"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo home_url() . '/sitemap'; ?>" class="menu-list">
+                                    <p>サイトマップ</p>
+                                    <span class="arr-icon"></span>
+                                </a>
                             </li>
                             <li>
                                 <div class="menu-list search-sp">
