@@ -17,7 +17,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="page-anchor mt80 mt45-sp mb90 mb35-sp">
+<section class="page-anchor mt80 mt45-sp mb90 mb45-sp">
     <!-- TODO section with many buttons will go here -->
     <div class="container m-w800">
         <ul class="anchor-list">
@@ -65,7 +65,7 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="gairai-info-section bg-gray pt80 pt45-sp pb90 pb35-sp" id="gairai-sec01">
+<section class="gairai-info-section bg-gray pt80 pt45-sp pb90 pb45-sp" id="gairai-sec01">
     <div class="container">
         <div class="information">
             <h2 class="h2-ttl h2-mb">診療科目</h2>
@@ -82,7 +82,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="consult-time-section pt80 pt45-sp pb90 pb35-sp" id="gairai-sec02">
+<section class="consult-time-section pt80 pt45-sp pb90 pb45-sp" id="gairai-sec02">
     <div class="container">
         <hr class="consult-hr-sp sp" />
         <div class="m-w800 margin-sp">
@@ -140,7 +140,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="doctor-table bg-gray pt80 pt45-sp pb70 pb35-sp" id="gairai-sec03">
+<section class="doctor-table bg-gray pt80 pt45-sp pb70 pb45-sp" id="gairai-sec03">
     <div class="container">
         <div class="m-w800">
             <h2 class="h2-ttl h2-mb">外来担当医表</h2>
@@ -329,7 +329,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="outpatient pt80 pt45-sp pb70 pb35-sp" id="gairai-sec04">
+<section class="outpatient pt80 pt45-sp pb70 pb45-sp" id="gairai-sec04">
     <div class="container">
         <div class="m-w800 margin-sp">
             <h2 class="h2-ttl h2-mb">初めて受診される方</h2>
@@ -389,7 +389,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="optical-inspection bg-gray pt80 pt45-sp pb70 pb35-sp" id="gairai-sec05">
+<section class="optical-inspection bg-gray pt80 pt45-sp pb70 pb45-sp" id="gairai-sec05">
     <div class="container">
         <div class="m-w800 margin-sp">
             <h2 class="h2-ttl h2-mb">光トポグラフィー検査</h2>

@@ -20,9 +20,9 @@ get_header();
 
 <div class="dep-sec panels dept-border">
 
-    <section class="page-anchor mb90 mb50-sp mt60-sp dpt-right-tab pt50-sp">
+    <section class="page-anchor dpt-right-tab mt80 mt45-sp mb90 mb45-sp">
         <!-- TODO section with many buttons will go here -->
-        <div class="container m-w800 pt-80">
+        <div class="container m-w800">
             <ul class="anchor-list">
                 <li>
                     <a class="goto" href="#dept-sec01">
@@ -70,7 +70,7 @@ get_header();
         </div>
     </section>
 
-    <section id="dept-sec01" class="item01-sec item-sec-border-sp bg-gray">
+    <section id="dept-sec01" class="item01-sec item-sec-border-sp bg-gray pt80 pt45-sp pb90 pb45-sp">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">看護部</h2>
             <div class="recruit-info-gp " id="page_navi ">
@@ -100,10 +100,10 @@ get_header();
                 </ul>
                 <p class="text-right mb20 mb10-sp">看護部長日向 明美（認定看護管理者）</p>
             </div>
-            <div class="procedure-con">
-                <div class="procedure-block mb40 mb0-sp">
-                    <h3 class="procedure-ttl " key="0">看護部長挨拶</h3>
-                    <div class="procedure-detail-box " key="0" style="display: block;">
+            <div>
+                <div class="mb50 mb30-sp">
+                    <h3 class="procedure-ttl ">看護部長挨拶</h3>
+                    <div class="">
                         <p>当院は昭和23年に開院した、280床を有する精神科単科の病院です。<br>
                             現在、日本は既に少子超高齢化社会に突入しており、それに伴い、疾病構造も変化しています。<br>
                             この状況により、今後さらに「こころ」と「からだ」を病む人が増加してくることが推測されます。<br>
@@ -114,7 +114,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class=" mb40 mb0-sp">
+                <div>
                     <div class="" style="display: block;">
                         <div class="mb50 mb30-sp">
                             <h4 id="page-ttl-a01" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">精神科看護の特色</h4>
@@ -192,7 +192,7 @@ get_header();
                                 　看護大学 1校・看護専門学校 2校計3校
                             </p>
                         </div>
-                        <div class="mb50 mb30-sp">
+                        <div class="">
                             <h4 id="page-ttl-a07" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">当院の看護職員の負担軽減及び処遇の改善に対する取り組み</h4>
                             <div class="file-icon-pdf ml10">
                                 <a class="mr5" href="<?php bloginfo('template_directory'); ?>/assets/pdf/20190320111457.pdf" target="_blank">平成29年度　看護職員の負担軽減及び処遇の改善に対する計画書</a>(289.4KB)<br />
@@ -210,7 +210,7 @@ get_header();
     </section>
 
 
-    <section id="dept-sec02" class="item02-sec item-sec-border-sp">
+    <section id="dept-sec02" class="item02-sec item-sec-border-sp mt80 mt45-sp mb90 mb45-sp">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">訪問看護</h2>
             <div class="dep-card mb50 mb30-sp">
@@ -249,7 +249,7 @@ get_header();
                     <li class="mt10">個人情報保護の観点から、訪問車に病院名は入れておりません。また、スタッフの制服着用もないため私服でお伺いします。</li>
                 </ul>
             </div>
-            <div class="mb50 mb30-sp">
+            <div class="">
                 <p class="pg-btn fz-bold">
                     予約制となっておりますので、事前にお電話でご予約の上、ご来院下さい。
                 </p>
@@ -258,18 +258,10 @@ get_header();
     </section>
 
 
-    <section id="dept-sec03" class="item03-sec item-sec-border-sp bg-gray">
+    <section id="dept-sec03" class="item03-sec item-sec-border-sp bg-gray pt80 pt45-sp pb90 pb45-sp">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">相談室</h2>
-            <div class="procedure-con">
-                <!-- <div class="recruit-info-gp mb20" id="">
-                    <p class="mb30 mb20-sp">このページでは次の情報をご案内しています。</p>
-                    <ul class="recruit-info-li">
-                        <li>
-                            <a href="#" style="height: 52px;">相談室理念</a>
-                        </li>
-                    </ul>
-                </div> -->
+            <div class="">
                 <div class="mb50 mb30-sp">
                     <h4 id="page-ttl-a05" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">相談室理念</h4>
                     <p>私たち医療ソーシャルワーカーは地域における精神保健福祉の発展のために貢献することを使命とします。</p>
@@ -300,7 +292,7 @@ get_header();
                     </ul>
                     <p class="mt30">精神保健福祉士などの専門スタッフが退院後の生活、福祉サービスや年金の利用の仕方など、療養生活の中で起こるさまざまなご相談に応じています（無料）。相談内容についての秘密は厳守しております。ご家族の方にも開かれておりますので、ご利用を希望される方はお気軽にご連絡ください。</p>
                 </div>
-                <div class="mb50 mb30-sp">
+                <div class="">
                     <p class="pg-btn fz-bold">
                         予約制となっておりますので、事前にお電話でご予約の上、ご来院下さい。
                     </p>
@@ -309,7 +301,7 @@ get_header();
         </div>
     </section>
 
-    <section id="dept-sec04" class="item04-sec item-sec-border-sp">
+    <section id="dept-sec04" class="item04-sec item-sec-border-sp mt80 mt45-sp mb90 mb45-sp">
         <div class="container m-w800">
             <h2 class="h2-ttl h2-mb">心理室</h2>
             <div class="procedure-con">
@@ -491,7 +483,7 @@ get_header();
         </div>
     </section>
 
-    <section id="dept-sec05" class="item05-sec item-sec-border-sp bg-gray">
+    <section id="dept-sec05" class="item05-sec item-sec-border-sp bg-gray pt80 pt45-sp pb90 pb45-sp">
 
         <div class="container m-w800">
 
@@ -524,7 +516,7 @@ get_header();
                 <p>など、参加される方の目的に合わせたプログラムを用意しております。</p>
             </div>
 
-            <div class="mb50 mb30-sp">
+            <div class="">
                 <h4 id="page-ttl-a04" class="bg-light-indigo bd-rounded-5px mb15 pl20 fz-20 fz-18-sp leading-2">プログラム紹介</h4>
                 <div class="emp-info-table">
                     <table>
@@ -582,7 +574,7 @@ get_header();
 
     </section>
 
-    <section id="dept-sec06" class="item06-sec item-sec-border-sp">
+    <section id="dept-sec06" class="item06-sec item-sec-border-sp mt80 mt45-sp ">
 
         <div class="container m-w800">
 

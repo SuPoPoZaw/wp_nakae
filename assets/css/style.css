@@ -1535,14 +1535,14 @@ td {
   background: url("../img/common/hospital-right-arr.png");
 }
 
-.item01-sec,
+/* .item01-sec,
 .item02-sec,
 .item03-sec,
 .item04-sec,
 .item05-sec,
 .item06-sec {
   padding: 75px 0 40px 0;
-}
+} */
 
 .item07-sec {
   padding: 75px 0 70px 0;
@@ -1760,7 +1760,7 @@ h3.procedure-ttl{
 }
 
 @media screen and (max-width: 768px) {
-  .item01-sec,
+  /* .item01-sec,
   .item02-sec,
   .item03-sec,
   .item04-sec,
@@ -1771,7 +1771,7 @@ h3.procedure-ttl{
 
   .item07-sec {
     padding: 45px 0 50px 0;
-  }
+  } */
 
   .hospital-content p {
     font-size: 1.6rem;
@@ -2190,9 +2190,9 @@ i.chevron-right {
   background-size: cover;
 }
 
-.greeting-section {
+/* .greeting-section {
   padding: 75px 0 70px 0;
-}
+} */
 
 .greeting-pg {
   padding-top: 12px;
@@ -2214,25 +2214,25 @@ i.chevron-right {
 }
 
 .mission-section {
-  padding: 75px 0 70px 0;
+  /* padding: 75px 0 70px 0; */
   background-color: #fff;
 }
 
-.overview-section {
+/* .overview-section {
   padding: 75px 0 70px 0;
-}
+} */
 
 .facilities-info-section {
-  padding: 75px 0 70px 0;
+  /* padding: 75px 0 70px 0; */
   background-color: #fff;
 }
 
-.nursery-school-section {
+/* .nursery-school-section {
   padding: 75px 0 70px 0;
-}
+} */
 
 .nakae-location-section {
-  padding: 75px 0 70px 0;
+  /* padding: 75px 0 70px 0; */
   background-color: #fff;
 }
 
@@ -2414,7 +2414,7 @@ i.chevron-right {
 }
 
 @media screen and (max-width: 768px) {
-  .greeting-section {
+  /* .greeting-section {
     padding: 45px 0 50px 0;
   }
 
@@ -2432,7 +2432,7 @@ i.chevron-right {
 
   .floor-section {
     padding: 45px 0 0 0;
-  }
+  } */
 
   .page-anchor .anchor-list {
     flex-direction: column;
@@ -4230,9 +4230,9 @@ ul.dot li::before {
 }
 
 /* Day Care */
-.daycare-section{
+/* .daycare-section{
   padding: 75px 0 40px 0;
-}
+} */
 .img-container{
   max-width: 340px;
   margin: 0 auto;

@@ -17,7 +17,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="page-anchor mt80 mt0-sp mb90 mb40-sp pt40-sp">
+<section class="page-anchor mt80 mt45-sp mb90 mb45-sp">
     <div class="container m-w800">
         <ul class="anchor-list">
             <li>
@@ -77,7 +77,7 @@ get_header();
     </div>
 </section>
 
-<section id="recruitment-information-list" class="item01-sec recruitment-information-list bg-gray">
+<section id="recruitment-information-list" class="item01-sec recruitment-information-list bg-gray pt80 pt45-sp pb90 pb45-sp">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">採用情報</h2>
         <table class="table-dec">
@@ -123,7 +123,7 @@ get_header();
     </div>
 </section>
 
-<section id="celebration-money-system" class="about-recruitment mt70 mt50-sp">
+<section id="celebration-money-system" class="about-recruitment  mt80 mt45-sp mb90 mb45-sp">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">就職お祝い金制度</h2>
 
@@ -163,7 +163,7 @@ get_header();
     </div>
 </section>
 
-<section id="about-staff-recruitment" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
+<section id="about-staff-recruitment" class="item03-sec employment-information-list bg-gray pt80 pt45-sp pb90 pb45-sp">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">職員募集について</h2>
 
@@ -204,7 +204,7 @@ get_header();
     </div>
 </section>
 
-<section id="recruitment-information" class="item04-sec nursing-scholarship">
+<section id="recruitment-information" class="item04-sec nursing-scholarship mt80 mt45-sp mb90 mb45-sp">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">採用情報</h2>
 
@@ -327,7 +327,7 @@ get_header();
     </div>
 </section>
 
-<section id="nursing-scholarship" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
+<section id="nursing-scholarship" class="item03-sec employment-information-list bg-gray pt80 pt45-sp pb90 pb45-sp">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">職員募集について</h2>
 
@@ -406,7 +406,7 @@ get_header();
     </div>
 </section>
 
-<section id="care-worker-scholarship" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
+<section id="care-worker-scholarship" class="item03-sec employment-information-list mt80 mt45-sp ">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">介護福祉士 奨学金制度</h2>
 

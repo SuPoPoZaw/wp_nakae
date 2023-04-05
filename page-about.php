@@ -17,7 +17,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="page-anchor pt80 pb100 pt60-sp pb60-sp">
+<section class="page-anchor mt80 mt45-sp mb90 mb45-sp">
     <!-- TODO section with many buttons will go here -->
     <div class="container m-w800">
         <ul class="anchor-list">
@@ -77,7 +77,7 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="greeting-section bg-gray" id="hospital-info01">
+<section class="greeting-section bg-gray pt80 pt45-sp pb90 pb45-sp" id="hospital-info01">
     <div class="container">
         <div class="abouts">
             <h2 class="h2-ttl">
@@ -85,14 +85,14 @@ get_header();
             </h2>
             <div class="greeting-block">
                 <p class="greeting-pg">
-                　平成29年4月より、中江重孝院長の後任として、新院長に就任致しました。<br>　当院は、うつ病や統合失調症をはじめ、様々な心の病、脳の病をかかえる患者様の御相談・治療を行ってまいりました。昨今、時代の変遷とともに精神科治療のニーズは大きく様変わりしようとしています。今の時代を生きる人々は、ストレス社会や高齢化などに関連して、様々なメンタルヘルスの課題に直面しており、精神科医療も多くの方が関心を持つ身近なものとなりました。具体的には、ストレス社会を反映して、うつ症状のために日常生活や社会生活に重大な影響を及ぼすことが多く見受けられます。うつ病などのこころの病は、早期発見、早期治療が非常に大切です。「こんなことくらいで行ってもいいのかな」とひとりで悩まず、「ちょっと相談してみよう」という軽いお気持ちで、お早めにご来院してください。<br>　もう一つの重要な課題としては、高齢化社会による認知症患者様の増加です。認知症の早期発見・早期治療についての要求は国民的なものとなっており、当院でも時代のニーズに合わせて、平成29年4月より「もの忘れ外来」を開設し、札幌医科大学との連携もさらに強化し、認知症診療に力を入れています。専門医による正確な診断をもとに、治療・ケア・介護のプランを立て、必要に応じて入院治療も積極的に受け入れていきます。入院中は患者様の尊厳に配慮し、安易に身体拘束(以下、拘束)をしない取り組みを行っております。2018年の国の調査では、一般病院などに入院した認知症を持つ人のうち、45％の人が拘束を受けていたことが明らかになっております。拘束は、患者様が自分や他人を傷つける恐れがある場合などに限って、精神保健指定医の判断で一時的に認められている行為と言われておりますが、歩行が不安定などの理由で安易に行われている実態が、国の調査で浮き彫りになったわけです。一方で、患者様本位のケアや小さな工夫の積み重ねで拘束を減らすことに成功した病院も出てきております。当院も職員一人一人の努力により、患者様のニーズに合わせてさまざまな工夫を凝らす取り組みを行っております。拘束をしないことで重大事故は減らすことが出来ると言われておりますが、拘束しなかった場合の小さなリスクについても御家族様にも認識して頂いたうえで、その人らしく生きるという理念を御理解いただければ幸いです。<br>　今後も、地域の皆様方の後押しを受けながら、地域の医療・介護・福祉との連携を一層進め、今までにも増して地域に密着した精神科医療に貢献していけるよう、職員一同気持ちも新たに邁進していく決意でおります。
+                    　平成29年4月より、中江重孝院長の後任として、新院長に就任致しました。<br>　当院は、うつ病や統合失調症をはじめ、様々な心の病、脳の病をかかえる患者様の御相談・治療を行ってまいりました。昨今、時代の変遷とともに精神科治療のニーズは大きく様変わりしようとしています。今の時代を生きる人々は、ストレス社会や高齢化などに関連して、様々なメンタルヘルスの課題に直面しており、精神科医療も多くの方が関心を持つ身近なものとなりました。具体的には、ストレス社会を反映して、うつ症状のために日常生活や社会生活に重大な影響を及ぼすことが多く見受けられます。うつ病などのこころの病は、早期発見、早期治療が非常に大切です。「こんなことくらいで行ってもいいのかな」とひとりで悩まず、「ちょっと相談してみよう」という軽いお気持ちで、お早めにご来院してください。<br>　もう一つの重要な課題としては、高齢化社会による認知症患者様の増加です。認知症の早期発見・早期治療についての要求は国民的なものとなっており、当院でも時代のニーズに合わせて、平成29年4月より「もの忘れ外来」を開設し、札幌医科大学との連携もさらに強化し、認知症診療に力を入れています。専門医による正確な診断をもとに、治療・ケア・介護のプランを立て、必要に応じて入院治療も積極的に受け入れていきます。入院中は患者様の尊厳に配慮し、安易に身体拘束(以下、拘束)をしない取り組みを行っております。2018年の国の調査では、一般病院などに入院した認知症を持つ人のうち、45％の人が拘束を受けていたことが明らかになっております。拘束は、患者様が自分や他人を傷つける恐れがある場合などに限って、精神保健指定医の判断で一時的に認められている行為と言われておりますが、歩行が不安定などの理由で安易に行われている実態が、国の調査で浮き彫りになったわけです。一方で、患者様本位のケアや小さな工夫の積み重ねで拘束を減らすことに成功した病院も出てきております。当院も職員一人一人の努力により、患者様のニーズに合わせてさまざまな工夫を凝らす取り組みを行っております。拘束をしないことで重大事故は減らすことが出来ると言われておりますが、拘束しなかった場合の小さなリスクについても御家族様にも認識して頂いたうえで、その人らしく生きるという理念を御理解いただければ幸いです。<br>　今後も、地域の皆様方の後押しを受けながら、地域の医療・介護・福祉との連携を一層進め、今までにも増して地域に密着した精神科医療に貢献していけるよう、職員一同気持ちも新たに邁進していく決意でおります。
                 </p>
                 <p class="greeting-name">中江病院 院長　小林　清樹</p>
             </div>
         </div>
     </div>
 </section>
-<section class="mission-section" id="hospital-info02">
+<section class="mission-sectionmt80 mt80 mt45-sp mb90 mb45-sp" id="hospital-info02">
     <div class="container">
         <div class="abouts">
             <h2 class="h2-ttl">
@@ -110,7 +110,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="overview-section bg-gray" id="hospital-info03">
+<section class="overview-section bg-gray pt80 pt45-sp pb90 pb45-sp" id="hospital-info03">
     <div class="container m-w800">
         <h2 class="h2-ttl"><span>病院概要</span></h2>
         <div class="overview-table">
@@ -123,8 +123,8 @@ get_header();
                     <tr>
                         <td>代表者</td>
                         <td>
-                            <p>	理事長   三輪　英則</p>
-                            <p>院　長   小林　清樹</p>
+                            <p> 理事長 三輪　英則</p>
+                            <p>院　長 小林　清樹</p>
                         </td>
                     </tr>
                     <tr>
@@ -161,10 +161,10 @@ get_header();
         </div>
     </div>
 </section>
-<section class="facilities-info-section" id="hospital-info04">
+<section class="facilities-info-section mt80 mt45-sp mb90 mb45-sp" id="hospital-info04">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">
-                <span>施設案内</span>
+            <span>施設案内</span>
         </h2>
         <p class="fz-20 fz-18-sp mb20">このページでは次の情報をご案内しています。</p>
         <div class="recruit-info-gp">
@@ -218,7 +218,7 @@ get_header();
                 </div>
             </div>
             <p><span class="font-blue">一人ひとりの心を癒します</span><br>
-            精神病院へ通うという従来の外来イメージが変わります。身体の不調で他科に受診するのと同じように、心の回復のために気軽に受診できる病院になります。</p>
+                精神病院へ通うという従来の外来イメージが変わります。身体の不調で他科に受診するのと同じように、心の回復のために気軽に受診できる病院になります。</p>
         </div>
         <div class="mb30">
             <h3 class="gairai-procedure-ttl" id="facilities-info03">院内マップ</h3>
@@ -228,10 +228,10 @@ get_header();
         </div>
     </div>
 </section>
-<section class="nursery-school-section bg-gray" id="hospital-info05">
+<section class="nursery-school-section bg-gray pt80 pt45-sp pb90 pb45-sp" id="hospital-info05">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">
-                <span>院内保育所</span>
+            <span>院内保育所</span>
         </h2>
         <p class="fz-20 fz-18-sp mb20">このページでは次の情報をご案内しています。</p>
         <div class="recruit-info-gp">
@@ -253,7 +253,7 @@ get_header();
                 </li>
             </ul>
         </div>
-        <div class="mb30">
+        <div class="">
             <h3 class="gairai-procedure-ttl">中江病院 院内保育所</h3>
             <p class="h5-ttl">ママが安心して働ける環境を、子供がのびのび育つ環境を</p>
             <p>中江病院では、子育て中の職員が安心して働けるように、院内保育所を設置しています。</p>
@@ -293,11 +293,13 @@ get_header();
                         <tbody>
                             <tr>
                                 <td>7時45分～</td>
-                                <td><ul>
-                                    <li>・登園</li>
-                                    <li>・視診</li>
-                                    <li>・自由遊び</li>
-                                </ul></td>
+                                <td>
+                                    <ul>
+                                        <li>・登園</li>
+                                        <li>・視診</li>
+                                        <li>・自由遊び</li>
+                                    </ul>
+                                </td>
                             </tr>
                             <tr>
                                 <td>10時10分～</td>
@@ -385,7 +387,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="nakae-location-section" id="hospital-info06">
+<section class="nakae-location-section mt80 mt45-sp " id="hospital-info06">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">
             <span>アクセス</span>
@@ -393,14 +395,14 @@ get_header();
         <div class="mb30">
             <h3 class="gairai-procedure-ttl"> 所在地</h3>
             <p>〒001-0022<br>
-            札幌市北区北22条西7丁目2番1号<br>
-            電話（011）716-7181（代表）<br>
-            FAX（011）758-1451
+                札幌市北区北22条西7丁目2番1号<br>
+                電話（011）716-7181（代表）<br>
+                FAX（011）758-1451
             </p>
         </div>
         <div class="mb30">
-            <h3 class="gairai-procedure-ttl">  交通機関所在地</h3>
-            <p>地下鉄南北線「北24条」駅下車  4番出口左折徒歩6分</p>
+            <h3 class="gairai-procedure-ttl"> 交通機関所在地</h3>
+            <p>地下鉄南北線「北24条」駅下車 4番出口左折徒歩6分</p>
         </div>
         <div class="nakae-location-img">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/access_img_02.jpg" alt="外観">

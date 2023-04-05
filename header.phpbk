@@ -314,3 +314,25 @@
                 </div>
             </div>
         </div>
+
+
+
+<div class="interview-time">
+                        <div class="time-list">
+                            <div class="time-block">
+                                <h4>西2・西4病棟</h4>
+                                <p class="block-ti">午前 9:30～12:00</p>
+                            </div>
+                            <div class="time-block">
+                                <h4>東2・西3・西5病棟</h4>
+                                <p class="block-ti">午後 13:30～15:00</p>
+                            </div>
+                        </div>
+                        <p>※ 作業療法の開始時、終了時の時間帯は、患者様の移動のためエレベーターがご利用できません。</p>
+                    </div>
+
+                    
+        <div class="time-block" style="width:100%">
+                    <h4 style="text-align:left; padding-left:10px;">お問い合わせ</h4>
+                    <p class="block-ti" style="text-align:left">中江病院</p>
+                </div>

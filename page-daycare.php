@@ -17,7 +17,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="page-anchor pt80 pb100 pt60-sp pb60-sp">
+<section class="page-anchor mt80 mt45-sp mb90 mb45-sp">
     <!-- TODO section with many buttons will go here -->
     <div class="container m-w800">
         <ul class="anchor-list">
@@ -32,36 +32,36 @@ get_header();
         </ul>
     </div>
 </section>
-<section class="daycare-section bg-gray" id="daycare">
+<section class="daycare-section bg-gray pt80 pt45-sp pb90 pb45-sp" id="daycare">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">
             <span>デイケア・ショートケア</span>
         </h2>
         <p class="fz-20 fz-18-sp mb40 mb30-sp">このページでは次の情報をご案内しています。</p>
         <div class="recruit-info-gp">
-                <ul class="recruit-info-li">
-                    <li>
-                        <a href="#daycare_item01">このような方におすすめします</a>
-                    </li>
-                    <li>
-                        <a href="#daycare_item02">タイムスケジュール</a>
-                    </li>
-                    <li>
-                        <a href="#daycare_item03">年間行事</a>
-                    </li>
-                    <li>
-                        <a href="#daycare_item04">デイケア プログラム</a>
-                    </li>
-                    <li>
-                        <a href="#daycare_item05">スタッフ</a>
-                    </li>
-                    <li>
-                        <a href="#daycare_item06">通所費用について</a>
-                    </li>
-                    <li>
-                        <a href="#daycare_item07">お申込み・お問い合わせ</a>
-                    </li>
-                </ul>
+            <ul class="recruit-info-li">
+                <li>
+                    <a href="#daycare_item01">このような方におすすめします</a>
+                </li>
+                <li>
+                    <a href="#daycare_item02">タイムスケジュール</a>
+                </li>
+                <li>
+                    <a href="#daycare_item03">年間行事</a>
+                </li>
+                <li>
+                    <a href="#daycare_item04">デイケア プログラム</a>
+                </li>
+                <li>
+                    <a href="#daycare_item05">スタッフ</a>
+                </li>
+                <li>
+                    <a href="#daycare_item06">通所費用について</a>
+                </li>
+                <li>
+                    <a href="#daycare_item07">お申込み・お問い合わせ</a>
+                </li>
+            </ul>
         </div>
         <div class="rec-people-container mt20 mb20" id="daycare_item01">
             <h3 class="procedure-ttl">このような方におすすめします</h3>
@@ -94,7 +94,7 @@ get_header();
                         <tbody>
                             <tr>
                                 <th scope="row" width="20%" style="text-align:center;">午前の部</th>
-                                <td style="text-align:center;">9：30～	</td>
+                                <td style="text-align:center;">9：30～ </td>
                                 <th scope="row" width="20%" style="text-align:center;">午前の部</th>
                                 <td style="text-align:center;">12：30～</td>
                             </tr>
@@ -152,7 +152,7 @@ get_header();
             </div>
             <div class="daycar-img">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/daycare/daycare_img_03.jpg" target="_blank">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/daycare/daycare_img_05.jpg" alt="広義の治療プログラム">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/daycare/daycare_img_05.jpg" alt="広義の治療プログラム">
                 </a>
             </div>
         </div>
@@ -208,8 +208,8 @@ get_header();
                 </table>
             </div>
             <p class="font-blue">
-            ※平成22年4月1日より、通常料金に加え、入所1年以内の方は「早期加算」として※の料金が加算されます。<br>
-            ※ （ ）内の金額は、月初めに冬期暖房費として調整があります。期間は11月～4月迄。
+                ※平成22年4月1日より、通常料金に加え、入所1年以内の方は「早期加算」として※の料金が加算されます。<br>
+                ※ （ ）内の金額は、月初めに冬期暖房費として調整があります。期間は11月～4月迄。
             </p>
         </div>
         <div class="daycare-inquiries" id="daycare_item07">
