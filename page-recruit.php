@@ -406,7 +406,7 @@ get_header();
     </div>
 </section>
 
-<section id="care-worker-scholarship" class="item03-sec employment-information-list mt70 mt50-sp bg-gray">
+<section id="care-worker-scholarship" class="item03-sec employment-information-list mt70 mt50-sp">
     <div class="container m-w800">
         <h2 class="h2-ttl h2-mb">介護福祉士 奨学金制度</h2>
 
