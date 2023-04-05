@@ -2906,6 +2906,7 @@ font-blue {
 .file-icon-pdf a {
   display: inline-block;
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .fst-visitor-img {
